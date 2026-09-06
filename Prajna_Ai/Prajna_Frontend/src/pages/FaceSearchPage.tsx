@@ -527,6 +527,7 @@ export function FaceSearchPage({ isPublic = false }: FaceSearchPageProps) {
   // DigiLocker verification gate state for Incident Filing
   const [digiLockerVerified, setDigiLockerVerified] = useState(false);
   const [digiLockerModal, setDigiLockerModal] = useState(false);
+  const [authMode, setAuthMode] = useState<'custom' | 'preset'>('custom');
   const [aadharNumber, setAadharNumber] = useState('7721-6549-1082');
   const [citizenName, setCitizenName] = useState('Ansh');
   const [citizenPhone, setCitizenPhone] = useState('9905533068');
@@ -806,6 +807,17 @@ export function FaceSearchPage({ isPublic = false }: FaceSearchPageProps) {
     setOtpSent(false);
     setAadharOtp('');
     setOtpError('');
+    setAuthMode('preset');
+  };
+
+  const clearDigiLockerDetails = () => {
+    setCitizenName('');
+    setAadharNumber('');
+    setCitizenPhone('');
+    setOtpSent(false);
+    setAadharOtp('');
+    setOtpError('');
+    setAuthMode('custom');
   };
 
   useEffect(() => {
@@ -833,6 +845,18 @@ export function FaceSearchPage({ isPublic = false }: FaceSearchPageProps) {
   }, [digiLockerModal]);
 
   const handleSendOtp = async () => {
+    if (!citizenName.trim()) {
+      setOtpError('Please enter your full name as per Aadhaar / Official ID.');
+      return;
+    }
+    if (!aadharNumber.trim()) {
+      setOtpError('Please enter your 12-digit Aadhaar number.');
+      return;
+    }
+    if (!citizenPhone.trim()) {
+      setOtpError('Please enter your 10-digit WhatsApp / Mobile number.');
+      return;
+    }
     setSendingOtp(true);
     setOtpError('');
     try {
@@ -2035,91 +2059,199 @@ export function FaceSearchPage({ isPublic = false }: FaceSearchPageProps) {
               </div>
 
               <div className="space-y-4 text-xs">
-                {/* 1-CLICK INSTANT DEMO BYPASS BUTTON */}
-                <div className="p-3 bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 rounded-lg flex items-center justify-between gap-3">
-                  <div>
-                    <span className="font-bold text-amber-900 dark:text-amber-200 text-[11px] block">
-                      ⚡ 1-Click Instant Verify (Test/Evaluator Bypass)
-                    </span>
-                    <span className="text-[10px] text-amber-800 dark:text-amber-300">
-                      Bypasses SMS delay and instantly authorizes mock resident credentials.
-                    </span>
-                  </div>
+                {/* VERIFICATION MODE TABS: LIVE DETAILS AT SPOT vs DEMO PRESETS */}
+                <div className="flex rounded-lg bg-gray-100 dark:bg-gray-800/80 p-1 gap-1 border border-gray-200 dark:border-gray-700">
                   <button
                     type="button"
-                    onClick={handleInstantDigiLockerBypass}
-                    className="px-3.5 py-1.5 bg-amber-600 hover:bg-amber-700 text-white font-black text-[11px] rounded shadow cursor-pointer shrink-0"
+                    onClick={() => setAuthMode('custom')}
+                    className={`flex-1 py-1.5 px-3 rounded-md font-bold text-[11px] flex items-center justify-center gap-1.5 transition cursor-pointer ${
+                      authMode === 'custom'
+                        ? 'bg-[#0B2E59] text-white shadow-sm'
+                        : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                    }`}
                   >
-                    Instant Verify
+                    <span>✍️</span> Enter Live Details at Spot
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setAuthMode('preset')}
+                    className={`flex-1 py-1.5 px-3 rounded-md font-bold text-[11px] flex items-center justify-center gap-1.5 transition cursor-pointer ${
+                      authMode === 'preset'
+                        ? 'bg-[#0B2E59] text-white shadow-sm'
+                        : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                    }`}
+                  >
+                    <span>⚡</span> Demo Presets & 1-Click
                   </button>
                 </div>
 
-                {/* Mock Preset Selector */}
-                <div>
-                  <label className="block font-bold text-gray-700 dark:text-gray-300 mb-1">
-                    CHOOSE MOCK CITIZEN PRESET FOR DEMO:
-                  </label>
-                  <div className="grid grid-cols-3 gap-2">
+                {authMode === 'custom' ? (
+                  /* LIVE AT-THE-SPOT VERIFICATION BANNER */
+                  <div className="p-2.5 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-800 rounded-lg flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                      <span className="text-[11px] font-bold text-emerald-900 dark:text-emerald-200">
+                        Live Citizen Verification: Enter your genuine details below to receive authentic WhatsApp OTP.
+                      </span>
+                    </div>
                     <button
                       type="button"
-                      onClick={() => applyDigiLockerPreset("Ramesh Kumar", "5481-9023-4819", "9845012345")}
-                      className={`p-2 rounded border text-left cursor-pointer transition ${
-                        citizenName === "Ramesh Kumar" 
-                          ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
-                          : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
-                      }`}
+                      onClick={clearDigiLockerDetails}
+                      className="text-[10px] text-emerald-700 dark:text-emerald-300 hover:underline font-bold cursor-pointer shrink-0 ml-2"
                     >
-                      <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Ramesh Kumar</div>
-                      <div className="text-[9px] text-gray-500 font-mono">5481-9023-4819</div>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => applyDigiLockerPreset("Sunitha Rao", "9812-4410-3321", "9448067890")}
-                      className={`p-2 rounded border text-left cursor-pointer transition ${
-                        citizenName === "Sunitha Rao" 
-                          ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
-                          : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
-                      }`}
-                    >
-                      <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Sunitha Rao</div>
-                      <div className="text-[9px] text-gray-500 font-mono">9812-4410-3321</div>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => applyDigiLockerPreset("Ansh", "7721-6549-1082", "9905533068")}
-                      className={`p-2 rounded border text-left cursor-pointer transition ${
-                        citizenName === "Ansh" 
-                          ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
-                          : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
-                      }`}
-                    >
-                      <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Ansh</div>
-                      <div className="text-[9px] text-gray-500 font-mono">9905533068</div>
+                      Clear Fields
                     </button>
                   </div>
-                </div>
+                ) : (
+                  /* DEMO / PRESET MODE VIEW */
+                  <div className="space-y-3">
+                    {/* 1-CLICK INSTANT DEMO BYPASS BUTTON */}
+                    <div className="p-2.5 bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 rounded-lg flex items-center justify-between gap-3">
+                      <div>
+                        <span className="font-bold text-amber-900 dark:text-amber-200 text-[11px] block">
+                          ⚡ 1-Click Instant Verify (Test/Evaluator Bypass)
+                        </span>
+                        <span className="text-[10px] text-amber-800 dark:text-amber-300">
+                          Bypasses SMS/WhatsApp delay and instantly authorizes mock resident credentials.
+                        </span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={handleInstantDigiLockerBypass}
+                        className="px-3.5 py-1.5 bg-amber-600 hover:bg-amber-700 text-white font-black text-[11px] rounded shadow cursor-pointer shrink-0"
+                      >
+                        Instant Verify
+                      </button>
+                    </div>
 
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className="block font-bold text-gray-700 dark:text-gray-200 mb-1">AADHAAR NUMBER</label>
-                    <input
-                      type="text"
-                      value={aadharNumber}
-                      onChange={(e) => setAadharNumber(e.target.value)}
-                      className="w-full p-2 border border-gray-300 dark:border-gray-700 rounded text-xs bg-white dark:bg-[#05182E] text-gray-800 dark:text-white font-mono"
-                    />
+                    {/* Mock Preset Selector */}
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <label className="font-bold text-gray-700 dark:text-gray-300 text-[11px]">
+                          SELECT MOCK CITIZEN PRESET:
+                        </label>
+                        <button
+                          type="button"
+                          onClick={clearDigiLockerDetails}
+                          className="text-[10px] text-blue-600 hover:underline font-semibold cursor-pointer"
+                        >
+                          + Type Own Details
+                        </button>
+                      </div>
+                      <div className="grid grid-cols-3 gap-2">
+                        <button
+                          type="button"
+                          onClick={() => applyDigiLockerPreset("Ramesh Kumar", "5481-9023-4819", "9845012345")}
+                          className={`p-2 rounded border text-left cursor-pointer transition ${
+                            citizenName === "Ramesh Kumar" && authMode === 'preset'
+                              ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
+                              : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
+                          }`}
+                        >
+                          <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Ramesh Kumar</div>
+                          <div className="text-[9px] text-gray-500 font-mono">5481-9023-4819</div>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => applyDigiLockerPreset("Sunitha Rao", "9812-4410-3321", "9448067890")}
+                          className={`p-2 rounded border text-left cursor-pointer transition ${
+                            citizenName === "Sunitha Rao" && authMode === 'preset'
+                              ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
+                              : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
+                          }`}
+                        >
+                          <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Sunitha Rao</div>
+                          <div className="text-[9px] text-gray-500 font-mono">9812-4410-3321</div>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => applyDigiLockerPreset("Ansh", "7721-6549-1082", "9905533068")}
+                          className={`p-2 rounded border text-left cursor-pointer transition ${
+                            citizenName === "Ansh" && authMode === 'preset'
+                              ? "border-[#0B2E59] bg-blue-50 dark:bg-[#071D3A] font-bold" 
+                              : "border-gray-200 dark:border-gray-700 hover:bg-gray-50"
+                          }`}
+                        >
+                          <div className="font-bold text-[#0B2E59] dark:text-white text-[11px]">Ansh</div>
+                          <div className="text-[9px] text-gray-500 font-mono">9905533068</div>
+                        </button>
+                      </div>
+                    </div>
                   </div>
+                )}
+
+                {/* AT-THE-SPOT RESIDENT DETAILS FORM (FULL NAME, AADHAAR, AND WHATSAPP MOBILE) */}
+                <div className="p-3 bg-gray-50/80 dark:bg-[#071D3A]/60 rounded-xl border border-gray-200 dark:border-gray-700 space-y-3">
+                  <div className="flex items-center justify-between pb-1 border-b border-gray-200 dark:border-gray-700">
+                    <span className="font-extrabold text-[11px] text-[#0B2E59] dark:text-white uppercase tracking-wider flex items-center gap-1.5">
+                      <span>👤</span> Resident Identity Details (Fill at the spot)
+                    </span>
+                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
+                      authMode === 'custom' 
+                        ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300'
+                        : 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300'
+                    }`}>
+                      {authMode === 'custom' ? '● Custom Live Details' : '⚡ Preset Loaded'}
+                    </span>
+                  </div>
+
+                  {/* CITIZEN FULL NAME */}
                   <div>
-                    <label className="block font-bold text-gray-700 dark:text-gray-200 mb-1">
-                      WHATSAPP / MOBILE NO.
+                    <label className="block font-bold text-gray-700 dark:text-gray-200 text-[11px] mb-1">
+                      CITIZEN FULL NAME (AS PER AADHAAR / ID) <span className="text-red-500">*</span>
                     </label>
                     <input
                       type="text"
-                      value={citizenPhone}
-                      onChange={(e) => setCitizenPhone(e.target.value)}
-                      placeholder="e.g. 9845012345"
-                      className="w-full p-2 border border-gray-300 dark:border-gray-700 rounded text-xs bg-white dark:bg-[#05182E] text-gray-800 dark:text-white font-mono"
+                      value={citizenName}
+                      onChange={(e) => {
+                        setCitizenName(e.target.value);
+                        setAuthMode('custom');
+                      }}
+                      placeholder="Enter your full name (e.g. Ramesh Kumar, Ansh Verma)"
+                      className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded text-xs bg-white dark:bg-[#05182E] text-gray-800 dark:text-white font-medium focus:ring-1 focus:ring-[#0B2E59]"
                     />
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {/* AADHAAR NUMBER */}
+                    <div>
+                      <label className="block font-bold text-gray-700 dark:text-gray-200 text-[11px] mb-1">
+                        AADHAAR NUMBER (12-DIGIT) <span className="text-red-500">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        value={aadharNumber}
+                        onChange={(e) => {
+                          setAadharNumber(e.target.value);
+                          setAuthMode('custom');
+                        }}
+                        placeholder="e.g. 7721-6549-1082"
+                        className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded text-xs bg-white dark:bg-[#05182E] text-gray-800 dark:text-white font-mono focus:ring-1 focus:ring-[#0B2E59]"
+                      />
+                    </div>
+
+                    {/* WHATSAPP / MOBILE NO */}
+                    <div>
+                      <label className="block font-bold text-gray-700 dark:text-gray-200 text-[11px] mb-1">
+                        WHATSAPP / MOBILE NO. (+91) <span className="text-red-500">*</span>
+                      </label>
+                      <div className="flex">
+                        <span className="inline-flex items-center px-2.5 rounded-l border border-r-0 border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 font-mono text-xs">
+                          +91
+                        </span>
+                        <input
+                          type="tel"
+                          maxLength={10}
+                          value={citizenPhone}
+                          onChange={(e) => {
+                            setCitizenPhone(e.target.value.replace(/\D/g, ''));
+                            setAuthMode('custom');
+                          }}
+                          placeholder="10-digit number"
+                          className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-r text-xs bg-white dark:bg-[#05182E] text-gray-800 dark:text-white font-mono focus:ring-1 focus:ring-[#0B2E59]"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -2176,11 +2308,11 @@ export function FaceSearchPage({ isPublic = false }: FaceSearchPageProps) {
                     {sendingOtp ? (
                       <>
                         <div className="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                        <span>Dispatching DigiLocker OTP to +91 {citizenPhone}...</span>
+                        <span>Dispatching WhatsApp OTP to +91 {citizenPhone}...</span>
                       </>
                     ) : (
                       <>
-                        <span>Send DigiLocker OTP to +91 {citizenPhone}</span>
+                        <span>Send WhatsApp DigiLocker OTP to +91 {citizenPhone || 'Mobile'}</span>
                       </>
                     )}
                   </button>
