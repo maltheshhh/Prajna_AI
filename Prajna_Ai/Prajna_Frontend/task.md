@@ -1,0 +1,67 @@
+# 12 Dedicated Pages & UI Styling Alignment Checklist
+
+- [x] Create Standalone Pages
+  - [x] Create `TrendsAnalyticsPage.tsx` (F3)
+  - [x] Create `SociologicalInsightsPage.tsx` (F4)
+  - [x] Create `RecidivismEnginePage.tsx` (F6)
+  - [x] Create `DecisionSupportPage.tsx` (F7)
+  - [x] Create `ForecastingAlertsPage.tsx` (F10)
+  - [x] Create `ExplainableAiPage.tsx` (F11)
+  - [x] Create `GovernancePage.tsx` (F12)
+- [x] Refactor Shell & Routing
+  - [x] Update `App.tsx` routes
+  - [x] Update `Sidebar.tsx` navigation items
+- [x] Apply Zia Polyfill / External Labels
+  - [x] Add `(supported by external feature)` labels to voice input, speak & translation components
+  - [x] Update `LanguageContext.tsx` translation keys with new page titles and external badges
+  - [x] Update `DashboardPage.tsx` capability links and external badges
+- [x] Align UI with reference screenshots
+  - [x] Recreate high-fidelity `karnataka-emblem.png` government seal
+  - [x] Implement split-screen `LoginPage.tsx` with info panel and login portal card
+  - [x] Rebuild `TopHeader.tsx` to include dynamic secure session bar with live clock, custom language capsules, and AV officer badge
+  - [x] Redesign `Sidebar.tsx` with light sand/cream background (`#FAF6F0`), sections list, tan hover highlights, and alert badge `5`
+  - [x] Redesign `DashboardPage.tsx` to match metric cards, warning header, blue banner, Recharts bar color settings, flagged table, and alerts list
+- [x] Clean FX ID prefixes and restructure list sections
+  - [x] Remove "F1", "F2", etc. prefixes from all 12 capability titles in LanguageContext.tsx
+  - [x] Update DashboardPage.tsx capabilities rendering to remove "LAUNCH FX" IDs and group cards into Core Solutions vs. Governance
+  - [x] Section Sidebar.tsx items into "Core Intelligence" and "Governance & Audit" divisions
+- [x] Apply circular logo rendering and sand/cream portal colors
+  - [x] Make logo circular and eliminate side borders by adding `rounded-full object-cover` in TopHeader.tsx and LoginPage.tsx
+  - [x] Update App.tsx container class to render base sand/cream background `#FAF6F0`
+  - [x] Redesign Sidebar.tsx light theme colors using cream background `#FAF6F0`, tan highlight selection `#EBDCC5`, and tan borders `#E2DBC8`
+  - [x] Overwrite DashboardPage.tsx with the rich analytics panel and group the capabilities gateway at the bottom of the page
+- [x] Configure public Face Search portal and fix sidebar feature list
+  - [x] Restore Financial Crime & Link Analysis (F9) to the sidebar menu for investigators
+  - [x] Position Recidivism Probability Engine at the bottom of the Core Intelligence sidebar section (above Governance & Audit)
+  - [x] Add public, unauthenticated Citizen Face Search route (`/citizen-search`) and link it from a top banner on the Login page
+  - [x] Update FaceSearchPage.tsx to hide secure logs and show custom branding when accessed via public citizen portal mode
+- [x] Fix white ring logo cropping and capability card text contrast
+  - [x] Crop out the outer white outline ring around the logo in TopHeader.tsx and LoginPage.tsx using a `rounded-full overflow-hidden` wrapper container and `scale-125` zoom.
+  - [x] Replace `text-ksp-navy` text color with the exact deep blue hex code `text-[#0B2E59]` in DashboardPage.tsx and Sidebar.tsx to resolve light-mode low contrast/white text issues.
+- [x] Create Citizen Portal Features & Station Alerts
+  - [x] Remove Mode B tab switcher from FaceSearchPanel.tsx in public citizen portal view.
+  - [x] Implement Wanted Criminals Roster tab on the public page with active profiles.
+  - [x] Build Emergency Incident Report form on the public page to alert the nearest police station.
+  - [x] Establish localStorage synchronization (`ksp_face_sighting_reports` & `ksp_general_crime_reports`) to stream citizen alerts to the police officer dashboard.
+  - [x] Add "Pending Citizen Portal Sighting Reports" live notification table at the top of the private investigator page.
+  - [x] Add AI age-invariant search match probability engine outputs (e.g. Raju K. 89%, Prakash 20%) to simulate Zia Cognitive matching algorithms.
+- [x] Wrap Page Headers in Dark Blue Banners & Position Face Search
+  - [x] Convert all page headers for F1-F12 standalone pages to the dark blue box format with white text (resolving all white-on-white text issues).
+  - [x] Position AI Face Search & Suspect Identification (`ScanFace` / `f8Title`) directly below Recidivism Probability Engine (`f6Title`) in both Sidebar.tsx and DashboardPage.tsx capabilities list.
+- [x] Integrate Live Dispatch Dashboard Warnings & Separate Crime Reports
+  - [x] Zoom the emblem image inside the logo containers to `scale-125` to completely trim out the top and bottom white margin outline curves.
+  - [x] Create a dedicated **Live Citizen Emergency Incident Feed** widget card in DashboardPage.tsx that queries `ksp_general_crime_reports` and lets officers click "DISPATCH PATROL" directly from the dashboard.
+  - [x] Build a dedicated **Citizen Incident Reports Queue** tab panel inside ReportsAuditPage.tsx (F12) to view, manage, and dispatch patrol units for general crimes (robbery, assault, cybercrime, etc.).
+  - [x] Fix chatbot description contrast inside ChatWindow.tsx and SuggestedPrompts.tsx by replacing low-contrast gray text color with `text-[#0B2E59]` (deep navy blue).
+- [x] Update Karnataka Emblem Image & Force Circular Clipping
+  - [x] Replace `/assets/karnataka-emblem.png` with the high-resolution logo from Pic 1.
+  - [x] Apply a wrapper container with `style={{ clipPath: 'circle(50%)' }}` and image container with `style={{ clipPath: 'circle(48%)' }}` in TopHeader.tsx and LoginPage.tsx. This forces a clean, circular border mask and completely trims out the remaining white corner artifacts on dark backgrounds.
+- [x] Implement Simulated Role Login Select & Dropdown Switcher
+  - [x] Added **Simulated Security Level (RBAC Role)** select input in LoginPage.tsx allowing users to log in directly as Investigator, Analyst, Supervisor, or Policymaker.
+  - [x] Integrated **Simulation Role dropdown switcher** inside the TopHeader.tsx profile settings box to let logged-in users toggle simulated roles on-the-fly and instantly adapt the sidebar links and permissions dynamically.
+- [x] Implement Multi-Lingual Text-To-Speech (TTS) Voice Binding & Google Playback (New Request)
+  - [x] Upgraded `AIResponseCard.tsx` text-to-speech to use **Google Translate Text-to-Speech API** URL playback inside an HTML5 `Audio` element for Hindi and Kannada languages.
+  - [x] Programmed a sequential chunking player that splits long chatbot paragraphs into 150-character snippets (under Google's 200-character request limit) and queues them dynamically to pronounce the entire Hindi and Kannada scripts.
+  - [x] Maintained standard Web Speech `SpeechSynthesis` voice-matching bindings for English language playback.
+- [x] Verify Production Build
+  - [x] Run `npm run build` to verify clean compilation

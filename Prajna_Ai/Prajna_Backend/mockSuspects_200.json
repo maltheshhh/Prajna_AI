@@ -1,0 +1,5592 @@
+[
+  {
+    "id": "SUS-0001",
+    "name": "Ashok M.",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 22,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0001.jpg",
+    "aadharHash": "AADHR-13af96f0d4214d29",
+    "district": "Davanagere",
+    "knownAddresses": [
+      "#597, Main Road, Davanagere",
+      "#932, New Layout, Davanagere"
+    ],
+    "linkedFIRs": [
+      "8536/2026",
+      "6048/2024",
+      "7184/2024",
+      "8909/2024",
+      "0273/2024",
+      "6654/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0002",
+    "name": "Kavitha Kulkarni",
+    "aliases": [
+      "Don"
+    ],
+    "age": 22,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0002.jpg",
+    "aadharHash": "AADHR-b398eb4f16c270ac",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#697, New Layout, Bengaluru Rural",
+      "#438, 1st Cross, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "6508/2026",
+      "9412/2025",
+      "0263/2024"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-31T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0003",
+    "name": "Shobha Naik",
+    "aliases": [],
+    "age": 56,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0003.jpg",
+    "aadharHash": "AADHR-b49a7be5f59734b6",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#71, Market Street, Chitradurga",
+      "#968, Ring Road, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "8692/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-10-09T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0004",
+    "name": "Karthik Rao",
+    "aliases": [],
+    "age": 53,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0004.jpg",
+    "aadharHash": "AADHR-12a0d2428952dfab",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#839, 2nd Cross, Udupi"
+    ],
+    "linkedFIRs": [
+      "0464/2025",
+      "5844/2025",
+      "8235/2025"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-10-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0005",
+    "name": "Nandini Rao",
+    "aliases": [],
+    "age": 43,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0005.jpg",
+    "aadharHash": "AADHR-8f9136af9717f742",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#64, Station Road, Mandya",
+      "#69, Station Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "9840/2025",
+      "2827/2026",
+      "1171/2024"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0006",
+    "name": "Jayamma S.",
+    "aliases": [],
+    "age": 51,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0006.jpg",
+    "aadharHash": "AADHR-5388a9cc336c37bf",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#151, APMC Yard Road, Chamarajanagar",
+      "#557, Main Road, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "9138/2024",
+      "0321/2024",
+      "7954/2024",
+      "7994/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0007",
+    "name": "Geetha Bhat",
+    "aliases": [],
+    "age": 40,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0007.jpg",
+    "aadharHash": "AADHR-cc72c5cf66fb222e",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#978, 1st Cross, Hassan",
+      "#83, Station Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "2258/2024",
+      "4261/2025",
+      "6403/2024",
+      "6780/2025",
+      "8307/2024"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-20T00:00:00Z",
+    "associateIds": [
+      "SUS-0160",
+      "SUS-0167",
+      "SUS-0147"
+    ],
+    "financialAccounts": [
+      "ICICI-XXXXX60926"
+    ]
+  },
+  {
+    "id": "SUS-0008",
+    "name": "Hema Naik",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0008.jpg",
+    "aadharHash": "AADHR-58d0bead8de228dc",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#15, APMC Yard Road, Haveri"
+    ],
+    "linkedFIRs": [
+      "2596/2025",
+      "7036/2024",
+      "9450/2024"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-13T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Canara-XXXXX48399",
+      "Canara-XXXXX86865"
+    ]
+  },
+  {
+    "id": "SUS-0009",
+    "name": "Basavaraj R.",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 48,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0009.jpg",
+    "aadharHash": "AADHR-34c88ce7988b787f",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#334, Bus Stand Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "1288/2024",
+      "5073/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-06-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0010",
+    "name": "Lalitha Kulkarni",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 30,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0010.jpg",
+    "aadharHash": "AADHR-ace2ba2ef3f67fd2",
+    "district": "Mysuru",
+    "knownAddresses": [
+      "#125, 2nd Cross, Mysuru",
+      "#453, 1st Cross, Mysuru"
+    ],
+    "linkedFIRs": [
+      "7941/2025",
+      "8623/2025"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-12T00:00:00Z",
+    "associateIds": [
+      "SUS-0146"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0011",
+    "name": "Shobha Patil",
+    "aliases": [],
+    "age": 30,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0011.jpg",
+    "aadharHash": "AADHR-84f1e3e14e2cddaf",
+    "district": "Mysuru",
+    "knownAddresses": [
+      "#740, 1st Cross, Mysuru"
+    ],
+    "linkedFIRs": [
+      "5232/2024",
+      "9995/2025",
+      "1291/2025"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-25T00:00:00Z",
+    "associateIds": [
+      "SUS-0194",
+      "SUS-0123",
+      "SUS-0145",
+      "SUS-0146"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0012",
+    "name": "Sowmya Reddy",
+    "aliases": [],
+    "age": 23,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0012.jpg",
+    "aadharHash": "AADHR-1d1d758e42831203",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#436, Market Street, Haveri"
+    ],
+    "linkedFIRs": [
+      "7476/2025"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-01-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0013",
+    "name": "Parvathi D.",
+    "aliases": [],
+    "age": 36,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0013.jpg",
+    "aadharHash": "AADHR-08f837aaa8ef4333",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#278, 1st Cross, Kodagu"
+    ],
+    "linkedFIRs": [
+      "1801/2025"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-06-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0014",
+    "name": "Ashok Naik",
+    "aliases": [
+      "Pinky"
+    ],
+    "age": 21,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0014.jpg",
+    "aadharHash": "AADHR-a4347274ff83f450",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#641, APMC Yard Road, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "6493/2025",
+      "2358/2025"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0015",
+    "name": "Saraswathi Achar",
+    "aliases": [],
+    "age": 30,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0015.jpg",
+    "aadharHash": "AADHR-fd2ec9cb7492db86",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#94, Ring Road, Udupi"
+    ],
+    "linkedFIRs": [
+      "3571/2024",
+      "1347/2026",
+      "8235/2025",
+      "3579/2024",
+      "2280/2026",
+      "6155/2026"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-06-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0016",
+    "name": "Ibrahim Achar",
+    "aliases": [
+      "Pinky"
+    ],
+    "age": 54,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0016.jpg",
+    "aadharHash": "AADHR-471ee18b7cd3c3a7",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#88, Main Road, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "2486/2025",
+      "1573/2024",
+      "3224/2024"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-07T00:00:00Z",
+    "associateIds": [
+      "SUS-0007",
+      "SUS-0160",
+      "SUS-0188"
+    ],
+    "financialAccounts": [
+      "Canara-XXXXX74132"
+    ]
+  },
+  {
+    "id": "SUS-0017",
+    "name": "Lalitha T.",
+    "aliases": [
+      "Don"
+    ],
+    "age": 20,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0017.jpg",
+    "aadharHash": "AADHR-f137b47cf8417418",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#615, Temple Street, Udupi"
+    ],
+    "linkedFIRs": [
+      "6626/2024",
+      "4455/2024",
+      "9535/2025",
+      "9761/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-02T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0018",
+    "name": "Geetha D.",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 22,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0018.jpg",
+    "aadharHash": "AADHR-00774255d0cd1ebe",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#976, 1st Cross, Belagavi",
+      "#136, Old Town, Belagavi"
+    ],
+    "linkedFIRs": [
+      "1457/2026",
+      "8949/2024",
+      "0256/2025",
+      "4496/2026"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-23T00:00:00Z",
+    "associateIds": [
+      "SUS-0198",
+      "SUS-0020",
+      "SUS-0173"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0019",
+    "name": "Deepa Rao",
+    "aliases": [
+      "Chikka",
+      "Lucky"
+    ],
+    "age": 42,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0019.jpg",
+    "aadharHash": "AADHR-cc60c6e831e692d7",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#948, 2nd Cross, Belagavi",
+      "#774, Ring Road, Belagavi"
+    ],
+    "linkedFIRs": [
+      "7094/2026",
+      "8249/2025",
+      "7787/2026",
+      "3679/2026"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "PNB-XXXXX76972",
+      "BOB-XXXXX34883"
+    ]
+  },
+  {
+    "id": "SUS-0020",
+    "name": "Pradeep Patil",
+    "aliases": [],
+    "age": 39,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0020.jpg",
+    "aadharHash": "AADHR-8c875c6832855c30",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#757, APMC Yard Road, Haveri",
+      "#669, Ring Road, Haveri"
+    ],
+    "linkedFIRs": [
+      "0017/2025",
+      "6004/2024",
+      "4400/2024"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-21T00:00:00Z",
+    "associateIds": [
+      "SUS-0198",
+      "SUS-0080"
+    ],
+    "financialAccounts": [
+      "ICICI-XXXXX37246"
+    ]
+  },
+  {
+    "id": "SUS-0021",
+    "name": "Mamatha Achar",
+    "aliases": [],
+    "age": 31,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0021.jpg",
+    "aadharHash": "AADHR-1e6a64df26ccf71e",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#771, Main Road, Raichur",
+      "#511, Ring Road, Raichur"
+    ],
+    "linkedFIRs": [
+      "0417/2026"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0022",
+    "name": "Pushpa B.",
+    "aliases": [],
+    "age": 32,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0022.jpg",
+    "aadharHash": "AADHR-bfa86c14f34c08f4",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#965, APMC Yard Road, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "8985/2025",
+      "4307/2026",
+      "0392/2024"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0023",
+    "name": "Pradeep Achar",
+    "aliases": [
+      "Pinky"
+    ],
+    "age": 33,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0023.jpg",
+    "aadharHash": "AADHR-3056a3cb83f4d33c",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#722, Bus Stand Road, Kodagu",
+      "#315, Main Road, Kodagu"
+    ],
+    "linkedFIRs": [
+      "7011/2025",
+      "0685/2025",
+      "5333/2025"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-20T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0024",
+    "name": "Anitha S.",
+    "aliases": [],
+    "age": 32,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0024.jpg",
+    "aadharHash": "AADHR-096b27b51123a874",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#972, Old Town, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "9385/2024"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-09T00:00:00Z",
+    "associateIds": [
+      "SUS-0100"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0025",
+    "name": "Vani S.",
+    "aliases": [],
+    "age": 24,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0025.jpg",
+    "aadharHash": "AADHR-5dd6075e35e06cc0",
+    "district": "Bagalkot",
+    "knownAddresses": [
+      "#83, 1st Cross, Bagalkot",
+      "#431, Market Street, Bagalkot"
+    ],
+    "linkedFIRs": [
+      "1972/2026"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-06-03T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0026",
+    "name": "Nagaraj N.",
+    "aliases": [
+      "Hawala Ravi"
+    ],
+    "age": 30,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0026.jpg",
+    "aadharHash": "AADHR-d270e4b23d7c9862",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#279, 1st Cross, Chikkamagaluru",
+      "#981, Old Town, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "8865/2025",
+      "3539/2024",
+      "8222/2024",
+      "5373/2024",
+      "4307/2026"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX60661",
+      "Union Bank-XXXXX66352"
+    ]
+  },
+  {
+    "id": "SUS-0027",
+    "name": "Pradeep Kulkarni",
+    "aliases": [],
+    "age": 52,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0027.jpg",
+    "aadharHash": "AADHR-495b3332e956f83c",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#905, Market Street, Udupi",
+      "#74, Ring Road, Udupi"
+    ],
+    "linkedFIRs": [
+      "9761/2024",
+      "6154/2026",
+      "9408/2024",
+      "2280/2026",
+      "2687/2024",
+      "9948/2024"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "ICICI-XXXXX48525"
+    ]
+  },
+  {
+    "id": "SUS-0028",
+    "name": "Imran K.",
+    "aliases": [
+      "Speedy",
+      "Hudugaa"
+    ],
+    "age": 48,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0028.jpg",
+    "aadharHash": "AADHR-050f0bedd6591077",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#42, Ring Road, Chikkamagaluru",
+      "#239, Market Street, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "4525/2024",
+      "3804/2025",
+      "7588/2024"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX23864",
+      "BOB-XXXXX38527"
+    ]
+  },
+  {
+    "id": "SUS-0029",
+    "name": "Hema Kulkarni",
+    "aliases": [
+      "Lucky"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0029.jpg",
+    "aadharHash": "AADHR-e60cca66f621195c",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#408, APMC Yard Road, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "2497/2025",
+      "9640/2025",
+      "6300/2025",
+      "2674/2025"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-04-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0030",
+    "name": "Devaraj R.",
+    "aliases": [],
+    "age": 43,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0030.jpg",
+    "aadharHash": "AADHR-7cf32ff70e6e9d2c",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#755, New Layout, Yadgir",
+      "#176, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "7180/2026",
+      "9921/2026"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0031",
+    "name": "Anitha D.",
+    "aliases": [],
+    "age": 48,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0031.jpg",
+    "aadharHash": "AADHR-edaa567dca436582",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#43, 2nd Cross, Koppal"
+    ],
+    "linkedFIRs": [
+      "5570/2026",
+      "3252/2025",
+      "1477/2026"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-19T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0032",
+    "name": "Vani H.",
+    "aliases": [
+      "Hudugaa"
+    ],
+    "age": 46,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0032.jpg",
+    "aadharHash": "AADHR-2e5b1ceac019b12e",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#830, Gandhi Nagar Extension, Koppal"
+    ],
+    "linkedFIRs": [
+      "0704/2024",
+      "2384/2025",
+      "4761/2025",
+      "8749/2025",
+      "7242/2026"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX93419"
+    ]
+  },
+  {
+    "id": "SUS-0033",
+    "name": "Madiwalappa H.",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 22,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0033.jpg",
+    "aadharHash": "AADHR-8e3485022eae2c18",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#332, Old Town, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "4990/2025",
+      "9574/2024"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0034",
+    "name": "Rukmini Achar",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 55,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0034.jpg",
+    "aadharHash": "AADHR-2b0d4af9a5002968",
+    "district": "Bagalkot",
+    "knownAddresses": [
+      "#549, Bus Stand Road, Bagalkot",
+      "#878, 2nd Cross, Bagalkot"
+    ],
+    "linkedFIRs": [
+      "8202/2026",
+      "3540/2025",
+      "6567/2024",
+      "6346/2026"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0035",
+    "name": "Pushpa Bhat",
+    "aliases": [],
+    "age": 20,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0035.jpg",
+    "aadharHash": "AADHR-b712a4cf0de99987",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#581, 1st Cross, Haveri"
+    ],
+    "linkedFIRs": [
+      "0734/2024",
+      "5500/2025",
+      "8126/2026",
+      "7036/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "HDFC-XXXXX27661",
+      "SBI-XXXXX41927"
+    ]
+  },
+  {
+    "id": "SUS-0036",
+    "name": "Nagaraj Kulkarni",
+    "aliases": [],
+    "age": 19,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0036.jpg",
+    "aadharHash": "AADHR-40ecb0db7b731305",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#164, Main Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "4494/2024",
+      "8052/2024",
+      "2595/2025",
+      "6542/2025"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-06-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "HDFC-XXXXX76660",
+      "Union Bank-XXXXX18358"
+    ]
+  },
+  {
+    "id": "SUS-0037",
+    "name": "Yusuf Kulkarni",
+    "aliases": [
+      "Bandi"
+    ],
+    "age": 45,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0037.jpg",
+    "aadharHash": "AADHR-43bfb5e53eabaf7d",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#303, Bus Stand Road, Belagavi",
+      "#951, Station Road, Belagavi"
+    ],
+    "linkedFIRs": [
+      "0686/2025"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-06-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0038",
+    "name": "Anil H.",
+    "aliases": [
+      "Don",
+      "Mallu"
+    ],
+    "age": 54,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0038.jpg",
+    "aadharHash": "AADHR-b02a010dc3f8aecb",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#579, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "6542/2025",
+      "1893/2024",
+      "6450/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-06T00:00:00Z",
+    "associateIds": [
+      "SUS-0077",
+      "SUS-0016"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0039",
+    "name": "Govindaraju D.",
+    "aliases": [],
+    "age": 25,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0039.jpg",
+    "aadharHash": "AADHR-5e0cec974bc08170",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#845, Bus Stand Road, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "9385/2024",
+      "7587/2025"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-04T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX65543",
+      "Union Bank-XXXXX12741"
+    ]
+  },
+  {
+    "id": "SUS-0040",
+    "name": "Puttaswamy T.",
+    "aliases": [],
+    "age": 28,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0040.jpg",
+    "aadharHash": "AADHR-f892df32fc7f8151",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#296, Main Road, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "0263/2024",
+      "8884/2024",
+      "5266/2024"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-30T00:00:00Z",
+    "associateIds": [
+      "SUS-0165",
+      "SUS-0018",
+      "SUS-0104",
+      "SUS-0020"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0041",
+    "name": "Anil K.",
+    "aliases": [],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0041.jpg",
+    "aadharHash": "AADHR-98d7857b435ab84c",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#439, New Layout, Chamarajanagar",
+      "#514, Temple Street, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "1587/2024"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-08T00:00:00Z",
+    "associateIds": [
+      "SUS-0145"
+    ],
+    "financialAccounts": [
+      "SBI-XXXXX55676"
+    ]
+  },
+  {
+    "id": "SUS-0042",
+    "name": "Chandru Reddy",
+    "aliases": [
+      "Bhai"
+    ],
+    "age": 56,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0042.jpg",
+    "aadharHash": "AADHR-f16fcb63a13606cb",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#336, Station Road, Haveri"
+    ],
+    "linkedFIRs": [
+      "4400/2024"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-10-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0043",
+    "name": "Vani K.",
+    "aliases": [],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0043.jpg",
+    "aadharHash": "AADHR-aa75a16cba46796a",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#6, APMC Yard Road, Kodagu",
+      "#249, 2nd Cross, Kodagu"
+    ],
+    "linkedFIRs": [
+      "7916/2024",
+      "0685/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-19T00:00:00Z",
+    "associateIds": [
+      "SUS-0157",
+      "SUS-0067",
+      "SUS-0073"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0044",
+    "name": "Razia K.",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 42,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0044.jpg",
+    "aadharHash": "AADHR-70c55b7f28eb9a46",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#258, New Layout, Kodagu"
+    ],
+    "linkedFIRs": [
+      "4099/2026",
+      "9459/2025",
+      "2069/2025",
+      "3735/2025",
+      "3830/2024"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-20T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0045",
+    "name": "Vijay Patil",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 58,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0045.jpg",
+    "aadharHash": "AADHR-ca783f5add7482d5",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#112, Station Road, Yadgir",
+      "#311, APMC Yard Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "9921/2026"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Canara-XXXXX31565",
+      "HDFC-XXXXX19030"
+    ]
+  },
+  {
+    "id": "SUS-0046",
+    "name": "Hema N.",
+    "aliases": [
+      "Eddy"
+    ],
+    "age": 45,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0046.jpg",
+    "aadharHash": "AADHR-91e246195f859a31",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#825, APMC Yard Road, Belagavi"
+    ],
+    "linkedFIRs": [
+      "5896/2024",
+      "0256/2025",
+      "1008/2026"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0047",
+    "name": "Eshwar R.",
+    "aliases": [],
+    "age": 32,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0047.jpg",
+    "aadharHash": "AADHR-b7e84327072778d0",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#355, Temple Street, Belagavi",
+      "#214, 2nd Cross, Belagavi"
+    ],
+    "linkedFIRs": [
+      "0122/2025",
+      "0256/2025",
+      "2160/2024",
+      "1916/2024",
+      "2669/2025"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-07T00:00:00Z",
+    "associateIds": [
+      "SUS-0100",
+      "SUS-0011"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0048",
+    "name": "Hema T.",
+    "aliases": [],
+    "age": 47,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0048.jpg",
+    "aadharHash": "AADHR-c17c23621a5c8e45",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#984, Bus Stand Road, Chikkamagaluru",
+      "#78, Temple Street, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "0392/2024",
+      "4739/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0049",
+    "name": "Hanumantharaya T.",
+    "aliases": [
+      "Mallu"
+    ],
+    "age": 40,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0049.jpg",
+    "aadharHash": "AADHR-3b2f1f6869610d7c",
+    "district": "Ballari",
+    "knownAddresses": [
+      "#516, Ring Road, Ballari",
+      "#894, New Layout, Ballari"
+    ],
+    "linkedFIRs": [
+      "1190/2024",
+      "9375/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0050",
+    "name": "Anitha R.",
+    "aliases": [
+      "Lucky"
+    ],
+    "age": 58,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0050.jpg",
+    "aadharHash": "AADHR-61e0d24bd20099e7",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#41, Bus Stand Road, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "2445/2024",
+      "4713/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0051",
+    "name": "Vijay Desai",
+    "aliases": [],
+    "age": 43,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0051.jpg",
+    "aadharHash": "AADHR-7ea60afd317497be",
+    "district": "Tumakuru",
+    "knownAddresses": [
+      "#697, 2nd Cross, Tumakuru"
+    ],
+    "linkedFIRs": [
+      "9429/2025",
+      "3626/2025",
+      "2382/2025"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "ICICI-XXXXX94476"
+    ]
+  },
+  {
+    "id": "SUS-0052",
+    "name": "Prakash T.",
+    "aliases": [
+      "Eddy"
+    ],
+    "age": 58,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0052.jpg",
+    "aadharHash": "AADHR-b72f1f2c7c74c549",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#686, Ring Road, Mandya",
+      "#936, Main Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "1311/2025",
+      "6126/2024",
+      "9124/2024"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-22T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX51455",
+      "BOB-XXXXX85361"
+    ]
+  },
+  {
+    "id": "SUS-0053",
+    "name": "Bhagya Bhat",
+    "aliases": [
+      "Kalla Raju"
+    ],
+    "age": 18,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0053.jpg",
+    "aadharHash": "AADHR-ecc42ef2fc8c7887",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#910, Station Road, Hubballi-Dharwad",
+      "#386, 2nd Cross, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "0386/2025",
+      "5412/2024",
+      "1073/2025"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Union Bank-XXXXX65377",
+      "HDFC-XXXXX86892"
+    ]
+  },
+  {
+    "id": "SUS-0054",
+    "name": "Siddappa Bhat",
+    "aliases": [
+      "Hudugaa"
+    ],
+    "age": 21,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0054.jpg",
+    "aadharHash": "AADHR-1cc39ee879332b59",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#949, Ring Road, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "6971/2024",
+      "7430/2024"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-26T00:00:00Z",
+    "associateIds": [
+      "SUS-0020"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0055",
+    "name": "Chandru M.",
+    "aliases": [],
+    "age": 49,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0055.jpg",
+    "aadharHash": "AADHR-95800fd794c6fcdf",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#381, Bus Stand Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "9985/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0056",
+    "name": "Geetha S.",
+    "aliases": [],
+    "age": 42,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0056.jpg",
+    "aadharHash": "AADHR-dedaeb1531e82d53",
+    "district": "Tumakuru",
+    "knownAddresses": [
+      "#36, New Layout, Tumakuru"
+    ],
+    "linkedFIRs": [
+      "4514/2024",
+      "7918/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-27T00:00:00Z",
+    "associateIds": [
+      "SUS-0090"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0057",
+    "name": "Dinesh Naik",
+    "aliases": [
+      "Pinky",
+      "Bullet"
+    ],
+    "age": 21,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0057.jpg",
+    "aadharHash": "AADHR-15417232a0b30e3e",
+    "district": "Bengaluru Urban",
+    "knownAddresses": [
+      "#806, New Layout, Bengaluru Urban",
+      "#727, APMC Yard Road, Bengaluru Urban"
+    ],
+    "linkedFIRs": [
+      "7439/2025",
+      "5807/2025",
+      "6083/2025",
+      "4363/2024",
+      "6543/2025"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0058",
+    "name": "Karthik B.",
+    "aliases": [
+      "Lucky"
+    ],
+    "age": 42,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0058.jpg",
+    "aadharHash": "AADHR-7e7263094c417728",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#996, 1st Cross, Chamarajanagar",
+      "#331, Station Road, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "2871/2026",
+      "8183/2025",
+      "3305/2026",
+      "7026/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-01T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0059",
+    "name": "Devaraj Shetty",
+    "aliases": [],
+    "age": 36,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0059.jpg",
+    "aadharHash": "AADHR-62df2a7887cf4506",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#994, 1st Cross, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "1220/2025"
+    ],
+    "moSignature": "UPI fraud through fake QR code substitution",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-01-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "PNB-XXXXX47935"
+    ]
+  },
+  {
+    "id": "SUS-0060",
+    "name": "Ravi S.",
+    "aliases": [
+      "Bhai"
+    ],
+    "age": 51,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0060.jpg",
+    "aadharHash": "AADHR-39bc931b6b0c5dd7",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#616, Market Street, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "6490/2026",
+      "0226/2024"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-06-13T00:00:00Z",
+    "associateIds": [
+      "SUS-0100"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0061",
+    "name": "Sunitha N.",
+    "aliases": [],
+    "age": 33,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0061.jpg",
+    "aadharHash": "AADHR-1bdd5b6c0df78880",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#38, Temple Street, Gadag",
+      "#720, 1st Cross, Gadag"
+    ],
+    "linkedFIRs": [
+      "3761/2024",
+      "6153/2025",
+      "5183/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-06T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0062",
+    "name": "Srinivas B.",
+    "aliases": [],
+    "age": 37,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0062.jpg",
+    "aadharHash": "AADHR-479c11e833a76f0a",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#20, Market Street, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "1713/2025",
+      "2907/2024",
+      "7207/2024",
+      "3674/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-06-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0063",
+    "name": "Ashok M.",
+    "aliases": [],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0063.jpg",
+    "aadharHash": "AADHR-2a5da01253a366f7",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#859, 1st Cross, Gadag"
+    ],
+    "linkedFIRs": [
+      "2100/2026",
+      "8822/2024"
+    ],
+    "moSignature": "UPI fraud through fake QR code substitution",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX77813"
+    ]
+  },
+  {
+    "id": "SUS-0064",
+    "name": "Suresh Bhat",
+    "aliases": [
+      "Chotu",
+      "Pataki"
+    ],
+    "age": 35,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0064.jpg",
+    "aadharHash": "AADHR-20fee19e78ee94bb",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#637, Market Street, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "1220/2025",
+      "4713/2025",
+      "3854/2025",
+      "4592/2024",
+      "3289/2026",
+      "2076/2025"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0065",
+    "name": "Lingaraju Rao",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 30,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0065.jpg",
+    "aadharHash": "AADHR-386905d3874f4c21",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#914, New Layout, Chikkamagaluru",
+      "#311, Old Town, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "7541/2025",
+      "4739/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0066",
+    "name": "Ibrahim Rao",
+    "aliases": [],
+    "age": 46,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0066.jpg",
+    "aadharHash": "AADHR-d8bbc7cbe2d0c97f",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#534, Station Road, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "4452/2025",
+      "6950/2026"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-01T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0067",
+    "name": "Bhagya N.",
+    "aliases": [
+      "Mallu"
+    ],
+    "age": 57,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0067.jpg",
+    "aadharHash": "AADHR-648c663d5f935fef",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#710, Gandhi Nagar Extension, Haveri",
+      "#295, APMC Yard Road, Haveri"
+    ],
+    "linkedFIRs": [
+      "2714/2024",
+      "3945/2026",
+      "9643/2025",
+      "6716/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-07T00:00:00Z",
+    "associateIds": [
+      "SUS-0073",
+      "SUS-0157",
+      "SUS-0090",
+      "SUS-0152"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0068",
+    "name": "Sharada Shetty",
+    "aliases": [
+      "Kalla Raju",
+      "Pataki"
+    ],
+    "age": 37,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0068.jpg",
+    "aadharHash": "AADHR-368ae2366ce9bb15",
+    "district": "Tumakuru",
+    "knownAddresses": [
+      "#530, New Layout, Tumakuru",
+      "#745, Bus Stand Road, Tumakuru"
+    ],
+    "linkedFIRs": [
+      "0723/2026",
+      "6441/2025"
+    ],
+    "moSignature": "UPI fraud through fake QR code substitution",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX11360",
+      "ICICI-XXXXX78845"
+    ]
+  },
+  {
+    "id": "SUS-0069",
+    "name": "Parvathi S.",
+    "aliases": [
+      "Kalla Raju"
+    ],
+    "age": 25,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0069.jpg",
+    "aadharHash": "AADHR-a95fa06c4b04d9a3",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#841, New Layout, Udupi",
+      "#910, 2nd Cross, Udupi"
+    ],
+    "linkedFIRs": [
+      "4310/2025",
+      "2643/2024",
+      "6899/2024",
+      "9535/2025"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-10-09T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0070",
+    "name": "Bhagya Kulkarni",
+    "aliases": [
+      "Chikka",
+      "Don"
+    ],
+    "age": 50,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0070.jpg",
+    "aadharHash": "AADHR-128d9c00c5b5241e",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#617, Market Street, Mandya",
+      "#149, Temple Street, Mandya"
+    ],
+    "linkedFIRs": [
+      "0991/2024"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0071",
+    "name": "Geetha Hegde",
+    "aliases": [],
+    "age": 57,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0071.jpg",
+    "aadharHash": "AADHR-0332920d764ef1aa",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#226, 2nd Cross, Udupi"
+    ],
+    "linkedFIRs": [
+      "6154/2026"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-25T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0072",
+    "name": "Roopa Rao",
+    "aliases": [],
+    "age": 49,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0072.jpg",
+    "aadharHash": "AADHR-8186611d533430a5",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#90, Temple Street, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "0972/2025",
+      "8149/2024"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-02T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0073",
+    "name": "Prakash D.",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 35,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0073.jpg",
+    "aadharHash": "AADHR-aff97f8682ca1dbc",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#479, Station Road, Chikkaballapur",
+      "#164, 1st Cross, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "0380/2024",
+      "4077/2026",
+      "5420/2025",
+      "7434/2025",
+      "6737/2024",
+      "3482/2025"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-06T00:00:00Z",
+    "associateIds": [
+      "SUS-0157",
+      "SUS-0067",
+      "SUS-0152"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0074",
+    "name": "Siddappa K.",
+    "aliases": [
+      "Bhai"
+    ],
+    "age": 42,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0074.jpg",
+    "aadharHash": "AADHR-5d7aade25cbe0b7f",
+    "district": "Kalaburagi",
+    "knownAddresses": [
+      "#329, Station Road, Kalaburagi"
+    ],
+    "linkedFIRs": [
+      "1820/2025",
+      "1086/2024",
+      "3729/2024",
+      "4290/2024",
+      "5292/2025"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "PNB-XXXXX47010"
+    ]
+  },
+  {
+    "id": "SUS-0075",
+    "name": "Basavaraj T.",
+    "aliases": [],
+    "age": 25,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0075.jpg",
+    "aadharHash": "AADHR-a2d9b46a50dc40d9",
+    "district": "Bagalkot",
+    "knownAddresses": [
+      "#730, Bus Stand Road, Bagalkot"
+    ],
+    "linkedFIRs": [
+      "6736/2025",
+      "2948/2025",
+      "0416/2024"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX82396",
+      "Union Bank-XXXXX92504"
+    ]
+  },
+  {
+    "id": "SUS-0076",
+    "name": "Suresh Reddy",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 31,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0076.jpg",
+    "aadharHash": "AADHR-758bda8a3adc73fd",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#428, APMC Yard Road, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "8725/2025"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX65571"
+    ]
+  },
+  {
+    "id": "SUS-0077",
+    "name": "Ayyappa S.",
+    "aliases": [],
+    "age": 58,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0077.jpg",
+    "aadharHash": "AADHR-77b0b2ab2b93a16f",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#256, Main Road, Belagavi",
+      "#173, 1st Cross, Belagavi"
+    ],
+    "linkedFIRs": [
+      "3186/2024",
+      "9160/2026",
+      "5944/2024",
+      "4851/2025"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-09T00:00:00Z",
+    "associateIds": [
+      "SUS-0016",
+      "SUS-0007",
+      "SUS-0160",
+      "SUS-0167"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0078",
+    "name": "Faizal Hegde",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 43,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0078.jpg",
+    "aadharHash": "AADHR-210fc1bf9176380e",
+    "district": "Kalaburagi",
+    "knownAddresses": [
+      "#13, 1st Cross, Kalaburagi",
+      "#499, Station Road, Kalaburagi"
+    ],
+    "linkedFIRs": [
+      "1820/2025",
+      "4941/2026",
+      "3729/2024",
+      "7838/2025",
+      "0887/2025"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX84604",
+      "BOB-XXXXX47946"
+    ]
+  },
+  {
+    "id": "SUS-0079",
+    "name": "Vidya H.",
+    "aliases": [],
+    "age": 23,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0079.jpg",
+    "aadharHash": "AADHR-cdb52d5585d309ad",
+    "district": "Mangaluru",
+    "knownAddresses": [
+      "#26, 2nd Cross, Mangaluru"
+    ],
+    "linkedFIRs": [
+      "9066/2024",
+      "6736/2026",
+      "7029/2025",
+      "6740/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-06-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0080",
+    "name": "Govindaraju Shetty",
+    "aliases": [],
+    "age": 45,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0080.jpg",
+    "aadharHash": "AADHR-a6fd73509d8210be",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#307, Old Town, Raichur"
+    ],
+    "linkedFIRs": [
+      "3708/2025",
+      "5103/2024",
+      "6044/2024",
+      "1374/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-19T00:00:00Z",
+    "associateIds": [
+      "SUS-0165",
+      "SUS-0040"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0081",
+    "name": "Boregowda S.",
+    "aliases": [],
+    "age": 28,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0081.jpg",
+    "aadharHash": "AADHR-868a2691cb5a965a",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#454, Old Town, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "4467/2025",
+      "9672/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0082",
+    "name": "Parvathi K.",
+    "aliases": [],
+    "age": 30,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0082.jpg",
+    "aadharHash": "AADHR-743f3b3da3ab378b",
+    "district": "Mangaluru",
+    "knownAddresses": [
+      "#708, Market Street, Mangaluru",
+      "#151, Bus Stand Road, Mangaluru"
+    ],
+    "linkedFIRs": [
+      "9066/2024",
+      "5630/2025",
+      "0693/2026"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-10-01T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0083",
+    "name": "Vijay Gowda",
+    "aliases": [],
+    "age": 46,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0083.jpg",
+    "aadharHash": "AADHR-59600bf712e1f31b",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#642, APMC Yard Road, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "4497/2024",
+      "5674/2024",
+      "5469/2025",
+      "2222/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0084",
+    "name": "Mamatha Reddy",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 18,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0084.jpg",
+    "aadharHash": "AADHR-55590e35b0f7c714",
+    "district": "Bengaluru Urban",
+    "knownAddresses": [
+      "#382, New Layout, Bengaluru Urban"
+    ],
+    "linkedFIRs": [
+      "6898/2024",
+      "6430/2024"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-05T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0085",
+    "name": "Bhagya Rao",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0085.jpg",
+    "aadharHash": "AADHR-dc02da672d6d9153",
+    "district": "Ballari",
+    "knownAddresses": [
+      "#972, Gandhi Nagar Extension, Ballari",
+      "#15, Main Road, Ballari"
+    ],
+    "linkedFIRs": [
+      "8273/2026",
+      "8059/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-14T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0086",
+    "name": "Govindaraju S.",
+    "aliases": [
+      "Hawala Ravi"
+    ],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0086.jpg",
+    "aadharHash": "AADHR-7f02a448498ff08c",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#398, 1st Cross, Vijayapura",
+      "#322, Main Road, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "4847/2024",
+      "9156/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0087",
+    "name": "Vidya Desai",
+    "aliases": [],
+    "age": 58,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0087.jpg",
+    "aadharHash": "AADHR-586055f7533520d7",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#813, Station Road, Mandya",
+      "#894, Temple Street, Mandya"
+    ],
+    "linkedFIRs": [
+      "6291/2026",
+      "0254/2026",
+      "3905/2024",
+      "8336/2024"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-04T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0088",
+    "name": "Lalitha S.",
+    "aliases": [],
+    "age": 55,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0088.jpg",
+    "aadharHash": "AADHR-9457fbbed52e8ca3",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#738, Ring Road, Raichur",
+      "#259, APMC Yard Road, Raichur"
+    ],
+    "linkedFIRs": [
+      "6731/2024",
+      "4327/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-06-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0089",
+    "name": "Ashok Hegde",
+    "aliases": [
+      "Kalla Raju",
+      "Bandi"
+    ],
+    "age": 30,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0089.jpg",
+    "aadharHash": "AADHR-04a0505d079c2dc1",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#202, Station Road, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "3305/2025"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX27913"
+    ]
+  },
+  {
+    "id": "SUS-0090",
+    "name": "Anitha Rao",
+    "aliases": [
+      "Pinky",
+      "Chikka"
+    ],
+    "age": 34,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0090.jpg",
+    "aadharHash": "AADHR-8d555ad2f939d70a",
+    "district": "Davanagere",
+    "knownAddresses": [
+      "#578, Bus Stand Road, Davanagere",
+      "#321, Main Road, Davanagere"
+    ],
+    "linkedFIRs": [
+      "7184/2024",
+      "0273/2024"
+    ],
+    "moSignature": "UPI fraud through fake QR code substitution",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-22T00:00:00Z",
+    "associateIds": [
+      "SUS-0043",
+      "SUS-0067"
+    ],
+    "financialAccounts": [
+      "Canara-XXXXX28698"
+    ]
+  },
+  {
+    "id": "SUS-0091",
+    "name": "Rukmini N.",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 41,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0091.jpg",
+    "aadharHash": "AADHR-6fe9183c49beddc8",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#259, Main Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "3905/2024",
+      "2364/2025"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0092",
+    "name": "Karthik Shetty",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 31,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0092.jpg",
+    "aadharHash": "AADHR-6e6ad00b35564e7f",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#472, Station Road, Mandya",
+      "#332, Main Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "7210/2026",
+      "4099/2024"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-01T00:00:00Z",
+    "associateIds": [
+      "SUS-0173",
+      "SUS-0018",
+      "SUS-0020",
+      "SUS-0040"
+    ],
+    "financialAccounts": [
+      "Canara-XXXXX83950"
+    ]
+  },
+  {
+    "id": "SUS-0093",
+    "name": "Razia R.",
+    "aliases": [],
+    "age": 37,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0093.jpg",
+    "aadharHash": "AADHR-e3e5cd2df401f0e2",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#5, Gandhi Nagar Extension, Hassan",
+      "#894, Station Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "4432/2026",
+      "2431/2026"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-22T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0094",
+    "name": "Naveen Rao",
+    "aliases": [],
+    "age": 23,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0094.jpg",
+    "aadharHash": "AADHR-610f5e17262a2b81",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#904, 1st Cross, Shivamogga",
+      "#917, Main Road, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "9093/2026",
+      "8868/2024",
+      "8009/2024"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0095",
+    "name": "Mallikarjun D.",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 32,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0095.jpg",
+    "aadharHash": "AADHR-4507456fb46862ce",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#16, Ring Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "2757/2024",
+      "2431/2026",
+      "9038/2025",
+      "8745/2026"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-04-08T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0096",
+    "name": "Chandru Bhat",
+    "aliases": [
+      "Chotu",
+      "Mallu"
+    ],
+    "age": 50,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0096.jpg",
+    "aadharHash": "AADHR-bd89f3ab6b689a5a",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#846, Station Road, Kodagu"
+    ],
+    "linkedFIRs": [
+      "6389/2024",
+      "9379/2024",
+      "4265/2026"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX69702",
+      "SBI-XXXXX72058"
+    ]
+  },
+  {
+    "id": "SUS-0097",
+    "name": "Mustafa N.",
+    "aliases": [
+      "Eddy",
+      "Vajra"
+    ],
+    "age": 34,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0097.jpg",
+    "aadharHash": "AADHR-2a2fdae55d66b65a",
+    "district": "Kalaburagi",
+    "knownAddresses": [
+      "#585, Station Road, Kalaburagi",
+      "#146, Market Street, Kalaburagi"
+    ],
+    "linkedFIRs": [
+      "0887/2025",
+      "5293/2026",
+      "9330/2025",
+      "5356/2024"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0098",
+    "name": "Vani Gowda",
+    "aliases": [],
+    "age": 35,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0098.jpg",
+    "aadharHash": "AADHR-2a58355603902b45",
+    "district": "Mysuru",
+    "knownAddresses": [
+      "#712, Market Street, Mysuru",
+      "#461, Bus Stand Road, Mysuru"
+    ],
+    "linkedFIRs": [
+      "0877/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-17T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0099",
+    "name": "Deepa Achar",
+    "aliases": [],
+    "age": 58,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0099.jpg",
+    "aadharHash": "AADHR-0cf6943d29fd913d",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#207, Temple Street, Belagavi"
+    ],
+    "linkedFIRs": [
+      "2043/2024",
+      "0010/2025"
+    ],
+    "moSignature": "UPI fraud through fake QR code substitution",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX68003",
+      "PNB-XXXXX58126"
+    ]
+  },
+  {
+    "id": "SUS-0100",
+    "name": "Nandini Rao",
+    "aliases": [],
+    "age": 51,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0100.jpg",
+    "aadharHash": "AADHR-e778dab60a8cc131",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#111, Old Town, Mandya"
+    ],
+    "linkedFIRs": [
+      "5860/2024",
+      "6969/2025",
+      "5071/2026",
+      "3511/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-13T00:00:00Z",
+    "associateIds": [
+      "SUS-0146",
+      "SUS-0179",
+      "SUS-0145"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0101",
+    "name": "Deepa D.",
+    "aliases": [],
+    "age": 54,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0101.jpg",
+    "aadharHash": "AADHR-fdd2580f4454d886",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#729, 1st Cross, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "6885/2025",
+      "9093/2026"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-25T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0102",
+    "name": "Pushpa Rao",
+    "aliases": [
+      "Chotu",
+      "Kalla Raju"
+    ],
+    "age": 45,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0102.jpg",
+    "aadharHash": "AADHR-2e57bab01fd03733",
+    "district": "Mangaluru",
+    "knownAddresses": [
+      "#135, Main Road, Mangaluru"
+    ],
+    "linkedFIRs": [
+      "7767/2026",
+      "6008/2026",
+      "9630/2024"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0103",
+    "name": "Nandini Hegde",
+    "aliases": [
+      "Bullet",
+      "Bhai"
+    ],
+    "age": 31,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0103.jpg",
+    "aadharHash": "AADHR-2e8c7aa43d2e311c",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#879, Bus Stand Road, Koppal",
+      "#128, Main Road, Koppal"
+    ],
+    "linkedFIRs": [
+      "6269/2024"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0104",
+    "name": "Boregowda N.",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 46,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0104.jpg",
+    "aadharHash": "AADHR-b4483fa3f524ab32",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#947, APMC Yard Road, Gadag"
+    ],
+    "linkedFIRs": [
+      "3980/2024",
+      "6616/2025",
+      "7121/2024",
+      "8497/2024",
+      "0453/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-18T00:00:00Z",
+    "associateIds": [
+      "SUS-0018",
+      "SUS-0173",
+      "SUS-0040"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0105",
+    "name": "Hema Rao",
+    "aliases": [],
+    "age": 25,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0105.jpg",
+    "aadharHash": "AADHR-cee3449c37cce949",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#126, Bus Stand Road, Gadag",
+      "#946, Station Road, Gadag"
+    ],
+    "linkedFIRs": [
+      "8469/2025",
+      "3560/2024",
+      "3980/2024"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-04-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0106",
+    "name": "Geetha R.",
+    "aliases": [],
+    "age": 37,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0106.jpg",
+    "aadharHash": "AADHR-c41818c97081a295",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#359, Gandhi Nagar Extension, Yadgir",
+      "#493, Station Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "7180/2026"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-11T00:00:00Z",
+    "associateIds": [
+      "SUS-0018"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0107",
+    "name": "Channabasappa S.",
+    "aliases": [],
+    "age": 23,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0107.jpg",
+    "aadharHash": "AADHR-7288536323d8e0f7",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#311, Temple Street, Chamarajanagar",
+      "#268, Market Street, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "1624/2025"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-06-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Union Bank-XXXXX80252",
+      "ICICI-XXXXX52502"
+    ]
+  },
+  {
+    "id": "SUS-0108",
+    "name": "Lokesh Gowda",
+    "aliases": [],
+    "age": 28,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0108.jpg",
+    "aadharHash": "AADHR-9cb039f09bd5c7e0",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#32, 2nd Cross, Vijayapura",
+      "#403, Old Town, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "3157/2026",
+      "5043/2024",
+      "8729/2026"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-22T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0109",
+    "name": "Fatima Gowda",
+    "aliases": [],
+    "age": 33,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0109.jpg",
+    "aadharHash": "AADHR-ceca3adc1b52fab2",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#155, 1st Cross, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "5435/2025",
+      "2452/2024",
+      "9179/2024",
+      "4713/2025",
+      "0294/2024"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-06-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0110",
+    "name": "Naveen Desai",
+    "aliases": [],
+    "age": 28,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0110.jpg",
+    "aadharHash": "AADHR-eab6ccafd61ad59d",
+    "district": "Mangaluru",
+    "knownAddresses": [
+      "#766, Old Town, Mangaluru",
+      "#545, Bus Stand Road, Mangaluru"
+    ],
+    "linkedFIRs": [
+      "5630/2025",
+      "3315/2025",
+      "9630/2024",
+      "7621/2024"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX85366"
+    ]
+  },
+  {
+    "id": "SUS-0111",
+    "name": "Jayamma Bhat",
+    "aliases": [
+      "Eddy",
+      "Bombe"
+    ],
+    "age": 19,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0111.jpg",
+    "aadharHash": "AADHR-05f2e6833a6e6522",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#620, Ring Road, Yadgir",
+      "#469, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "9921/2026",
+      "4714/2025",
+      "6542/2025"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0112",
+    "name": "Roopa Shetty",
+    "aliases": [
+      "Bandi",
+      "Don"
+    ],
+    "age": 38,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0112.jpg",
+    "aadharHash": "AADHR-518d86eea197f5aa",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#401, New Layout, Koppal"
+    ],
+    "linkedFIRs": [
+      "3252/2025",
+      "4831/2024",
+      "6319/2024"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0113",
+    "name": "Lingaraju Shetty",
+    "aliases": [],
+    "age": 49,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0113.jpg",
+    "aadharHash": "AADHR-0e43e8f29fa3c086",
+    "district": "Mysuru",
+    "knownAddresses": [
+      "#59, Bus Stand Road, Mysuru"
+    ],
+    "linkedFIRs": [
+      "3352/2025",
+      "1280/2025",
+      "5487/2026"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-08T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX52624",
+      "Axis-XXXXX27955"
+    ]
+  },
+  {
+    "id": "SUS-0114",
+    "name": "Jayamma Naik",
+    "aliases": [],
+    "age": 35,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0114.jpg",
+    "aadharHash": "AADHR-c048ae9fc5b4e79e",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#846, Main Road, Chitradurga",
+      "#813, New Layout, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "2219/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0115",
+    "name": "Asha Rao",
+    "aliases": [],
+    "age": 38,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0115.jpg",
+    "aadharHash": "AADHR-48ad616b6cd1708b",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#274, Market Street, Shivamogga",
+      "#209, Old Town, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "5112/2025",
+      "3561/2025",
+      "0126/2025",
+      "0409/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0116",
+    "name": "Saraswathi H.",
+    "aliases": [
+      "Tiger",
+      "Bombe"
+    ],
+    "age": 22,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0116.jpg",
+    "aadharHash": "AADHR-c52d88ae25168da9",
+    "district": "Bagalkot",
+    "knownAddresses": [
+      "#953, Ring Road, Bagalkot"
+    ],
+    "linkedFIRs": [
+      "2377/2025",
+      "3540/2025",
+      "1355/2025"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0117",
+    "name": "Ayesha R.",
+    "aliases": [],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0117.jpg",
+    "aadharHash": "AADHR-331afc5b1d50a240",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#513, Market Street, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "6077/2024",
+      "0846/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-04T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Union Bank-XXXXX18822",
+      "Union Bank-XXXXX89649"
+    ]
+  },
+  {
+    "id": "SUS-0118",
+    "name": "Suresh Kulkarni",
+    "aliases": [],
+    "age": 47,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0118.jpg",
+    "aadharHash": "AADHR-8d4f9b32c45f4116",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#302, Bus Stand Road, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "5043/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0119",
+    "name": "Boregowda M.",
+    "aliases": [
+      "Hawala Ravi",
+      "Chotu"
+    ],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0119.jpg",
+    "aadharHash": "AADHR-43b873b348bfbfeb",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#658, Gandhi Nagar Extension, Gadag"
+    ],
+    "linkedFIRs": [
+      "8476/2025",
+      "1580/2025",
+      "9356/2024",
+      "6836/2025",
+      "4636/2026",
+      "2100/2026"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0120",
+    "name": "Geetha Patil",
+    "aliases": [
+      "Pataki"
+    ],
+    "age": 18,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0120.jpg",
+    "aadharHash": "AADHR-b60bc5d5e7155efd",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#572, 1st Cross, Udupi",
+      "#643, Temple Street, Udupi"
+    ],
+    "linkedFIRs": [
+      "3459/2026",
+      "6155/2026",
+      "6899/2024"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0121",
+    "name": "Parvathi Rao",
+    "aliases": [],
+    "age": 31,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0121.jpg",
+    "aadharHash": "AADHR-cd203960dc70e815",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#961, Station Road, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "3635/2024",
+      "1265/2024"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-05T00:00:00Z",
+    "associateIds": [
+      "SUS-0167"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0122",
+    "name": "Jayamma D.",
+    "aliases": [],
+    "age": 18,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0122.jpg",
+    "aadharHash": "AADHR-9ab71b076ab3ab72",
+    "district": "Ballari",
+    "knownAddresses": [
+      "#392, Market Street, Ballari",
+      "#101, Old Town, Ballari"
+    ],
+    "linkedFIRs": [
+      "1423/2024",
+      "9122/2024"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-10-09T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0123",
+    "name": "Deepa H.",
+    "aliases": [],
+    "age": 32,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0123.jpg",
+    "aadharHash": "AADHR-0896077fce128958",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#650, APMC Yard Road, Koppal"
+    ],
+    "linkedFIRs": [
+      "8036/2024",
+      "4831/2024",
+      "4826/2024"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-07T00:00:00Z",
+    "associateIds": [
+      "SUS-0011",
+      "SUS-0145"
+    ],
+    "financialAccounts": [
+      "Canara-XXXXX98064"
+    ]
+  },
+  {
+    "id": "SUS-0124",
+    "name": "Venkatesh Kulkarni",
+    "aliases": [
+      "Pataki"
+    ],
+    "age": 23,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0124.jpg",
+    "aadharHash": "AADHR-b0dc71a361f851bd",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#723, Main Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "0280/2024",
+      "7533/2025",
+      "1288/2024"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-04-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0125",
+    "name": "Saraswathi T.",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 37,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0125.jpg",
+    "aadharHash": "AADHR-e93cc100ba2ec094",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#621, Old Town, Udupi",
+      "#343, Station Road, Udupi"
+    ],
+    "linkedFIRs": [
+      "9948/2024",
+      "0464/2025",
+      "8833/2026"
+    ],
+    "moSignature": "Daytime housebreaking using duplicate key",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-02-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0126",
+    "name": "Dinesh T.",
+    "aliases": [],
+    "age": 40,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0126.jpg",
+    "aadharHash": "AADHR-08585d0c35120d65",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#97, Temple Street, Hubballi-Dharwad",
+      "#454, Temple Street, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "8751/2025",
+      "2347/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-19T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0127",
+    "name": "Naveen S.",
+    "aliases": [
+      "Pataki"
+    ],
+    "age": 31,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0127.jpg",
+    "aadharHash": "AADHR-34e04bf27abbc340",
+    "district": "Ballari",
+    "knownAddresses": [
+      "#961, 2nd Cross, Ballari"
+    ],
+    "linkedFIRs": [
+      "3303/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-02T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0128",
+    "name": "Anitha Desai",
+    "aliases": [
+      "Lucky"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0128.jpg",
+    "aadharHash": "AADHR-17fb4c2146b7b1e5",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#312, Market Street, Bengaluru Rural",
+      "#66, APMC Yard Road, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "3634/2024",
+      "0015/2025",
+      "9421/2024"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0129",
+    "name": "Yashoda H.",
+    "aliases": [
+      "Vajra",
+      "Hawala Ravi"
+    ],
+    "age": 24,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0129.jpg",
+    "aadharHash": "AADHR-a4407d0419044ee5",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#640, Main Road, Yadgir",
+      "#866, Station Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "0280/2024"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-16T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0130",
+    "name": "Ravi Naik",
+    "aliases": [],
+    "age": 34,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0130.jpg",
+    "aadharHash": "AADHR-cd3e401654771876",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#536, Bus Stand Road, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "4442/2026"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-10-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX39357",
+      "Canara-XXXXX38707"
+    ]
+  },
+  {
+    "id": "SUS-0131",
+    "name": "Lokesh Patil",
+    "aliases": [],
+    "age": 46,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0131.jpg",
+    "aadharHash": "AADHR-8739fe6060885177",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#70, Ring Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "8745/2026",
+      "2431/2026",
+      "5633/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-10-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0132",
+    "name": "Manjunath Hegde",
+    "aliases": [],
+    "age": 58,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0132.jpg",
+    "aadharHash": "AADHR-7b8379a2cfbd5e23",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#288, Bus Stand Road, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "9574/2024",
+      "2445/2024",
+      "0645/2024",
+      "2452/2024",
+      "3224/2024",
+      "5642/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-18T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0133",
+    "name": "Karthik D.",
+    "aliases": [],
+    "age": 20,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0133.jpg",
+    "aadharHash": "AADHR-5715dba3e374c4fc",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#860, Station Road, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "8222/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-06-04T00:00:00Z",
+    "associateIds": [
+      "SUS-0077"
+    ],
+    "financialAccounts": [
+      "SBI-XXXXX99013",
+      "HDFC-XXXXX11652"
+    ]
+  },
+  {
+    "id": "SUS-0134",
+    "name": "Halappa Patil",
+    "aliases": [
+      "Bhai"
+    ],
+    "age": 19,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0134.jpg",
+    "aadharHash": "AADHR-64846ef25c261dc4",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#848, Main Road, Gadag"
+    ],
+    "linkedFIRs": [
+      "8682/2024",
+      "0556/2026",
+      "8822/2024",
+      "0453/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-02T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0135",
+    "name": "Mahesh N.",
+    "aliases": [],
+    "age": 44,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0135.jpg",
+    "aadharHash": "AADHR-78a5886946dfa6f4",
+    "district": "Kalaburagi",
+    "knownAddresses": [
+      "#937, Market Street, Kalaburagi",
+      "#991, Main Road, Kalaburagi"
+    ],
+    "linkedFIRs": [
+      "1993/2024",
+      "1086/2024",
+      "7823/2024",
+      "3451/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-14T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX41948"
+    ]
+  },
+  {
+    "id": "SUS-0136",
+    "name": "Mustafa Shetty",
+    "aliases": [
+      "Pinky"
+    ],
+    "age": 31,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0136.jpg",
+    "aadharHash": "AADHR-f36fe3b5ac233402",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#487, 1st Cross, Hubballi-Dharwad",
+      "#695, APMC Yard Road, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "7643/2025",
+      "3155/2024"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-25T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0137",
+    "name": "Vidya Gowda",
+    "aliases": [
+      "Hawala Ravi"
+    ],
+    "age": 48,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0137.jpg",
+    "aadharHash": "AADHR-fcdaabf3c44d9de9",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#354, APMC Yard Road, Koppal",
+      "#777, 2nd Cross, Koppal"
+    ],
+    "linkedFIRs": [
+      "9058/2025",
+      "3993/2025",
+      "2384/2025"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0138",
+    "name": "Mamatha Kulkarni",
+    "aliases": [],
+    "age": 35,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0138.jpg",
+    "aadharHash": "AADHR-34bf01ef25856740",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#858, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "1893/2024"
+    ],
+    "moSignature": "Highway vehicle interception at night using fake police uniform",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-09T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0139",
+    "name": "Dinesh Gowda",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 22,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0139.jpg",
+    "aadharHash": "AADHR-e802b6b3cc193bcc",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#811, APMC Yard Road, Belagavi"
+    ],
+    "linkedFIRs": [
+      "0122/2025",
+      "8034/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-22T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0140",
+    "name": "Boregowda Shetty",
+    "aliases": [],
+    "age": 54,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0140.jpg",
+    "aadharHash": "AADHR-503083b732ffe207",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#198, Old Town, Koppal"
+    ],
+    "linkedFIRs": [
+      "6319/2024",
+      "7242/2026",
+      "0704/2024",
+      "4390/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-29T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0141",
+    "name": "Nandini Reddy",
+    "aliases": [
+      "Bullet"
+    ],
+    "age": 51,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0141.jpg",
+    "aadharHash": "AADHR-cbda741a961c87df",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#92, Ring Road, Hubballi-Dharwad",
+      "#51, 1st Cross, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "1370/2024",
+      "4375/2024",
+      "7285/2025",
+      "1073/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-18T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0142",
+    "name": "Rukmini Hegde",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 38,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0142.jpg",
+    "aadharHash": "AADHR-ada582bbb0ea8b5d",
+    "district": "Mandya",
+    "knownAddresses": [
+      "#90, Bus Stand Road, Mandya",
+      "#945, Ring Road, Mandya"
+    ],
+    "linkedFIRs": [
+      "5021/2025",
+      "4189/2024",
+      "1935/2026"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-15T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0143",
+    "name": "Chandru S.",
+    "aliases": [
+      "Bombe"
+    ],
+    "age": 42,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0143.jpg",
+    "aadharHash": "AADHR-4bee7f947bb23f1d",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#372, Market Street, Gadag",
+      "#913, Station Road, Gadag"
+    ],
+    "linkedFIRs": [
+      "7948/2026"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-29T00:00:00Z",
+    "associateIds": [
+      "SUS-0152"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0144",
+    "name": "Venkatesh N.",
+    "aliases": [],
+    "age": 50,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0144.jpg",
+    "aadharHash": "AADHR-d90c9ef5dd455561",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#876, Old Town, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "1679/2024",
+      "0502/2024",
+      "8692/2024",
+      "2452/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-02-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0145",
+    "name": "Razia Desai",
+    "aliases": [
+      "Bullet"
+    ],
+    "age": 33,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0145.jpg",
+    "aadharHash": "AADHR-de2fbaa0d875ccd3",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#773, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "4494/2024",
+      "9926/2024",
+      "5643/2025",
+      "2424/2025",
+      "1288/2024",
+      "0071/2025"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-28T00:00:00Z",
+    "associateIds": [
+      "SUS-0100",
+      "SUS-0179",
+      "SUS-0146"
+    ],
+    "financialAccounts": [
+      "BOB-XXXXX32630"
+    ]
+  },
+  {
+    "id": "SUS-0146",
+    "name": "Manjunath B.",
+    "aliases": [],
+    "age": 25,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0146.jpg",
+    "aadharHash": "AADHR-a476ae955db5e9fe",
+    "district": "Bagalkot",
+    "knownAddresses": [
+      "#925, Main Road, Bagalkot"
+    ],
+    "linkedFIRs": [
+      "9287/2024",
+      "6736/2025",
+      "4528/2024"
+    ],
+    "moSignature": "Phishing calls impersonating bank officials",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-16T00:00:00Z",
+    "associateIds": [
+      "SUS-0011",
+      "SUS-0179",
+      "SUS-0194",
+      "SUS-0123"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0147",
+    "name": "Rekha K.",
+    "aliases": [],
+    "age": 32,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0147.jpg",
+    "aadharHash": "AADHR-f248b1c905fb2a16",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#556, 1st Cross, Hassan",
+      "#950, Bus Stand Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "4432/2026",
+      "3377/2026",
+      "9770/2025"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-04T00:00:00Z",
+    "associateIds": [
+      "SUS-0016",
+      "SUS-0038",
+      "SUS-0188"
+    ],
+    "financialAccounts": [
+      "HDFC-XXXXX66271"
+    ]
+  },
+  {
+    "id": "SUS-0148",
+    "name": "Parvathi S.",
+    "aliases": [
+      "Bandi"
+    ],
+    "age": 49,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0148.jpg",
+    "aadharHash": "AADHR-5e308eef8e82ac69",
+    "district": "Mangaluru",
+    "knownAddresses": [
+      "#685, Temple Street, Mangaluru"
+    ],
+    "linkedFIRs": [
+      "5691/2026"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-08T00:00:00Z",
+    "associateIds": [
+      "SUS-0179"
+    ],
+    "financialAccounts": [
+      "ICICI-XXXXX84593"
+    ]
+  },
+  {
+    "id": "SUS-0149",
+    "name": "Pushpa Patil",
+    "aliases": [
+      "Hudugaa"
+    ],
+    "age": 31,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0149.jpg",
+    "aadharHash": "AADHR-83d32dfb1793d687",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#95, Main Road, Koppal"
+    ],
+    "linkedFIRs": [
+      "3252/2025"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-06-20T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0150",
+    "name": "Manjunath Kulkarni",
+    "aliases": [],
+    "age": 44,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0150.jpg",
+    "aadharHash": "AADHR-d564a729146dc974",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#176, Bus Stand Road, Chikkamagaluru",
+      "#222, New Layout, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "4307/2026",
+      "2980/2024"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-28T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0151",
+    "name": "Sharada Achar",
+    "aliases": [
+      "Speedy"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0151.jpg",
+    "aadharHash": "AADHR-2d90db5ae6648abf",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#361, APMC Yard Road, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "1162/2025",
+      "5266/2024"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-07T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX56136",
+      "PNB-XXXXX94606"
+    ]
+  },
+  {
+    "id": "SUS-0152",
+    "name": "Hema Rao",
+    "aliases": [
+      "Speedy"
+    ],
+    "age": 38,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0152.jpg",
+    "aadharHash": "AADHR-5e58ea7569c4565e",
+    "district": "Kodagu",
+    "knownAddresses": [
+      "#821, Temple Street, Kodagu",
+      "#563, New Layout, Kodagu"
+    ],
+    "linkedFIRs": [
+      "7053/2024",
+      "7122/2024"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-18T00:00:00Z",
+    "associateIds": [
+      "SUS-0157",
+      "SUS-0090",
+      "SUS-0073"
+    ],
+    "financialAccounts": [
+      "Axis-XXXXX67778",
+      "Axis-XXXXX46002"
+    ]
+  },
+  {
+    "id": "SUS-0153",
+    "name": "Indira Reddy",
+    "aliases": [
+      "Bhai"
+    ],
+    "age": 36,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0153.jpg",
+    "aadharHash": "AADHR-4bbef8e1e63bd61d",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#23, Market Street, Yadgir",
+      "#198, Station Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "5643/2025"
+    ],
+    "moSignature": "ATM card skimming at isolated kiosks",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Canara-XXXXX38740",
+      "SBI-XXXXX67229"
+    ]
+  },
+  {
+    "id": "SUS-0154",
+    "name": "Siddappa M.",
+    "aliases": [],
+    "age": 23,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0154.jpg",
+    "aadharHash": "AADHR-7135f31d56770ae2",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#40, Main Road, Koppal"
+    ],
+    "linkedFIRs": [
+      "9629/2025"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-04T00:00:00Z",
+    "associateIds": [
+      "SUS-0040"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0155",
+    "name": "Vidya M.",
+    "aliases": [
+      "Bullet"
+    ],
+    "age": 46,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0155.jpg",
+    "aadharHash": "AADHR-fde8226b0cc80c6a",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#561, Old Town, Chitradurga",
+      "#15, Gandhi Nagar Extension, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "9294/2025",
+      "0645/2024"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-02T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0156",
+    "name": "Shobha Shetty",
+    "aliases": [
+      "Bhai",
+      "Hawala Ravi"
+    ],
+    "age": 55,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0156.jpg",
+    "aadharHash": "AADHR-df7d061648b0926e",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#196, Ring Road, Raichur",
+      "#926, Station Road, Raichur"
+    ],
+    "linkedFIRs": [
+      "3442/2024",
+      "0441/2025"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-14T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "HDFC-XXXXX85184",
+      "Axis-XXXXX46059"
+    ]
+  },
+  {
+    "id": "SUS-0157",
+    "name": "Indira N.",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 23,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0157.jpg",
+    "aadharHash": "AADHR-abf0dc49dbf5dd48",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#37, Gandhi Nagar Extension, Gadag"
+    ],
+    "linkedFIRs": [
+      "6836/2025",
+      "1616/2026",
+      "9571/2024",
+      "7260/2025",
+      "3761/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-05T00:00:00Z",
+    "associateIds": [
+      "SUS-0073",
+      "SUS-0067",
+      "SUS-0043",
+      "SUS-0152"
+    ],
+    "financialAccounts": [
+      "Axis-XXXXX94288",
+      "BOB-XXXXX62593"
+    ]
+  },
+  {
+    "id": "SUS-0158",
+    "name": "Prakash Gowda",
+    "aliases": [],
+    "age": 20,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0158.jpg",
+    "aadharHash": "AADHR-7c4e3e9fca8d71ec",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#898, APMC Yard Road, Hassan",
+      "#83, APMC Yard Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "4228/2026",
+      "3262/2024"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-06T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "BOB-XXXXX31527",
+      "HDFC-XXXXX39245"
+    ]
+  },
+  {
+    "id": "SUS-0159",
+    "name": "Pushpa Hegde",
+    "aliases": [
+      "Don"
+    ],
+    "age": 48,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0159.jpg",
+    "aadharHash": "AADHR-7e917f55161f7459",
+    "district": "Tumakuru",
+    "knownAddresses": [
+      "#165, New Layout, Tumakuru",
+      "#701, Market Street, Tumakuru"
+    ],
+    "linkedFIRs": [
+      "7169/2025",
+      "4514/2024"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0160",
+    "name": "Veerabhadra D.",
+    "aliases": [],
+    "age": 47,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0160.jpg",
+    "aadharHash": "AADHR-4bb96318ac314139",
+    "district": "Davanagere",
+    "knownAddresses": [
+      "#467, Bus Stand Road, Davanagere",
+      "#379, Old Town, Davanagere"
+    ],
+    "linkedFIRs": [
+      "6792/2024",
+      "9916/2024",
+      "0895/2024",
+      "0731/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-07-14T00:00:00Z",
+    "associateIds": [
+      "SUS-0147",
+      "SUS-0167",
+      "SUS-0188",
+      "SUS-0007"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0161",
+    "name": "Fatima Patil",
+    "aliases": [
+      "Hawala Ravi",
+      "Pinky"
+    ],
+    "age": 23,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0161.jpg",
+    "aadharHash": "AADHR-e85f6b1df1b425af",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#359, APMC Yard Road, Yadgir",
+      "#604, New Layout, Yadgir"
+    ],
+    "linkedFIRs": [
+      "2424/2025",
+      "7180/2026",
+      "8052/2024",
+      "8018/2024"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-24T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0162",
+    "name": "Manjula Naik",
+    "aliases": [
+      "Vajra"
+    ],
+    "age": 41,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0162.jpg",
+    "aadharHash": "AADHR-98680063c3d31765",
+    "district": "Gadag",
+    "knownAddresses": [
+      "#262, New Layout, Gadag",
+      "#146, Temple Street, Gadag"
+    ],
+    "linkedFIRs": [
+      "8417/2026",
+      "5619/2025",
+      "7260/2025"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-05-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0163",
+    "name": "Karthik Achar",
+    "aliases": [
+      "Bhai",
+      "Don"
+    ],
+    "age": 33,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0163.jpg",
+    "aadharHash": "AADHR-c1c7a26e18e97fbb",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#267, Market Street, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "0917/2025",
+      "5218/2025"
+    ],
+    "moSignature": "Drug peddling near college campuses",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-04T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0164",
+    "name": "Hanumantharaya Achar",
+    "aliases": [],
+    "age": 20,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0164.jpg",
+    "aadharHash": "AADHR-4737ba168453a506",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#534, APMC Yard Road, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "4883/2024",
+      "0778/2024"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0165",
+    "name": "Prakash Gowda",
+    "aliases": [
+      "Chotu"
+    ],
+    "age": 21,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0165.jpg",
+    "aadharHash": "AADHR-216a02fbcc1c33f4",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#392, New Layout, Udupi"
+    ],
+    "linkedFIRs": [
+      "6154/2026",
+      "2306/2024",
+      "6155/2026",
+      "8833/2026",
+      "9761/2024",
+      "2643/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-25T00:00:00Z",
+    "associateIds": [
+      "SUS-0104",
+      "SUS-0092",
+      "SUS-0080",
+      "SUS-0018"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0166",
+    "name": "Rekha N.",
+    "aliases": [
+      "Hudugaa",
+      "Bhai"
+    ],
+    "age": 28,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0166.jpg",
+    "aadharHash": "AADHR-a41c132d149db8e7",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#136, Market Street, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "7800/2025"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-26T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0167",
+    "name": "Siddappa Achar",
+    "aliases": [],
+    "age": 31,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0167.jpg",
+    "aadharHash": "AADHR-6a284cbc83e8646b",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#130, 1st Cross, Chitradurga",
+      "#364, New Layout, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "9902/2026",
+      "0645/2024",
+      "9241/2026",
+      "5642/2024"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-02-09T00:00:00Z",
+    "associateIds": [
+      "SUS-0188",
+      "SUS-0007",
+      "SUS-0038",
+      "SUS-0077"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0168",
+    "name": "Mamatha D.",
+    "aliases": [
+      "Kalla Raju",
+      "Hudugaa"
+    ],
+    "age": 46,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0168.jpg",
+    "aadharHash": "AADHR-b4050f8afc351cb7",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#89, 1st Cross, Hassan",
+      "#751, Bus Stand Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "1029/2025",
+      "2271/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-13T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0169",
+    "name": "Indira Shetty",
+    "aliases": [
+      "Hawala Ravi"
+    ],
+    "age": 20,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0169.jpg",
+    "aadharHash": "AADHR-ed5de63c51e76940",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#889, Gandhi Nagar Extension, Bengaluru Rural",
+      "#296, 2nd Cross, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "9493/2024",
+      "5266/2024",
+      "0774/2025",
+      "2030/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-12-03T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0170",
+    "name": "Ayesha K.",
+    "aliases": [],
+    "age": 41,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0170.jpg",
+    "aadharHash": "AADHR-3de399505a981346",
+    "district": "Bengaluru Urban",
+    "knownAddresses": [
+      "#341, Temple Street, Bengaluru Urban",
+      "#696, Main Road, Bengaluru Urban"
+    ],
+    "linkedFIRs": [
+      "6952/2025"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-17T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Union Bank-XXXXX22887"
+    ]
+  },
+  {
+    "id": "SUS-0171",
+    "name": "Shivakumar Reddy",
+    "aliases": [],
+    "age": 43,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0171.jpg",
+    "aadharHash": "AADHR-639cd86c14c7f173",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#250, 1st Cross, Yadgir",
+      "#602, Station Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "1194/2025",
+      "8562/2025",
+      "4714/2025"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-19T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX96951"
+    ]
+  },
+  {
+    "id": "SUS-0172",
+    "name": "Prakash S.",
+    "aliases": [],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0172.jpg",
+    "aadharHash": "AADHR-14836d984c9bd5fa",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#520, Gandhi Nagar Extension, Udupi",
+      "#297, APMC Yard Road, Udupi"
+    ],
+    "linkedFIRs": [
+      "2158/2025",
+      "9761/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-04-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0173",
+    "name": "Halappa S.",
+    "aliases": [],
+    "age": 44,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0173.jpg",
+    "aadharHash": "AADHR-2b2ed06e5608c812",
+    "district": "Davanagere",
+    "knownAddresses": [
+      "#228, 2nd Cross, Davanagere",
+      "#4, Temple Street, Davanagere"
+    ],
+    "linkedFIRs": [
+      "4660/2024",
+      "9036/2024",
+      "0938/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-17T00:00:00Z",
+    "associateIds": [
+      "SUS-0104",
+      "SUS-0040"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0174",
+    "name": "Mustafa S.",
+    "aliases": [
+      "Kalla Raju",
+      "Pataki"
+    ],
+    "age": 50,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0174.jpg",
+    "aadharHash": "AADHR-9c57fda190efb4d2",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#734, Gandhi Nagar Extension, Belagavi"
+    ],
+    "linkedFIRs": [
+      "3186/2024",
+      "5944/2024",
+      "0122/2025",
+      "6583/2024",
+      "2043/2024"
+    ],
+    "moSignature": "Chit fund fraud collecting unregistered deposits",
+    "riskTier": "high",
+    "totalCases": 7,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "Axis-XXXXX51910"
+    ]
+  },
+  {
+    "id": "SUS-0175",
+    "name": "Mustafa H.",
+    "aliases": [],
+    "age": 46,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0175.jpg",
+    "aadharHash": "AADHR-1191244eedf7c4ec",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#546, Station Road, Yadgir",
+      "#884, Temple Street, Yadgir"
+    ],
+    "linkedFIRs": [
+      "7533/2025",
+      "5643/2025",
+      "0071/2025",
+      "6450/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "medium",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-25T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0176",
+    "name": "Deepa Kulkarni",
+    "aliases": [
+      "Chinna"
+    ],
+    "age": 48,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0176.jpg",
+    "aadharHash": "AADHR-4f824017c7579ccb",
+    "district": "Chikkaballapur",
+    "knownAddresses": [
+      "#717, New Layout, Chikkaballapur",
+      "#476, 2nd Cross, Chikkaballapur"
+    ],
+    "linkedFIRs": [
+      "8725/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-11-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0177",
+    "name": "Mallikarjun Shetty",
+    "aliases": [],
+    "age": 43,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0177.jpg",
+    "aadharHash": "AADHR-a39e45149d5cd4c2",
+    "district": "Bengaluru Rural",
+    "knownAddresses": [
+      "#436, Temple Street, Bengaluru Rural"
+    ],
+    "linkedFIRs": [
+      "9932/2025"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-11T00:00:00Z",
+    "associateIds": [
+      "SUS-0043"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0178",
+    "name": "Srinivas T.",
+    "aliases": [
+      "Bombe"
+    ],
+    "age": 24,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0178.jpg",
+    "aadharHash": "AADHR-2e5a641bd293a71f",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#448, Bus Stand Road, Koppal",
+      "#731, 2nd Cross, Koppal"
+    ],
+    "linkedFIRs": [
+      "9275/2025"
+    ],
+    "moSignature": "Night-time burglary via terrace access",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-10T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0179",
+    "name": "Lingaraju Desai",
+    "aliases": [
+      "Don"
+    ],
+    "age": 24,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0179.jpg",
+    "aadharHash": "AADHR-4cc09e334d420e33",
+    "district": "Chikkamagaluru",
+    "knownAddresses": [
+      "#646, APMC Yard Road, Chikkamagaluru",
+      "#609, Station Road, Chikkamagaluru"
+    ],
+    "linkedFIRs": [
+      "6663/2026",
+      "1922/2025",
+      "8222/2024",
+      "2980/2024",
+      "8865/2025"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "high",
+    "totalCases": 5,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-21T00:00:00Z",
+    "associateIds": [
+      "SUS-0146",
+      "SUS-0047"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0180",
+    "name": "Raju B.",
+    "aliases": [
+      "Hudugaa"
+    ],
+    "age": 39,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0180.jpg",
+    "aadharHash": "AADHR-f876cd726e6a8793",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#800, Main Road, Shivamogga",
+      "#231, Station Road, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "2724/2025",
+      "1616/2025",
+      "8009/2024",
+      "2497/2025",
+      "9640/2025",
+      "5439/2024"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "high",
+    "totalCases": 8,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-09-08T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0181",
+    "name": "Prakash Naik",
+    "aliases": [
+      "Pinky",
+      "Chotu"
+    ],
+    "age": 45,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0181.jpg",
+    "aadharHash": "AADHR-b3aaa075952a4c48",
+    "district": "Mysuru",
+    "knownAddresses": [
+      "#648, Temple Street, Mysuru",
+      "#864, Station Road, Mysuru"
+    ],
+    "linkedFIRs": [
+      "4921/2024",
+      "0768/2026"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-29T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0182",
+    "name": "Lingaraju Gowda",
+    "aliases": [],
+    "age": 37,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0182.jpg",
+    "aadharHash": "AADHR-84f663f5ad6c4107",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#722, Temple Street, Shivamogga",
+      "#631, 2nd Cross, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "3472/2024"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-09T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0183",
+    "name": "Nandini Bhat",
+    "aliases": [],
+    "age": 35,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0183.jpg",
+    "aadharHash": "AADHR-8607e49b1e14b062",
+    "district": "Haveri",
+    "knownAddresses": [
+      "#436, Temple Street, Haveri"
+    ],
+    "linkedFIRs": [
+      "6004/2024"
+    ],
+    "moSignature": "Two-wheeler theft from residential parking using master key",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-10-21T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0184",
+    "name": "Venkatesh R.",
+    "aliases": [],
+    "age": 50,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0184.jpg",
+    "aadharHash": "AADHR-3d0b1f69d11b9b47",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#835, Market Street, Udupi"
+    ],
+    "linkedFIRs": [
+      "2306/2024",
+      "2643/2024",
+      "6154/2026",
+      "0646/2025"
+    ],
+    "moSignature": "Illegal sand mining and transport racket",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-03-17T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0185",
+    "name": "Lakshmi T.",
+    "aliases": [
+      "Kalla Raju"
+    ],
+    "age": 47,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0185.jpg",
+    "aadharHash": "AADHR-56e4feff4d93fac8",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#654, Bus Stand Road, Vijayapura",
+      "#522, Market Street, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "9660/2026",
+      "8729/2026"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-05-11T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "ICICI-XXXXX51498",
+      "Union Bank-XXXXX50378"
+    ]
+  },
+  {
+    "id": "SUS-0186",
+    "name": "Channabasappa N.",
+    "aliases": [
+      "Mallu",
+      "Hudugaa"
+    ],
+    "age": 57,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0186.jpg",
+    "aadharHash": "AADHR-a3a8f4a666285801",
+    "district": "Belagavi",
+    "knownAddresses": [
+      "#731, Bus Stand Road, Belagavi"
+    ],
+    "linkedFIRs": [
+      "5896/2024",
+      "8084/2024"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-06T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX35048",
+      "PNB-XXXXX61254"
+    ]
+  },
+  {
+    "id": "SUS-0187",
+    "name": "Devaraj S.",
+    "aliases": [
+      "Chotu",
+      "Hudugaa"
+    ],
+    "age": 41,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0187.jpg",
+    "aadharHash": "AADHR-1e87d828fcf413ef",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#341, Ring Road, Chamarajanagar",
+      "#616, 1st Cross, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "7994/2025"
+    ],
+    "moSignature": "Pickpocketing near bus stands during rush hour",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-02-28T00:00:00Z",
+    "associateIds": [
+      "SUS-0145"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0188",
+    "name": "Lakshmi Hegde",
+    "aliases": [],
+    "age": 58,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0188.jpg",
+    "aadharHash": "AADHR-90dc9a9e726e7521",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#97, Station Road, Raichur"
+    ],
+    "linkedFIRs": [
+      "8847/2025",
+      "1614/2025",
+      "4327/2025"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "high",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-31T00:00:00Z",
+    "associateIds": [
+      "SUS-0167",
+      "SUS-0147",
+      "SUS-0016"
+    ],
+    "financialAccounts": [
+      "Union Bank-XXXXX37909",
+      "SBI-XXXXX58789"
+    ]
+  },
+  {
+    "id": "SUS-0189",
+    "name": "Anitha Patil",
+    "aliases": [
+      "Chikka"
+    ],
+    "age": 30,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0189.jpg",
+    "aadharHash": "AADHR-3ae2275ff7ca2f21",
+    "district": "Chitradurga",
+    "knownAddresses": [
+      "#49, New Layout, Chitradurga",
+      "#381, New Layout, Chitradurga"
+    ],
+    "linkedFIRs": [
+      "9902/2026",
+      "0778/2024",
+      "2219/2024",
+      "1573/2024",
+      "2920/2025"
+    ],
+    "moSignature": "Online investment fraud via WhatsApp group",
+    "riskTier": "high",
+    "totalCases": 6,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-11-01T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "ICICI-XXXXX91219",
+      "HDFC-XXXXX24858"
+    ]
+  },
+  {
+    "id": "SUS-0190",
+    "name": "Pradeep Patil",
+    "aliases": [
+      "Bombe",
+      "Speedy"
+    ],
+    "age": 50,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0190.jpg",
+    "aadharHash": "AADHR-6a859f350106dbfd",
+    "district": "Yadgir",
+    "knownAddresses": [
+      "#799, Main Road, Yadgir"
+    ],
+    "linkedFIRs": [
+      "1293/2025",
+      "1194/2025",
+      "4494/2024"
+    ],
+    "moSignature": "Fake job offer scam targeting migrant labourers",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-25T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0191",
+    "name": "Lakshmi Rao",
+    "aliases": [],
+    "age": 58,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0191.jpg",
+    "aadharHash": "AADHR-7680b7cd4969a07e",
+    "district": "Raichur",
+    "knownAddresses": [
+      "#512, New Layout, Raichur"
+    ],
+    "linkedFIRs": [
+      "4003/2024",
+      "1805/2025"
+    ],
+    "moSignature": "Counterfeit currency circulation in rural markets",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0192",
+    "name": "Nandini B.",
+    "aliases": [
+      "Bullet"
+    ],
+    "age": 36,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0192.jpg",
+    "aadharHash": "AADHR-a8bf05e0c0ac363b",
+    "district": "Vijayapura",
+    "knownAddresses": [
+      "#315, New Layout, Vijayapura",
+      "#241, Old Town, Vijayapura"
+    ],
+    "linkedFIRs": [
+      "8597/2025"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-09-23T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "HDFC-XXXXX91696",
+      "Axis-XXXXX49839"
+    ]
+  },
+  {
+    "id": "SUS-0193",
+    "name": "Anitha Desai",
+    "aliases": [
+      "Tiger",
+      "Speedy"
+    ],
+    "age": 27,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0193.jpg",
+    "aadharHash": "AADHR-e047e2d68e15224b",
+    "district": "Koppal",
+    "knownAddresses": [
+      "#529, 2nd Cross, Koppal",
+      "#975, 1st Cross, Koppal"
+    ],
+    "linkedFIRs": [
+      "1304/2025"
+    ],
+    "moSignature": "Chain snatching on two-wheeler in crowded markets",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-27T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0194",
+    "name": "Parvathi R.",
+    "aliases": [
+      "Tiger"
+    ],
+    "age": 49,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0194.jpg",
+    "aadharHash": "AADHR-62a7c92952b0d340",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#909, Temple Street, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "4069/2024",
+      "3322/2024",
+      "8033/2025"
+    ],
+    "moSignature": "Forged property document fraud",
+    "riskTier": "high",
+    "totalCases": 4,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-01-06T00:00:00Z",
+    "associateIds": [
+      "SUS-0011",
+      "SUS-0047",
+      "SUS-0146"
+    ],
+    "financialAccounts": [
+      "HDFC-XXXXX34266",
+      "BOB-XXXXX99587"
+    ]
+  },
+  {
+    "id": "SUS-0195",
+    "name": "Lalitha Hegde",
+    "aliases": [],
+    "age": 52,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0195.jpg",
+    "aadharHash": "AADHR-e6270fa16396575d",
+    "district": "Shivamogga",
+    "knownAddresses": [
+      "#96, 1st Cross, Shivamogga"
+    ],
+    "linkedFIRs": [
+      "9385/2024"
+    ],
+    "moSignature": "Matrimonial fraud after gaining trust over months",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-12-05T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": [
+      "SBI-XXXXX21969"
+    ]
+  },
+  {
+    "id": "SUS-0196",
+    "name": "Rekha T.",
+    "aliases": [
+      "Don"
+    ],
+    "age": 36,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0196.jpg",
+    "aadharHash": "AADHR-9d4418c26f76de61",
+    "district": "Udupi",
+    "knownAddresses": [
+      "#334, Gandhi Nagar Extension, Udupi",
+      "#290, Station Road, Udupi"
+    ],
+    "linkedFIRs": [
+      "6154/2026",
+      "2687/2024"
+    ],
+    "moSignature": "Extortion via threatening phone calls",
+    "riskTier": "medium",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-07-30T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0197",
+    "name": "Ashok R.",
+    "aliases": [],
+    "age": 37,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0197.jpg",
+    "aadharHash": "AADHR-992480bc487ed60f",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#295, 1st Cross, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "7262/2025",
+      "5707/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "low",
+    "totalCases": 2,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2026-03-12T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0198",
+    "name": "Prakash H.",
+    "aliases": [],
+    "age": 37,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0198.jpg",
+    "aadharHash": "AADHR-41bcea9a3a8f56fb",
+    "district": "Hubballi-Dharwad",
+    "knownAddresses": [
+      "#381, Old Town, Hubballi-Dharwad",
+      "#678, Bus Stand Road, Hubballi-Dharwad"
+    ],
+    "linkedFIRs": [
+      "5332/2025",
+      "6359/2025",
+      "7773/2025"
+    ],
+    "moSignature": "Cattle theft from rural farmhouses at night",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2026-06-01T00:00:00Z",
+    "associateIds": [
+      "SUS-0165",
+      "SUS-0173",
+      "SUS-0018"
+    ],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0199",
+    "name": "Boregowda M.",
+    "aliases": [],
+    "age": 28,
+    "gender": "male",
+    "photoUrl": "/assets/suspects/sus-0199.jpg",
+    "aadharHash": "AADHR-01ab6ed418a3070b",
+    "district": "Hassan",
+    "knownAddresses": [
+      "#802, Market Street, Hassan",
+      "#911, Station Road, Hassan"
+    ],
+    "linkedFIRs": [
+      "6175/2025",
+      "9038/2025",
+      "5633/2024"
+    ],
+    "moSignature": "Phishing calls impersonating bank officials",
+    "riskTier": "medium",
+    "totalCases": 3,
+    "isRepeatOffender": true,
+    "lastKnownActivity": "2025-08-04T00:00:00Z",
+    "associateIds": [],
+    "financialAccounts": null
+  },
+  {
+    "id": "SUS-0200",
+    "name": "Asha Hegde",
+    "aliases": [],
+    "age": 32,
+    "gender": "female",
+    "photoUrl": "/assets/suspects/sus-0200.jpg",
+    "aadharHash": "AADHR-bcc14543c86950b6",
+    "district": "Chamarajanagar",
+    "knownAddresses": [
+      "#186, Temple Street, Chamarajanagar",
+      "#836, Gandhi Nagar Extension, Chamarajanagar"
+    ],
+    "linkedFIRs": [
+      "0876/2025"
+    ],
+    "moSignature": "Armed robbery at jewellery shops during closing hours",
+    "riskTier": "low",
+    "totalCases": 1,
+    "isRepeatOffender": false,
+    "lastKnownActivity": "2025-08-01T00:00:00Z",
+    "associateIds": [
+      "SUS-0007"
+    ],
+    "financialAccounts": null
+  }
+]

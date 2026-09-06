@@ -1,0 +1,18 @@
+{
+  "name": "prajna_mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "form-data": "^4.0.6",
+    "mongodb": "^6.21.0",
+    "node-fetch": "^3.3.2"
+  }
+}

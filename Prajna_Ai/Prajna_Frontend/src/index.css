@@ -1,0 +1,269 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Tailwind CSS v4 Class-based Dark Mode Variant */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* KSP Color System and Variables */
+:root {
+  --ksp-navy: #0B2E59;
+  --ksp-navy-light: #133D6B;
+  --ksp-navy-dark: #071D3A;
+  --ksp-red: #8B0000;
+  --ksp-red-light: #A52A2A;
+  --ksp-white: #FFFFFF;
+  --ksp-gray-50: #F5F7FA;
+  --ksp-gray-100: #E8ECF1;
+  --ksp-gray-200: #D1D9E6;
+  --ksp-gray-300: #B0BEC5;
+  --ksp-gray-600: #546E7A;
+  --ksp-gray-800: #263238;
+  --ksp-success: #0E7A0D;
+  --ksp-warning: #E65100;
+  --ksp-info: #0277BD;
+}
+
+@theme {
+  --color-ksp-navy: #0B2E59;
+  --color-ksp-navy-light: #133D6B;
+  --color-ksp-navy-dark: #071D3A;
+  --color-ksp-red: #8B0000;
+  --color-ksp-red-light: #A52A2A;
+  --color-ksp-success: #0E7A0D;
+  --color-ksp-warning: #E65100;
+  --color-ksp-info: #0277BD;
+  --color-ksp-gray-50: #F5F7FA;
+  --color-ksp-gray-100: #E8ECF1;
+  --color-ksp-gray-200: #D1D9E6;
+  --color-ksp-gray-300: #B0BEC5;
+  --color-ksp-gray-600: #546E7A;
+  --color-ksp-gray-800: #263238;
+}
+
+/* Global Reset & Base Styling */
+html, body, #root {
+  background-color: var(--ksp-gray-50);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ==========================================================================
+   TACTICAL BLUE + BLACK DARK MODE COLOR SCHEME
+   ========================================================================== */
+html.dark, body.dark, html.dark #root {
+  background-color: #020617; /* Deep Obsidian Black */
+  color: #F8FAFC;
+}
+
+/* Dark Mode Card and Container Defaults */
+.dark .bg-white {
+  background-color: #081120 !important; /* Midnight Tactical Blue-Black */
+  color: #F8FAFC !important;
+  border-color: rgba(30, 58, 138, 0.45) !important;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(56, 189, 248, 0.08) !important;
+}
+
+.dark .text-gray-900,
+.dark .text-gray-800,
+.dark .text-gray-700,
+.dark .text-ksp-gray-800 {
+  color: #F8FAFC !important;
+}
+
+.dark .text-gray-600,
+.dark .text-gray-500,
+.dark .text-ksp-gray-600 {
+  color: #CBD5E1 !important;
+}
+
+.dark .text-gray-400 {
+  color: #94A3B8 !important;
+}
+
+.dark .text-gray-300 {
+  color: #E2E8F0 !important;
+}
+
+.dark .text-ksp-navy {
+  color: #38BDF8 !important; /* Glowing Sky Blue */
+}
+
+.dark .border-gray-100,
+.dark .border-gray-200,
+.dark .border-gray-300,
+.dark .border-ksp-gray-200 {
+  border-color: #112240 !important; /* Deep Blue Border */
+}
+
+/* Inner Nested Containers / Badges */
+.dark .bg-slate-50,
+.dark .bg-gray-50,
+.dark .bg-ksp-gray-50 {
+  background-color: #030712 !important; /* Pitch Black Inner Wells */
+}
+
+.dark .bg-gray-100,
+.dark .bg-ksp-gray-100 {
+  background-color: #0B1930 !important; /* Elevated Midnight Blue */
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #030712 !important; /* Pure Dark Input Wells */
+  color: #FFFFFF !important;
+  border-color: #1E3A8A !important;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #38BDF8 !important;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.3) !important;
+}
+
+/* Global Recharts SVG High-Contrast Typography & Axis Overrides */
+.recharts-text,
+.recharts-cartesian-axis-tick-value,
+.recharts-legend-item-text,
+.recharts-label {
+  fill: #1E293B !important; /* Deep High-Contrast Charcoal in Light Mode */
+  color: #1E293B !important;
+  font-weight: 700 !important;
+  font-size: 10px !important;
+}
+
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  stroke: #64748B !important;
+  stroke-width: 1.5px !important;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #E2E8F0 !important;
+  opacity: 0.85 !important;
+}
+
+.dark .recharts-text,
+.dark .recharts-cartesian-axis-tick-value,
+.dark .recharts-legend-item-text,
+.dark .recharts-label {
+  fill: #F1F5F9 !important; /* Crisp High-Contrast White/Slate in Dark Mode */
+  color: #F1F5F9 !important;
+  font-weight: 700 !important;
+  font-size: 10px !important;
+}
+
+.dark .recharts-cartesian-axis-line,
+.dark .recharts-cartesian-axis-tick-line {
+  stroke: #475569 !important;
+  stroke-width: 1.5px !important;
+}
+
+.dark .recharts-cartesian-grid line {
+  stroke: #0E1E38 !important; /* Deep Blue-Black Grid Lines */
+  opacity: 0.85 !important;
+}
+
+.dark .recharts-default-tooltip {
+  background-color: #081120 !important;
+  border: 1px solid #38BDF8 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ksp-gray-50);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ksp-gray-300);
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #1E3A8A;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
+
+/* Leaflet Overrides */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 1;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Tactical Map Animations */
+@keyframes policeSirenRed {
+  0%, 100% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 8px #ef4444); }
+  50% { opacity: 0.3; transform: scale(0.92); filter: drop-shadow(0 0 2px #ef4444); }
+}
+
+@keyframes policeSirenBlue {
+  0%, 100% { opacity: 0.3; transform: scale(0.92); filter: drop-shadow(0 0 2px #3b82f6); }
+  50% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 8px #3b82f6); }
+}
+
+@keyframes radarSweep {
+  0% { transform: scale(0.6); opacity: 0.8; }
+  50% { transform: scale(1.5); opacity: 0.3; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+@keyframes suspectPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px #dc2626); }
+  50% { transform: scale(1.15); filter: drop-shadow(0 0 20px #ef4444); }
+}
+
+@keyframes strobeAmber {
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 10px #f59e0b); }
+  50% { opacity: 0.4; filter: drop-shadow(0 0 2px #d97706); }
+}
+
+@keyframes droneSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes mapDropRipple {
+  0% { transform: scale(0.2); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+@keyframes escapeDash {
+  to { stroke-dashoffset: -20; }
+}
+
+.anim-siren-red { animation: policeSirenRed 0.6s infinite ease-in-out; }
+.anim-siren-blue { animation: policeSirenBlue 0.6s infinite ease-in-out; }
+.anim-radar { animation: radarSweep 2s infinite cubic-bezier(0.2, 0.8, 0.2, 1); }
+.anim-suspect { animation: suspectPulse 1.2s infinite ease-in-out; }
+.anim-strobe-amber { animation: strobeAmber 0.8s infinite ease-in-out; }
+.anim-drone-spin { animation: droneSpin 3s infinite linear; }
+.anim-drop-ripple { animation: mapDropRipple 0.8s ease-out forwards; }
+.anim-escape-vector { animation: escapeDash 1s linear infinite; }

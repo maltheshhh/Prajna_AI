@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "targets": [
+      "prajna_ai_function",
+      "quickml_test",
+      "zia_speech"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}

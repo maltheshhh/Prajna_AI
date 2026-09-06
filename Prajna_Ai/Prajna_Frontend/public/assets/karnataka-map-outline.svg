@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="200" height="250">
+  <!-- Simplified mock boundary of Karnataka State -->
+  <path d="M50,40 L65,30 L90,20 L105,25 L120,40 L140,55 L135,70 L145,90 L160,110 L155,130 L165,150 L150,170 L135,160 L125,185 L105,190 L95,210 L85,230 L75,225 L65,240 L60,225 L62,205 L58,190 L50,195 L40,180 L48,160 L35,140 L45,120 L30,95 L42,80 L35,65 Z" 
+        fill="none" stroke="#0B2E59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" />
+</svg>

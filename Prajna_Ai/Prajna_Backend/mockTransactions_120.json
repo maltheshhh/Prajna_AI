@@ -1,0 +1,1603 @@
+[
+  {
+    "id": "TXN-00001",
+    "fromAccount": "HDFC-XXXXX27661",
+    "toAccount": "BOB-XXXXX31527",
+    "amount": 337178,
+    "currency": "INR",
+    "date": "2025-11-01T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0035",
+      "SUS-0158"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00002",
+    "fromAccount": "BOB-XXXXX31527",
+    "toAccount": "HDFC-XXXXX66271",
+    "amount": 48902,
+    "currency": "INR",
+    "date": "2025-11-03T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0147",
+      "SUS-0158"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00003",
+    "fromAccount": "HDFC-XXXXX66271",
+    "toAccount": "ICICI-XXXXX60926",
+    "amount": 48885,
+    "currency": "INR",
+    "date": "2025-11-09T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0147",
+      "SUS-0007"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00004",
+    "fromAccount": "BOB-XXXXX99587",
+    "toAccount": "HDFC-XXXXX91696",
+    "amount": 48913,
+    "currency": "INR",
+    "date": "2026-04-17T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0194",
+      "SUS-0192"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00005",
+    "fromAccount": "HDFC-XXXXX91696",
+    "toAccount": "Union Bank-XXXXX92504",
+    "amount": 4276,
+    "currency": "INR",
+    "date": "2026-04-18T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0192"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00006",
+    "fromAccount": "Canara-XXXXX83950",
+    "toAccount": "SBI-XXXXX21969",
+    "amount": 49017,
+    "currency": "INR",
+    "date": "2026-05-01T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0195",
+      "SUS-0092"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00007",
+    "fromAccount": "SBI-XXXXX21969",
+    "toAccount": "Canara-XXXXX38707",
+    "amount": 53624,
+    "currency": "INR",
+    "date": "2026-05-02T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0195",
+      "SUS-0130"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00008",
+    "fromAccount": "Union Bank-XXXXX18358",
+    "toAccount": "HDFC-XXXXX19030",
+    "amount": 1419,
+    "currency": "INR",
+    "date": "2026-01-26T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0036",
+      "SUS-0045"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00009",
+    "fromAccount": "HDFC-XXXXX19030",
+    "toAccount": "HDFC-XXXXX11652",
+    "amount": 50211,
+    "currency": "INR",
+    "date": "2026-01-27T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0133",
+      "SUS-0045"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00010",
+    "fromAccount": "SBI-XXXXX82396",
+    "toAccount": "HDFC-XXXXX86892",
+    "amount": 49715,
+    "currency": "INR",
+    "date": "2026-01-10T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0053"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00011",
+    "fromAccount": "HDFC-XXXXX86892",
+    "toAccount": "Union Bank-XXXXX92504",
+    "amount": 49014,
+    "currency": "INR",
+    "date": "2026-01-12T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0053"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00012",
+    "fromAccount": "Union Bank-XXXXX92504",
+    "toAccount": "SBI-XXXXX67229",
+    "amount": 61839,
+    "currency": "INR",
+    "date": "2026-01-16T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0153",
+      "SUS-0075"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00013",
+    "fromAccount": "PNB-XXXXX94606",
+    "toAccount": "Axis-XXXXX60661",
+    "amount": 49225,
+    "currency": "INR",
+    "date": "2026-06-01T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0151",
+      "SUS-0026"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00014",
+    "fromAccount": "Axis-XXXXX60661",
+    "toAccount": "BOB-XXXXX77813",
+    "amount": 48888,
+    "currency": "INR",
+    "date": "2026-06-04T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0026",
+      "SUS-0063"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00015",
+    "fromAccount": "BOB-XXXXX77813",
+    "toAccount": "SBI-XXXXX55676",
+    "amount": 49355,
+    "currency": "INR",
+    "date": "2026-06-07T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0063",
+      "SUS-0041"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00016",
+    "fromAccount": "ICICI-XXXXX91219",
+    "toAccount": "HDFC-XXXXX34266",
+    "amount": 48570,
+    "currency": "INR",
+    "date": "2025-09-24T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0189",
+      "SUS-0194"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00017",
+    "fromAccount": "HDFC-XXXXX34266",
+    "toAccount": "Axis-XXXXX49839",
+    "amount": 50068,
+    "currency": "INR",
+    "date": "2025-09-27T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0194",
+      "SUS-0192"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00018",
+    "fromAccount": "BOB-XXXXX27913",
+    "toAccount": "Union Bank-XXXXX92504",
+    "amount": 161831,
+    "currency": "INR",
+    "date": "2026-05-07T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0089"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00019",
+    "fromAccount": "Union Bank-XXXXX92504",
+    "toAccount": "Axis-XXXXX84604",
+    "amount": 383050,
+    "currency": "INR",
+    "date": "2026-05-08T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0078"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00020",
+    "fromAccount": "PNB-XXXXX61254",
+    "toAccount": "SBI-XXXXX72058",
+    "amount": 14081,
+    "currency": "INR",
+    "date": "2025-09-17T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0096",
+      "SUS-0186"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00021",
+    "fromAccount": "SBI-XXXXX72058",
+    "toAccount": "PNB-XXXXX47010",
+    "amount": 48631,
+    "currency": "INR",
+    "date": "2025-09-18T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0074",
+      "SUS-0096"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00022",
+    "fromAccount": "Canara-XXXXX83950",
+    "toAccount": "BOB-XXXXX31527",
+    "amount": 48946,
+    "currency": "INR",
+    "date": "2026-02-26T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0158",
+      "SUS-0092"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00023",
+    "fromAccount": "BOB-XXXXX31527",
+    "toAccount": "Canara-XXXXX98064",
+    "amount": 49072,
+    "currency": "INR",
+    "date": "2026-02-28T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0158",
+      "SUS-0123"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00024",
+    "fromAccount": "Canara-XXXXX98064",
+    "toAccount": "Axis-XXXXX51910",
+    "amount": 49561,
+    "currency": "INR",
+    "date": "2026-03-06T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0174",
+      "SUS-0123"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00025",
+    "fromAccount": "BOB-XXXXX85361",
+    "toAccount": "PNB-XXXXX61254",
+    "amount": 50000,
+    "currency": "INR",
+    "date": "2025-10-12T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0052",
+      "SUS-0186"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00026",
+    "fromAccount": "PNB-XXXXX61254",
+    "toAccount": "Union Bank-XXXXX66352",
+    "amount": 4211,
+    "currency": "INR",
+    "date": "2025-10-14T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0026",
+      "SUS-0186"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00027",
+    "fromAccount": "HDFC-XXXXX39245",
+    "toAccount": "PNB-XXXXX47010",
+    "amount": 12538,
+    "currency": "INR",
+    "date": "2025-11-20T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0074",
+      "SUS-0158"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00028",
+    "fromAccount": "PNB-XXXXX47010",
+    "toAccount": "HDFC-XXXXX27661",
+    "amount": 47649,
+    "currency": "INR",
+    "date": "2025-11-21T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0074",
+      "SUS-0035"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00029",
+    "fromAccount": "HDFC-XXXXX27661",
+    "toAccount": "Canara-XXXXX98064",
+    "amount": 48447,
+    "currency": "INR",
+    "date": "2025-11-22T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0035",
+      "SUS-0123"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00030",
+    "fromAccount": "PNB-XXXXX47010",
+    "toAccount": "Axis-XXXXX67778",
+    "amount": 48933,
+    "currency": "INR",
+    "date": "2025-11-30T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0074",
+      "SUS-0152"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00031",
+    "fromAccount": "Axis-XXXXX67778",
+    "toAccount": "Canara-XXXXX31565",
+    "amount": 49337,
+    "currency": "INR",
+    "date": "2025-12-01T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0152",
+      "SUS-0045"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00032",
+    "fromAccount": "Canara-XXXXX31565",
+    "toAccount": "HDFC-XXXXX85184",
+    "amount": 48840,
+    "currency": "INR",
+    "date": "2025-12-04T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0156",
+      "SUS-0045"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00033",
+    "fromAccount": "SBI-XXXXX51455",
+    "toAccount": "ICICI-XXXXX48525",
+    "amount": 48290,
+    "currency": "INR",
+    "date": "2026-06-08T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0027",
+      "SUS-0052"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00034",
+    "fromAccount": "ICICI-XXXXX48525",
+    "toAccount": "BOB-XXXXX62593",
+    "amount": 48295,
+    "currency": "INR",
+    "date": "2026-06-12T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0027",
+      "SUS-0157"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00035",
+    "fromAccount": "BOB-XXXXX62593",
+    "toAccount": "Canara-XXXXX28698",
+    "amount": 17205,
+    "currency": "INR",
+    "date": "2026-06-10T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0090",
+      "SUS-0157"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00036",
+    "fromAccount": "BOB-XXXXX34883",
+    "toAccount": "Axis-XXXXX85366",
+    "amount": 450723,
+    "currency": "INR",
+    "date": "2026-04-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0019",
+      "SUS-0110"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00037",
+    "fromAccount": "Axis-XXXXX85366",
+    "toAccount": "SBI-XXXXX51455",
+    "amount": 49235,
+    "currency": "INR",
+    "date": "2026-04-25T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0052",
+      "SUS-0110"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00038",
+    "fromAccount": "SBI-XXXXX96951",
+    "toAccount": "Union Bank-XXXXX18822",
+    "amount": 48725,
+    "currency": "INR",
+    "date": "2026-03-06T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0171",
+      "SUS-0117"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00039",
+    "fromAccount": "Union Bank-XXXXX18822",
+    "toAccount": "BOB-XXXXX69702",
+    "amount": 49089,
+    "currency": "INR",
+    "date": "2026-03-08T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0117",
+      "SUS-0096"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00040",
+    "fromAccount": "BOB-XXXXX69702",
+    "toAccount": "Canara-XXXXX86865",
+    "amount": 22519,
+    "currency": "INR",
+    "date": "2026-03-12T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0008",
+      "SUS-0096"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00041",
+    "fromAccount": "HDFC-XXXXX19030",
+    "toAccount": "HDFC-XXXXX24858",
+    "amount": 112993,
+    "currency": "INR",
+    "date": "2025-09-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0189",
+      "SUS-0045"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00042",
+    "fromAccount": "HDFC-XXXXX24858",
+    "toAccount": "Axis-XXXXX67778",
+    "amount": 22089,
+    "currency": "INR",
+    "date": "2025-09-24T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0152",
+      "SUS-0189"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00043",
+    "fromAccount": "Union Bank-XXXXX92504",
+    "toAccount": "Canara-XXXXX83950",
+    "amount": 49114,
+    "currency": "INR",
+    "date": "2025-10-25T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0075",
+      "SUS-0092"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00044",
+    "fromAccount": "Canara-XXXXX83950",
+    "toAccount": "SBI-XXXXX99013",
+    "amount": 41722,
+    "currency": "INR",
+    "date": "2025-10-29T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0133",
+      "SUS-0092"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00045",
+    "fromAccount": "SBI-XXXXX96951",
+    "toAccount": "PNB-XXXXX94606",
+    "amount": 49459,
+    "currency": "INR",
+    "date": "2025-09-20T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0171",
+      "SUS-0151"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00046",
+    "fromAccount": "Union Bank-XXXXX89649",
+    "toAccount": "Union Bank-XXXXX63984",
+    "amount": 48783,
+    "currency": "INR",
+    "date": "2025-12-25T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0117"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00047",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "SBI-XXXXX52624",
+    "amount": 1389,
+    "currency": "INR",
+    "date": "2026-04-08T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0113"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00048",
+    "fromAccount": "PNB-XXXXX40518",
+    "toAccount": "SBI-XXXXX68003",
+    "amount": 48948,
+    "currency": "INR",
+    "date": "2026-04-05T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0099"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00049",
+    "fromAccount": "BOB-XXXXX47946",
+    "toAccount": "ICICI-XXXXX52663",
+    "amount": 48895,
+    "currency": "INR",
+    "date": "2026-01-23T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0078"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00050",
+    "fromAccount": "Canara-XXXXX24927",
+    "toAccount": "Union Bank-XXXXX63984",
+    "amount": 49572,
+    "currency": "INR",
+    "date": "2026-03-28T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00051",
+    "fromAccount": "Union Bank-XXXXX18358",
+    "toAccount": "ICICI-XXXXX77042",
+    "amount": 49576,
+    "currency": "INR",
+    "date": "2025-12-24T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0036"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00052",
+    "fromAccount": "PNB-XXXXX94606",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 288044,
+    "currency": "INR",
+    "date": "2025-10-18T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0151"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00053",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "Axis-XXXXX51910",
+    "amount": 35235,
+    "currency": "INR",
+    "date": "2026-04-05T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0174"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00054",
+    "fromAccount": "BOB-XXXXX45115",
+    "toAccount": "PNB-XXXXX12202",
+    "amount": 49785,
+    "currency": "INR",
+    "date": "2026-01-05T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00055",
+    "fromAccount": "PNB-XXXXX76972",
+    "toAccount": "Axis-XXXXX84604",
+    "amount": 53978,
+    "currency": "INR",
+    "date": "2025-10-10T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0019",
+      "SUS-0078"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00056",
+    "fromAccount": "Axis-XXXXX51910",
+    "toAccount": "Canara-XXXXX19278",
+    "amount": 287040,
+    "currency": "INR",
+    "date": "2026-02-07T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0174"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00057",
+    "fromAccount": "Union Bank-XXXXX12996",
+    "toAccount": "Axis-XXXXX94288",
+    "amount": 49700,
+    "currency": "INR",
+    "date": "2025-07-17T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0157"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00058",
+    "fromAccount": "PNB-XXXXX35102",
+    "toAccount": "Axis-XXXXX96283",
+    "amount": 43294,
+    "currency": "INR",
+    "date": "2025-11-12T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00059",
+    "fromAccount": "ICICI-XXXXX85903",
+    "toAccount": "Union Bank-XXXXX86638",
+    "amount": 1942,
+    "currency": "INR",
+    "date": "2026-02-01T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00060",
+    "fromAccount": "Axis-XXXXX84604",
+    "toAccount": "BOB-XXXXX65543",
+    "amount": 65468,
+    "currency": "INR",
+    "date": "2026-06-17T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0078",
+      "SUS-0039"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00061",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "BOB-XXXXX47946",
+    "amount": 10925,
+    "currency": "INR",
+    "date": "2025-12-29T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0078"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00062",
+    "fromAccount": "ICICI-XXXXX78845",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 3530,
+    "currency": "INR",
+    "date": "2025-07-05T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0068"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00063",
+    "fromAccount": "Union Bank-XXXXX50378",
+    "toAccount": "SBI-XXXXX93419",
+    "amount": 433560,
+    "currency": "INR",
+    "date": "2026-04-25T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0185",
+      "SUS-0032"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00064",
+    "fromAccount": "PNB-XXXXX58126",
+    "toAccount": "Union Bank-XXXXX86638",
+    "amount": 59843,
+    "currency": "INR",
+    "date": "2025-12-30T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0099"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00065",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "Union Bank-XXXXX86638",
+    "amount": 4260,
+    "currency": "INR",
+    "date": "2025-09-20T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00066",
+    "fromAccount": "HDFC-XXXXX91696",
+    "toAccount": "SBI-XXXXX39357",
+    "amount": 47735,
+    "currency": "INR",
+    "date": "2026-05-29T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0192",
+      "SUS-0130"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00067",
+    "fromAccount": "ICICI-XXXXX85903",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 38449,
+    "currency": "INR",
+    "date": "2025-06-21T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00068",
+    "fromAccount": "HDFC-XXXXX87987",
+    "toAccount": "Union Bank-XXXXX63984",
+    "amount": 49382,
+    "currency": "INR",
+    "date": "2025-11-26T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00069",
+    "fromAccount": "Union Bank-XXXXX37909",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 308851,
+    "currency": "INR",
+    "date": "2025-10-25T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0188"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00070",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "BOB-XXXXX77813",
+    "amount": 88882,
+    "currency": "INR",
+    "date": "2026-02-17T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0063"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00071",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "SBI-XXXXX55676",
+    "amount": 77803,
+    "currency": "INR",
+    "date": "2026-01-19T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0041"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00072",
+    "fromAccount": "BOB-XXXXX69702",
+    "toAccount": "ICICI-XXXXX22909",
+    "amount": 14815,
+    "currency": "INR",
+    "date": "2025-11-05T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0096"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00073",
+    "fromAccount": "PNB-XXXXX61912",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 16476,
+    "currency": "INR",
+    "date": "2025-09-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00074",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "BOB-XXXXX77813",
+    "amount": 17026,
+    "currency": "INR",
+    "date": "2026-05-09T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0063"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00075",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "ICICI-XXXXX60926",
+    "amount": 3437,
+    "currency": "INR",
+    "date": "2025-12-18T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0007"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00076",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "Axis-XXXXX67778",
+    "amount": 58128,
+    "currency": "INR",
+    "date": "2026-03-03T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0152"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00077",
+    "fromAccount": "SBI-XXXXX78218",
+    "toAccount": "ICICI-XXXXX22909",
+    "amount": 32025,
+    "currency": "INR",
+    "date": "2026-01-18T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00078",
+    "fromAccount": "Union Bank-XXXXX65377",
+    "toAccount": "SBI-XXXXX41927",
+    "amount": 1440,
+    "currency": "INR",
+    "date": "2025-09-13T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0053",
+      "SUS-0035"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00079",
+    "fromAccount": "Canara-XXXXX48399",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 38112,
+    "currency": "INR",
+    "date": "2025-11-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0008"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00080",
+    "fromAccount": "Axis-XXXXX67778",
+    "toAccount": "ICICI-XXXXX77042",
+    "amount": 49215,
+    "currency": "INR",
+    "date": "2026-03-08T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0152"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00081",
+    "fromAccount": "Canara-XXXXX83950",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 49404,
+    "currency": "INR",
+    "date": "2026-03-07T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0092"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00082",
+    "fromAccount": "ICICI-XXXXX84593",
+    "toAccount": "Axis-XXXXX60929",
+    "amount": 48985,
+    "currency": "INR",
+    "date": "2026-03-06T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0148"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00083",
+    "fromAccount": "BOB-XXXXX85361",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 32444,
+    "currency": "INR",
+    "date": "2026-06-21T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0052"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00084",
+    "fromAccount": "Union Bank-XXXXX12741",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 10773,
+    "currency": "INR",
+    "date": "2025-10-08T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0039"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00085",
+    "fromAccount": "Union Bank-XXXXX18358",
+    "toAccount": "Union Bank-XXXXX24112",
+    "amount": 46847,
+    "currency": "INR",
+    "date": "2025-12-15T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0036"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00086",
+    "fromAccount": "BOB-XXXXX77813",
+    "toAccount": "HDFC-XXXXX93502",
+    "amount": 47438,
+    "currency": "INR",
+    "date": "2025-07-26T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0063"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00087",
+    "fromAccount": "HDFC-XXXXX24858",
+    "toAccount": "Union Bank-XXXXX89649",
+    "amount": 63478,
+    "currency": "INR",
+    "date": "2026-04-14T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0189",
+      "SUS-0117"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00088",
+    "fromAccount": "PNB-XXXXX58126",
+    "toAccount": "Axis-XXXXX11360",
+    "amount": 205594,
+    "currency": "INR",
+    "date": "2025-11-11T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0099",
+      "SUS-0068"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00089",
+    "fromAccount": "ICICI-XXXXX37174",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 61871,
+    "currency": "INR",
+    "date": "2025-09-19T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00090",
+    "fromAccount": "Canara-XXXXX19278",
+    "toAccount": "PNB-XXXXX47935",
+    "amount": 48671,
+    "currency": "INR",
+    "date": "2026-04-14T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0059"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00091",
+    "fromAccount": "HDFC-XXXXX66271",
+    "toAccount": "SBI-XXXXX68003",
+    "amount": 226896,
+    "currency": "INR",
+    "date": "2025-12-26T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0147",
+      "SUS-0099"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00092",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "Union Bank-XXXXX18822",
+    "amount": 25218,
+    "currency": "INR",
+    "date": "2025-09-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0117"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00093",
+    "fromAccount": "SBI-XXXXX23864",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 358549,
+    "currency": "INR",
+    "date": "2025-09-19T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0028"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00094",
+    "fromAccount": "SBI-XXXXX51455",
+    "toAccount": "BOB-XXXXX65543",
+    "amount": 1936,
+    "currency": "INR",
+    "date": "2025-12-29T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0052",
+      "SUS-0039"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00095",
+    "fromAccount": "Union Bank-XXXXX66352",
+    "toAccount": "PNB-XXXXX94606",
+    "amount": 49700,
+    "currency": "INR",
+    "date": "2026-03-23T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0026",
+      "SUS-0151"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00096",
+    "fromAccount": "Canara-XXXXX31565",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 22586,
+    "currency": "INR",
+    "date": "2025-11-10T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0045"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00097",
+    "fromAccount": "HDFC-XXXXX91696",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 2282,
+    "currency": "INR",
+    "date": "2026-02-03T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0192"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00098",
+    "fromAccount": "BOB-XXXXX56136",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 68681,
+    "currency": "INR",
+    "date": "2025-06-22T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0151"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00099",
+    "fromAccount": "Axis-XXXXX67778",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 12537,
+    "currency": "INR",
+    "date": "2026-02-28T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0152"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00100",
+    "fromAccount": "Axis-XXXXX46059",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 10948,
+    "currency": "INR",
+    "date": "2026-03-22T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0156"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00101",
+    "fromAccount": "HDFC-XXXXX27649",
+    "toAccount": "BOB-XXXXX65571",
+    "amount": 1699,
+    "currency": "INR",
+    "date": "2025-09-24T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0076"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00102",
+    "fromAccount": "Canara-XXXXX31565",
+    "toAccount": "ICICI-XXXXX85903",
+    "amount": 11916,
+    "currency": "INR",
+    "date": "2025-06-30T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0045"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00103",
+    "fromAccount": "SBI-XXXXX21969",
+    "toAccount": "ICICI-XXXXX85903",
+    "amount": 120236,
+    "currency": "INR",
+    "date": "2026-03-23T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0195"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00104",
+    "fromAccount": "BOB-XXXXX34883",
+    "toAccount": "BOB-XXXXX99587",
+    "amount": 468185,
+    "currency": "INR",
+    "date": "2025-11-13T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0019",
+      "SUS-0194"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00105",
+    "fromAccount": "BOB-XXXXX62593",
+    "toAccount": "PNB-XXXXX94606",
+    "amount": 43325,
+    "currency": "INR",
+    "date": "2025-11-24T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0157",
+      "SUS-0151"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00106",
+    "fromAccount": "HDFC-XXXXX19030",
+    "toAccount": "PNB-XXXXX40518",
+    "amount": 48744,
+    "currency": "INR",
+    "date": "2026-02-26T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0045"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00107",
+    "fromAccount": "Canara-XXXXX38707",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 414293,
+    "currency": "INR",
+    "date": "2025-11-07T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0130"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00108",
+    "fromAccount": "Axis-XXXXX51910",
+    "toAccount": "HDFC-XXXXX66271",
+    "amount": 29651,
+    "currency": "INR",
+    "date": "2025-11-06T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0174",
+      "SUS-0147"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00109",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "SBI-XXXXX68003",
+    "amount": 23994,
+    "currency": "INR",
+    "date": "2026-06-11T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0099"
+    ],
+    "transactionType": "deposit"
+  },
+  {
+    "id": "TXN-00110",
+    "fromAccount": "HDFC-XXXXX91696",
+    "toAccount": "Axis-XXXXX85366",
+    "amount": 49139,
+    "currency": "INR",
+    "date": "2025-07-30T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0192",
+      "SUS-0110"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00111",
+    "fromAccount": "HDFC-XXXXX27649",
+    "toAccount": "Canara-XXXXX28698",
+    "amount": 47782,
+    "currency": "INR",
+    "date": "2026-03-08T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0090"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00112",
+    "fromAccount": "BOB-XXXXX62593",
+    "toAccount": "BOB-XXXXX31527",
+    "amount": 50140,
+    "currency": "INR",
+    "date": "2025-11-19T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0157",
+      "SUS-0158"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00113",
+    "fromAccount": "Union Bank-XXXXX37909",
+    "toAccount": "Axis-XXXXX96283",
+    "amount": 19474,
+    "currency": "INR",
+    "date": "2026-04-16T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0188"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00114",
+    "fromAccount": "Canara-XXXXX38707",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 73441,
+    "currency": "INR",
+    "date": "2026-06-16T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0130"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00115",
+    "fromAccount": "BOB-XXXXX47946",
+    "toAccount": "BOB-XXXXX65571",
+    "amount": 20168,
+    "currency": "INR",
+    "date": "2026-01-20T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0078",
+      "SUS-0076"
+    ],
+    "transactionType": "transfer"
+  },
+  {
+    "id": "TXN-00116",
+    "fromAccount": "SBI-XXXXX68003",
+    "toAccount": "CASH-WITHDRAWAL",
+    "amount": 15258,
+    "currency": "INR",
+    "date": "2025-06-30T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [
+      "SUS-0099"
+    ],
+    "transactionType": "withdrawal"
+  },
+  {
+    "id": "TXN-00117",
+    "fromAccount": "Canara-XXXXX38740",
+    "toAccount": "BOB-XXXXX77813",
+    "amount": 48574,
+    "currency": "INR",
+    "date": "2025-10-02T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0153",
+      "SUS-0063"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00118",
+    "fromAccount": "Axis-XXXXX67778",
+    "toAccount": "BOB-XXXXX47946",
+    "amount": 48629,
+    "currency": "INR",
+    "date": "2025-10-27T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0152",
+      "SUS-0078"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00119",
+    "fromAccount": "HDFC-XXXXX87987",
+    "toAccount": "Union Bank-XXXXX50378",
+    "amount": 49471,
+    "currency": "INR",
+    "date": "2026-01-11T00:00:00Z",
+    "suspicious": true,
+    "linkedSuspectIds": [
+      "SUS-0185"
+    ],
+    "transactionType": "structured"
+  },
+  {
+    "id": "TXN-00120",
+    "fromAccount": "CASH-DEPOSIT",
+    "toAccount": "ICICI-XXXXX77042",
+    "amount": 78945,
+    "currency": "INR",
+    "date": "2025-08-02T00:00:00Z",
+    "suspicious": false,
+    "linkedSuspectIds": [],
+    "transactionType": "deposit"
+  }
+]

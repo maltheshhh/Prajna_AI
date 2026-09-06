@@ -1,0 +1,72 @@
+[
+  {
+    "serviceName": "Catalyst NoSQL",
+    "status": "online",
+    "latency": 46,
+    "recordCount": 1000,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Data Store",
+    "status": "online",
+    "latency": 29,
+    "recordCount": 2500,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst QuickML (LLM/RAG)",
+    "status": "online",
+    "latency": 1324,
+    "recordCount": 1000,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Zia Face Recognition",
+    "status": "online",
+    "latency": 749,
+    "recordCount": 450,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Zia Speech-to-Text",
+    "status": "online",
+    "latency": 502,
+    "recordCount": null,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Authentication",
+    "status": "online",
+    "latency": 95,
+    "recordCount": 85,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst SmartBrowz (PDF)",
+    "status": "online",
+    "latency": 1949,
+    "recordCount": null,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Serverless Functions",
+    "status": "online",
+    "latency": 171,
+    "recordCount": 12,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst AppSail",
+    "status": "online",
+    "latency": 44,
+    "recordCount": null,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  },
+  {
+    "serviceName": "Catalyst Stratus (File Store)",
+    "status": "online",
+    "latency": 197,
+    "recordCount": null,
+    "lastChecked": "2026-06-21T18:04:12Z"
+  }
+]

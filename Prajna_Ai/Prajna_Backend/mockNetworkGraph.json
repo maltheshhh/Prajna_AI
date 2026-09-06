@@ -1,0 +1,3480 @@
+{
+  "nodes": [
+    {
+      "id": "SUS-0116",
+      "label": "Saraswathi H.",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Bagalkot",
+        "moSignature": "Pickpocketing near bus stands during rush hour",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0144",
+      "label": "Venkatesh N.",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "Drug peddling near college campuses",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0120",
+      "label": "Geetha Patil",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Udupi",
+        "moSignature": "Fake job offer scam targeting migrant labourers",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0200",
+      "label": "Asha Hegde",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chamarajanagar",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0131",
+      "label": "Lokesh Patil",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Hassan",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0151",
+      "label": "Sharada Achar",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Bengaluru Rural",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0049",
+      "label": "Hanumantharaya T.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Ballari",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0048",
+      "label": "Hema T.",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chikkamagaluru",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0132",
+      "label": "Manjunath Hegde",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "8"
+      }
+    },
+    {
+      "id": "SUS-0122",
+      "label": "Jayamma D.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Ballari",
+        "moSignature": "Chain snatching on two-wheeler in crowded markets",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0162",
+      "label": "Manjula Naik",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Gadag",
+        "moSignature": "Pickpocketing near bus stands during rush hour",
+        "totalCases": "5"
+      }
+    },
+    {
+      "id": "SUS-0158",
+      "label": "Prakash Gowda",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Hassan",
+        "moSignature": "Forged property document fraud",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0193",
+      "label": "Anitha Desai",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Koppal",
+        "moSignature": "Chain snatching on two-wheeler in crowded markets",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0025",
+      "label": "Vani S.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Bagalkot",
+        "moSignature": "Illegal sand mining and transport racket",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0115",
+      "label": "Asha Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Shivamogga",
+        "moSignature": "Cattle theft from rural farmhouses at night",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0078",
+      "label": "Faizal Hegde",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Kalaburagi",
+        "moSignature": "ATM card skimming at isolated kiosks",
+        "totalCases": "6"
+      }
+    },
+    {
+      "id": "SUS-0037",
+      "label": "Yusuf Kulkarni",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Belagavi",
+        "moSignature": "Highway vehicle interception at night using fake police uniform",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0024",
+      "label": "Anitha S.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Shivamogga",
+        "moSignature": "Chain snatching on two-wheeler in crowded markets",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0138",
+      "label": "Mamatha Kulkarni",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Yadgir",
+        "moSignature": "Highway vehicle interception at night using fake police uniform",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0178",
+      "label": "Srinivas T.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Koppal",
+        "moSignature": "Night-time burglary via terrace access",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0163",
+      "label": "Karthik Achar",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chikkaballapur",
+        "moSignature": "Drug peddling near college campuses",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0011",
+      "label": "Shobha Patil",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Mysuru",
+        "moSignature": "Daytime housebreaking using duplicate key",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0153",
+      "label": "Indira Reddy",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Yadgir",
+        "moSignature": "ATM card skimming at isolated kiosks",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0102",
+      "label": "Pushpa Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Mangaluru",
+        "moSignature": "Night-time burglary via terrace access",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0197",
+      "label": "Ashok R.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chamarajanagar",
+        "moSignature": "Cattle theft from rural farmhouses at night",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0168",
+      "label": "Mamatha D.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Hassan",
+        "moSignature": "Night-time burglary via terrace access",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0189",
+      "label": "Anitha Patil",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "Online investment fraud via WhatsApp group",
+        "totalCases": "6"
+      }
+    },
+    {
+      "id": "SUS-0167",
+      "label": "Siddappa Achar",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "Illegal sand mining and transport racket",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0041",
+      "label": "Anil K.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chamarajanagar",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0160",
+      "label": "Veerabhadra D.",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Davanagere",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0004",
+      "label": "Karthik Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Udupi",
+        "moSignature": "Illegal sand mining and transport racket",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0136",
+      "label": "Mustafa Shetty",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Hubballi-Dharwad",
+        "moSignature": "Pickpocketing near bus stands during rush hour",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0017",
+      "label": "Lalitha T.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Udupi",
+        "moSignature": "Drug peddling near college campuses",
+        "totalCases": "5"
+      }
+    },
+    {
+      "id": "SUS-0016",
+      "label": "Ibrahim Achar",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "ATM card skimming at isolated kiosks",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0010",
+      "label": "Lalitha Kulkarni",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Mysuru",
+        "moSignature": "Highway vehicle interception at night using fake police uniform",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0194",
+      "label": "Parvathi R.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Shivamogga",
+        "moSignature": "Forged property document fraud",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0062",
+      "label": "Srinivas B.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Chikkaballapur",
+        "moSignature": "Night-time burglary via terrace access",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0154",
+      "label": "Siddappa M.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Koppal",
+        "moSignature": "Drug peddling near college campuses",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0008",
+      "label": "Hema Naik",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Haveri",
+        "moSignature": "Online investment fraud via WhatsApp group",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0119",
+      "label": "Boregowda M.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Gadag",
+        "moSignature": "Fake job offer scam targeting migrant labourers",
+        "totalCases": "6"
+      }
+    },
+    {
+      "id": "SUS-0084",
+      "label": "Mamatha Reddy",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Bengaluru Urban",
+        "moSignature": "Counterfeit currency circulation in rural markets",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0113",
+      "label": "Lingaraju Shetty",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Mysuru",
+        "moSignature": "Online investment fraud via WhatsApp group",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0152",
+      "label": "Hema Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Kodagu",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0051",
+      "label": "Vijay Desai",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Tumakuru",
+        "moSignature": "Chit fund fraud collecting unregistered deposits",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0133",
+      "label": "Karthik D.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chikkamagaluru",
+        "moSignature": "Forged property document fraud",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0060",
+      "label": "Ravi S.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Vijayapura",
+        "moSignature": "Highway vehicle interception at night using fake police uniform",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0076",
+      "label": "Suresh Reddy",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chikkaballapur",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0128",
+      "label": "Anitha Desai",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Bengaluru Rural",
+        "moSignature": "Highway vehicle interception at night using fake police uniform",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0002",
+      "label": "Kavitha Kulkarni",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Bengaluru Rural",
+        "moSignature": "Cattle theft from rural farmhouses at night",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0022",
+      "label": "Pushpa B.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Chikkamagaluru",
+        "moSignature": "Cattle theft from rural farmhouses at night",
+        "totalCases": "5"
+      }
+    },
+    {
+      "id": "SUS-0118",
+      "label": "Suresh Kulkarni",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Vijayapura",
+        "moSignature": "Drug peddling near college campuses",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0072",
+      "label": "Roopa Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chikkaballapur",
+        "moSignature": "Pickpocketing near bus stands during rush hour",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0105",
+      "label": "Hema Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Gadag",
+        "moSignature": "Counterfeit currency circulation in rural markets",
+        "totalCases": "3"
+      }
+    },
+    {
+      "id": "SUS-0142",
+      "label": "Rukmini Hegde",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Mandya",
+        "moSignature": "Chain snatching on two-wheeler in crowded markets",
+        "totalCases": "4"
+      }
+    },
+    {
+      "id": "SUS-0195",
+      "label": "Lalitha Hegde",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Shivamogga",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0066",
+      "label": "Ibrahim Rao",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chikkamagaluru",
+        "moSignature": "Chain snatching on two-wheeler in crowded markets",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0081",
+      "label": "Boregowda S.",
+      "type": "suspect",
+      "riskTier": "medium",
+      "metadata": {
+        "district": "Chikkamagaluru",
+        "moSignature": "Armed robbery at jewellery shops during closing hours",
+        "totalCases": "2"
+      }
+    },
+    {
+      "id": "SUS-0059",
+      "label": "Devaraj Shetty",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Chitradurga",
+        "moSignature": "UPI fraud through fake QR code substitution",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0192",
+      "label": "Nandini B.",
+      "type": "suspect",
+      "riskTier": "low",
+      "metadata": {
+        "district": "Vijayapura",
+        "moSignature": "Matrimonial fraud after gaining trust over months",
+        "totalCases": "1"
+      }
+    },
+    {
+      "id": "SUS-0074",
+      "label": "Siddappa K.",
+      "type": "suspect",
+      "riskTier": "high",
+      "metadata": {
+        "district": "Kalaburagi",
+        "moSignature": "Online investment fraud via WhatsApp group",
+        "totalCases": "6"
+      }
+    },
+    {
+      "id": "VIC-001",
+      "label": "Ramesh Rao",
+      "type": "victim",
+      "metadata": {
+        "district": "Chitradurga"
+      }
+    },
+    {
+      "id": "VIC-002",
+      "label": "Sridhar K.",
+      "type": "victim",
+      "metadata": {
+        "district": "Belagavi"
+      }
+    },
+    {
+      "id": "VIC-003",
+      "label": "Latha K.",
+      "type": "victim",
+      "metadata": {
+        "district": "Chamarajanagar"
+      }
+    },
+    {
+      "id": "VIC-004",
+      "label": "Ganesh M.",
+      "type": "victim",
+      "metadata": {
+        "district": "Bagalkot"
+      }
+    },
+    {
+      "id": "VIC-005",
+      "label": "Meena Naidu",
+      "type": "victim",
+      "metadata": {
+        "district": "Bengaluru Urban"
+      }
+    },
+    {
+      "id": "VIC-006",
+      "label": "Latha Rao",
+      "type": "victim",
+      "metadata": {
+        "district": "Kalaburagi"
+      }
+    },
+    {
+      "id": "VIC-007",
+      "label": "Channappa R.",
+      "type": "victim",
+      "metadata": {
+        "district": "Udupi"
+      }
+    },
+    {
+      "id": "VIC-008",
+      "label": "Mohan R.",
+      "type": "victim",
+      "metadata": {
+        "district": "Chikkamagaluru"
+      }
+    },
+    {
+      "id": "VIC-009",
+      "label": "Latha M.",
+      "type": "victim",
+      "metadata": {
+        "district": "Mangaluru"
+      }
+    },
+    {
+      "id": "VIC-010",
+      "label": "Ramesh K.",
+      "type": "victim",
+      "metadata": {
+        "district": "Haveri"
+      }
+    },
+    {
+      "id": "VIC-011",
+      "label": "Suma Naidu",
+      "type": "victim",
+      "metadata": {
+        "district": "Vijayapura"
+      }
+    },
+    {
+      "id": "VIC-012",
+      "label": "Sridhar Rao",
+      "type": "victim",
+      "metadata": {
+        "district": "Davanagere"
+      }
+    },
+    {
+      "id": "VIC-013",
+      "label": "Sridhar Naidu",
+      "type": "victim",
+      "metadata": {
+        "district": "Bengaluru Urban"
+      }
+    },
+    {
+      "id": "VIC-014",
+      "label": "Sridhar S.",
+      "type": "victim",
+      "metadata": {
+        "district": "Davanagere"
+      }
+    },
+    {
+      "id": "VIC-015",
+      "label": "Mohan Gowda",
+      "type": "victim",
+      "metadata": {
+        "district": "Bengaluru Rural"
+      }
+    },
+    {
+      "id": "VIC-016",
+      "label": "Latha M.",
+      "type": "victim",
+      "metadata": {
+        "district": "Kodagu"
+      }
+    },
+    {
+      "id": "VIC-017",
+      "label": "Kalavathi Naidu",
+      "type": "victim",
+      "metadata": {
+        "district": "Tumakuru"
+      }
+    },
+    {
+      "id": "VIC-018",
+      "label": "Ramesh M.",
+      "type": "victim",
+      "metadata": {
+        "district": "Davanagere"
+      }
+    },
+    {
+      "id": "VIC-019",
+      "label": "Radha K.",
+      "type": "victim",
+      "metadata": {
+        "district": "Chitradurga"
+      }
+    },
+    {
+      "id": "VIC-020",
+      "label": "Radha S.",
+      "type": "victim",
+      "metadata": {
+        "district": "Gadag"
+      }
+    },
+    {
+      "id": "LOC-001",
+      "label": "KR Market, Bengaluru",
+      "type": "location",
+      "metadata": {
+        "area": "Bengaluru"
+      }
+    },
+    {
+      "id": "LOC-002",
+      "label": "Majestic Bus Stand, Bengaluru",
+      "type": "location",
+      "metadata": {
+        "area": "Bengaluru"
+      }
+    },
+    {
+      "id": "LOC-003",
+      "label": "Devaraja Market, Mysuru",
+      "type": "location",
+      "metadata": {
+        "area": "Mysuru"
+      }
+    },
+    {
+      "id": "LOC-004",
+      "label": "Hubballi Railway Station",
+      "type": "location",
+      "metadata": {
+        "area": "Hubballi Railway Station"
+      }
+    },
+    {
+      "id": "LOC-005",
+      "label": "Mangaluru Bunder Port Area",
+      "type": "location",
+      "metadata": {
+        "area": "Mangaluru Bunder Port Area"
+      }
+    },
+    {
+      "id": "LOC-006",
+      "label": "Belagavi Camp Bazaar",
+      "type": "location",
+      "metadata": {
+        "area": "Belagavi Camp Bazaar"
+      }
+    },
+    {
+      "id": "LOC-007",
+      "label": "Kalaburagi Sedam Road",
+      "type": "location",
+      "metadata": {
+        "area": "Kalaburagi Sedam Road"
+      }
+    },
+    {
+      "id": "LOC-008",
+      "label": "Raichur APMC Yard",
+      "type": "location",
+      "metadata": {
+        "area": "Raichur APMC Yard"
+      }
+    },
+    {
+      "id": "LOC-009",
+      "label": "Tumakuru City Bus Stand",
+      "type": "location",
+      "metadata": {
+        "area": "Tumakuru City Bus Stand"
+      }
+    },
+    {
+      "id": "LOC-010",
+      "label": "Shivamogga Gopalagowda Circle",
+      "type": "location",
+      "metadata": {
+        "area": "Shivamogga Gopalagowda Circle"
+      }
+    },
+    {
+      "id": "LOC-011",
+      "label": "Davanagere Mandipet",
+      "type": "location",
+      "metadata": {
+        "area": "Davanagere Mandipet"
+      }
+    },
+    {
+      "id": "LOC-012",
+      "label": "Vijayapura Gol Gumbaz Road",
+      "type": "location",
+      "metadata": {
+        "area": "Vijayapura Gol Gumbaz Road"
+      }
+    },
+    {
+      "id": "LOC-013",
+      "label": "Ballari Cowl Bazaar",
+      "type": "location",
+      "metadata": {
+        "area": "Ballari Cowl Bazaar"
+      }
+    },
+    {
+      "id": "LOC-014",
+      "label": "Udupi Bus Terminal",
+      "type": "location",
+      "metadata": {
+        "area": "Udupi Bus Terminal"
+      }
+    },
+    {
+      "id": "LOC-015",
+      "label": "Hassan Town Hall Circle",
+      "type": "location",
+      "metadata": {
+        "area": "Hassan Town Hall Circle"
+      }
+    },
+    {
+      "id": "LOC-016",
+      "label": "Mandya Sugar Town Junction",
+      "type": "location",
+      "metadata": {
+        "area": "Mandya Sugar Town Junction"
+      }
+    },
+    {
+      "id": "LOC-017",
+      "label": "Madikeri Market Road",
+      "type": "location",
+      "metadata": {
+        "area": "Madikeri Market Road"
+      }
+    },
+    {
+      "id": "LOC-018",
+      "label": "Chitradurga Fort Road",
+      "type": "location",
+      "metadata": {
+        "area": "Chitradurga Fort Road"
+      }
+    },
+    {
+      "id": "LOC-019",
+      "label": "Whitefield Industrial Area",
+      "type": "location",
+      "metadata": {
+        "area": "Whitefield Industrial Area"
+      }
+    },
+    {
+      "id": "LOC-020",
+      "label": "Electronic City Phase 1",
+      "type": "location",
+      "metadata": {
+        "area": "Electronic City Phase 1"
+      }
+    },
+    {
+      "id": "LOC-021",
+      "label": "Yeshwanthpur Goods Yard",
+      "type": "location",
+      "metadata": {
+        "area": "Yeshwanthpur Goods Yard"
+      }
+    },
+    {
+      "id": "VEH-001",
+      "label": "KA-02-CP-4981",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "VEH-002",
+      "label": "KA-25-JQ-3084",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Commercial Van"
+      }
+    },
+    {
+      "id": "VEH-003",
+      "label": "KA-25-DK-3525",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Auto-rickshaw"
+      }
+    },
+    {
+      "id": "VEH-004",
+      "label": "KA-04-VF-4109",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Car"
+      }
+    },
+    {
+      "id": "VEH-005",
+      "label": "KA-35-RP-7360",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Commercial Van"
+      }
+    },
+    {
+      "id": "VEH-006",
+      "label": "KA-25-BB-2786",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "VEH-007",
+      "label": "KA-22-ZF-7416",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Auto-rickshaw"
+      }
+    },
+    {
+      "id": "VEH-008",
+      "label": "KA-19-VQ-5807",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Car"
+      }
+    },
+    {
+      "id": "VEH-009",
+      "label": "KA-35-ZD-8852",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "VEH-010",
+      "label": "KA-05-FX-1271",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "VEH-011",
+      "label": "KA-05-KF-1763",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Car"
+      }
+    },
+    {
+      "id": "VEH-012",
+      "label": "KA-05-JP-3155",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "VEH-013",
+      "label": "KA-09-DL-6422",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Car"
+      }
+    },
+    {
+      "id": "VEH-014",
+      "label": "KA-25-AA-6856",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Auto-rickshaw"
+      }
+    },
+    {
+      "id": "VEH-015",
+      "label": "KA-01-AR-8900",
+      "type": "vehicle",
+      "metadata": {
+        "vehicleType": "Two-wheeler"
+      }
+    },
+    {
+      "id": "PHN-001",
+      "label": "+91-9884366237",
+      "type": "phone",
+      "metadata": {
+        "carrier": "BSNL"
+      }
+    },
+    {
+      "id": "PHN-002",
+      "label": "+91-9442421092",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Jio"
+      }
+    },
+    {
+      "id": "PHN-003",
+      "label": "+91-9177773330",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-004",
+      "label": "+91-9586502501",
+      "type": "phone",
+      "metadata": {
+        "carrier": "BSNL"
+      }
+    },
+    {
+      "id": "PHN-005",
+      "label": "+91-9891353624",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-006",
+      "label": "+91-9891442353",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Jio"
+      }
+    },
+    {
+      "id": "PHN-007",
+      "label": "+91-9951763604",
+      "type": "phone",
+      "metadata": {
+        "carrier": "BSNL"
+      }
+    },
+    {
+      "id": "PHN-008",
+      "label": "+91-9477778985",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-009",
+      "label": "+91-9835669865",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Vi"
+      }
+    },
+    {
+      "id": "PHN-010",
+      "label": "+91-9183396782",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Vi"
+      }
+    },
+    {
+      "id": "PHN-011",
+      "label": "+91-9948827274",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-012",
+      "label": "+91-9636791097",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-013",
+      "label": "+91-9771046278",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Vi"
+      }
+    },
+    {
+      "id": "PHN-014",
+      "label": "+91-9507137581",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "PHN-015",
+      "label": "+91-9753765862",
+      "type": "phone",
+      "metadata": {
+        "carrier": "Airtel"
+      }
+    },
+    {
+      "id": "ACC-001",
+      "label": "ICICI-XXXXX21881",
+      "type": "account",
+      "metadata": {
+        "bank": "ICICI"
+      }
+    },
+    {
+      "id": "ACC-002",
+      "label": "ICICI-XXXXX43712",
+      "type": "account",
+      "metadata": {
+        "bank": "ICICI"
+      }
+    },
+    {
+      "id": "ACC-003",
+      "label": "PNB-XXXXX53273",
+      "type": "account",
+      "metadata": {
+        "bank": "PNB"
+      }
+    },
+    {
+      "id": "ACC-004",
+      "label": "PNB-XXXXX86146",
+      "type": "account",
+      "metadata": {
+        "bank": "PNB"
+      }
+    },
+    {
+      "id": "ACC-005",
+      "label": "Axis-XXXXX67740",
+      "type": "account",
+      "metadata": {
+        "bank": "Axis"
+      }
+    },
+    {
+      "id": "ACC-006",
+      "label": "Axis-XXXXX80942",
+      "type": "account",
+      "metadata": {
+        "bank": "Axis"
+      }
+    },
+    {
+      "id": "ACC-007",
+      "label": "ICICI-XXXXX77986",
+      "type": "account",
+      "metadata": {
+        "bank": "ICICI"
+      }
+    },
+    {
+      "id": "ACC-008",
+      "label": "SBI-XXXXX50663",
+      "type": "account",
+      "metadata": {
+        "bank": "SBI"
+      }
+    },
+    {
+      "id": "ACC-009",
+      "label": "ICICI-XXXXX73039",
+      "type": "account",
+      "metadata": {
+        "bank": "ICICI"
+      }
+    },
+    {
+      "id": "ACC-010",
+      "label": "SBI-XXXXX40175",
+      "type": "account",
+      "metadata": {
+        "bank": "SBI"
+      }
+    },
+    {
+      "id": "ACC-011",
+      "label": "ICICI-XXXXX75175",
+      "type": "account",
+      "metadata": {
+        "bank": "ICICI"
+      }
+    },
+    {
+      "id": "ACC-012",
+      "label": "Axis-XXXXX43532",
+      "type": "account",
+      "metadata": {
+        "bank": "Axis"
+      }
+    },
+    {
+      "id": "CASE-0453-2025",
+      "label": "0453/2025",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Assault",
+        "district": "Gadag",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-9617-2026",
+      "label": "9617/2026",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Kidnapping",
+        "district": "Mangaluru",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-4318-2026",
+      "label": "4318/2026",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Dowry Death",
+        "district": "Mysuru",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-5570-2026",
+      "label": "5570/2026",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Chain Snatching",
+        "district": "Koppal",
+        "status": "open"
+      }
+    },
+    {
+      "id": "CASE-8692-2024",
+      "label": "8692/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Cybercrime",
+        "district": "Chitradurga",
+        "status": "convicted"
+      }
+    },
+    {
+      "id": "CASE-0254-2026",
+      "label": "0254/2026",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Vehicle Theft",
+        "district": "Mandya",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-7207-2024",
+      "label": "7207/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Dowry Death",
+        "district": "Chikkaballapur",
+        "status": "chargesheeted"
+      }
+    },
+    {
+      "id": "CASE-4497-2024",
+      "label": "4497/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Kidnapping",
+        "district": "Vijayapura",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-1580-2025",
+      "label": "1580/2025",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Vehicle Theft",
+        "district": "Gadag",
+        "status": "under_investigation"
+      }
+    },
+    {
+      "id": "CASE-8364-2024",
+      "label": "8364/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Cybercrime",
+        "district": "Hubballi-Dharwad",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-8822-2024",
+      "label": "8822/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Robbery",
+        "district": "Gadag",
+        "status": "under_investigation"
+      }
+    },
+    {
+      "id": "CASE-6090-2024",
+      "label": "6090/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Cybercrime",
+        "district": "Hubballi-Dharwad",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-8235-2025",
+      "label": "8235/2025",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Burglary / Housebreaking",
+        "district": "Udupi",
+        "status": "closed"
+      }
+    },
+    {
+      "id": "CASE-8149-2024",
+      "label": "8149/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Cheating/Fraud",
+        "district": "Chikkaballapur",
+        "status": "chargesheeted"
+      }
+    },
+    {
+      "id": "CASE-8646-2024",
+      "label": "8646/2024",
+      "type": "case",
+      "metadata": {
+        "crimeType": "Drug Offences",
+        "district": "Ballari",
+        "status": "under_investigation"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "EDGE-0001",
+      "source": "SUS-0011",
+      "target": "SUS-0194",
+      "relationship": "co-accused",
+      "weight": 0.78,
+      "caseId": "9995/2025"
+    },
+    {
+      "id": "EDGE-0002",
+      "source": "SUS-0160",
+      "target": "SUS-0167",
+      "relationship": "co-accused",
+      "weight": 0.72,
+      "caseId": "9916/2024"
+    },
+    {
+      "id": "EDGE-0003",
+      "source": "SUS-0016",
+      "target": "SUS-0160",
+      "relationship": "co-accused",
+      "weight": 0.69,
+      "caseId": "3224/2024"
+    },
+    {
+      "id": "EDGE-0004",
+      "source": "SUS-0194",
+      "target": "SUS-0011",
+      "relationship": "co-accused",
+      "weight": 0.76,
+      "caseId": "8033/2025"
+    },
+    {
+      "id": "EDGE-0005",
+      "source": "SUS-0144",
+      "target": "SUS-0132",
+      "relationship": "co-accused",
+      "weight": 0.82,
+      "caseId": "2452/2024"
+    },
+    {
+      "id": "EDGE-0006",
+      "source": "SUS-0048",
+      "target": "SUS-0022",
+      "relationship": "co-accused",
+      "weight": 0.87,
+      "caseId": "0392/2024"
+    },
+    {
+      "id": "EDGE-0007",
+      "source": "SUS-0132",
+      "target": "SUS-0167",
+      "relationship": "co-accused",
+      "weight": 0.85,
+      "caseId": "0645/2024"
+    },
+    {
+      "id": "EDGE-0008",
+      "source": "SUS-0132",
+      "target": "SUS-0016",
+      "relationship": "co-accused",
+      "weight": 0.65,
+      "caseId": "3224/2024"
+    },
+    {
+      "id": "EDGE-0009",
+      "source": "SUS-0132",
+      "target": "SUS-0167",
+      "relationship": "co-accused",
+      "weight": 0.73,
+      "caseId": "5642/2024"
+    },
+    {
+      "id": "EDGE-0010",
+      "source": "SUS-0078",
+      "target": "SUS-0074",
+      "relationship": "co-accused",
+      "weight": 0.63,
+      "caseId": "1820/2025"
+    },
+    {
+      "id": "EDGE-0011",
+      "source": "SUS-0078",
+      "target": "SUS-0074",
+      "relationship": "co-accused",
+      "weight": 0.55,
+      "caseId": "3729/2024"
+    },
+    {
+      "id": "EDGE-0012",
+      "source": "SUS-0024",
+      "target": "SUS-0195",
+      "relationship": "co-accused",
+      "weight": 0.7,
+      "caseId": "9385/2024"
+    },
+    {
+      "id": "EDGE-0013",
+      "source": "SUS-0189",
+      "target": "SUS-0167",
+      "relationship": "co-accused",
+      "weight": 0.83,
+      "caseId": "9902/2026"
+    },
+    {
+      "id": "EDGE-0014",
+      "source": "SUS-0189",
+      "target": "SUS-0016",
+      "relationship": "co-accused",
+      "weight": 0.84,
+      "caseId": "1573/2024"
+    },
+    {
+      "id": "EDGE-0015",
+      "source": "SUS-0116",
+      "target": "LOC-009",
+      "relationship": "shared-location",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0016",
+      "source": "SUS-0120",
+      "target": "LOC-007",
+      "relationship": "shared-location",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0017",
+      "source": "SUS-0200",
+      "target": "LOC-017",
+      "relationship": "shared-location",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0018",
+      "source": "SUS-0131",
+      "target": "LOC-020",
+      "relationship": "shared-location",
+      "weight": 0.53,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0019",
+      "source": "SUS-0048",
+      "target": "LOC-002",
+      "relationship": "shared-location",
+      "weight": 0.64,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0020",
+      "source": "SUS-0048",
+      "target": "LOC-009",
+      "relationship": "shared-location",
+      "weight": 0.59,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0021",
+      "source": "SUS-0132",
+      "target": "LOC-019",
+      "relationship": "shared-location",
+      "weight": 0.31,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0022",
+      "source": "SUS-0162",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.68,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0023",
+      "source": "SUS-0158",
+      "target": "LOC-005",
+      "relationship": "shared-location",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0024",
+      "source": "SUS-0193",
+      "target": "LOC-004",
+      "relationship": "shared-location",
+      "weight": 0.52,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0025",
+      "source": "SUS-0193",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0026",
+      "source": "SUS-0025",
+      "target": "LOC-012",
+      "relationship": "shared-location",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0027",
+      "source": "SUS-0115",
+      "target": "LOC-007",
+      "relationship": "shared-location",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0028",
+      "source": "SUS-0078",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.68,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0029",
+      "source": "SUS-0037",
+      "target": "LOC-002",
+      "relationship": "shared-location",
+      "weight": 0.39,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0030",
+      "source": "SUS-0024",
+      "target": "LOC-012",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0031",
+      "source": "SUS-0138",
+      "target": "LOC-017",
+      "relationship": "shared-location",
+      "weight": 0.61,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0032",
+      "source": "SUS-0138",
+      "target": "LOC-006",
+      "relationship": "shared-location",
+      "weight": 0.5,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0033",
+      "source": "SUS-0178",
+      "target": "LOC-008",
+      "relationship": "shared-location",
+      "weight": 0.34,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0034",
+      "source": "SUS-0178",
+      "target": "LOC-013",
+      "relationship": "shared-location",
+      "weight": 0.36,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0035",
+      "source": "SUS-0163",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0036",
+      "source": "SUS-0153",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0037",
+      "source": "SUS-0102",
+      "target": "LOC-011",
+      "relationship": "shared-location",
+      "weight": 0.53,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0038",
+      "source": "SUS-0102",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.79,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0039",
+      "source": "SUS-0168",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.76,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0040",
+      "source": "SUS-0168",
+      "target": "LOC-004",
+      "relationship": "shared-location",
+      "weight": 0.41,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0041",
+      "source": "SUS-0189",
+      "target": "LOC-003",
+      "relationship": "shared-location",
+      "weight": 0.79,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0042",
+      "source": "SUS-0189",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.79,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0043",
+      "source": "SUS-0167",
+      "target": "LOC-009",
+      "relationship": "shared-location",
+      "weight": 0.75,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0044",
+      "source": "SUS-0167",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.47,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0045",
+      "source": "SUS-0160",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.51,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0046",
+      "source": "SUS-0004",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.41,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0047",
+      "source": "SUS-0136",
+      "target": "LOC-014",
+      "relationship": "shared-location",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0048",
+      "source": "SUS-0136",
+      "target": "LOC-006",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0049",
+      "source": "SUS-0017",
+      "target": "LOC-005",
+      "relationship": "shared-location",
+      "weight": 0.54,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0050",
+      "source": "SUS-0016",
+      "target": "LOC-017",
+      "relationship": "shared-location",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0051",
+      "source": "SUS-0016",
+      "target": "LOC-015",
+      "relationship": "shared-location",
+      "weight": 0.77,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0052",
+      "source": "SUS-0010",
+      "target": "LOC-003",
+      "relationship": "shared-location",
+      "weight": 0.68,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0053",
+      "source": "SUS-0194",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.45,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0054",
+      "source": "SUS-0062",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.38,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0055",
+      "source": "SUS-0154",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.43,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0056",
+      "source": "SUS-0008",
+      "target": "LOC-020",
+      "relationship": "shared-location",
+      "weight": 0.4,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0057",
+      "source": "SUS-0119",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.56,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0058",
+      "source": "SUS-0119",
+      "target": "LOC-019",
+      "relationship": "shared-location",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0059",
+      "source": "SUS-0084",
+      "target": "LOC-004",
+      "relationship": "shared-location",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0060",
+      "source": "SUS-0113",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0061",
+      "source": "SUS-0051",
+      "target": "LOC-018",
+      "relationship": "shared-location",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0062",
+      "source": "SUS-0051",
+      "target": "LOC-019",
+      "relationship": "shared-location",
+      "weight": 0.36,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0063",
+      "source": "SUS-0076",
+      "target": "LOC-015",
+      "relationship": "shared-location",
+      "weight": 0.51,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0064",
+      "source": "SUS-0076",
+      "target": "LOC-013",
+      "relationship": "shared-location",
+      "weight": 0.43,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0065",
+      "source": "SUS-0128",
+      "target": "LOC-005",
+      "relationship": "shared-location",
+      "weight": 0.47,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0066",
+      "source": "SUS-0002",
+      "target": "LOC-016",
+      "relationship": "shared-location",
+      "weight": 0.56,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0067",
+      "source": "SUS-0002",
+      "target": "LOC-004",
+      "relationship": "shared-location",
+      "weight": 0.4,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0068",
+      "source": "SUS-0022",
+      "target": "LOC-009",
+      "relationship": "shared-location",
+      "weight": 0.36,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0069",
+      "source": "SUS-0118",
+      "target": "LOC-001",
+      "relationship": "shared-location",
+      "weight": 0.32,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0070",
+      "source": "SUS-0118",
+      "target": "LOC-005",
+      "relationship": "shared-location",
+      "weight": 0.41,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0071",
+      "source": "SUS-0072",
+      "target": "LOC-011",
+      "relationship": "shared-location",
+      "weight": 0.66,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0072",
+      "source": "SUS-0142",
+      "target": "LOC-016",
+      "relationship": "shared-location",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0073",
+      "source": "SUS-0066",
+      "target": "LOC-009",
+      "relationship": "shared-location",
+      "weight": 0.66,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0074",
+      "source": "SUS-0081",
+      "target": "LOC-014",
+      "relationship": "shared-location",
+      "weight": 0.31,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0075",
+      "source": "SUS-0059",
+      "target": "LOC-017",
+      "relationship": "shared-location",
+      "weight": 0.61,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0076",
+      "source": "SUS-0192",
+      "target": "LOC-021",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0077",
+      "source": "SUS-0151",
+      "target": "ACC-004",
+      "relationship": "financial-link",
+      "weight": 0.88,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0078",
+      "source": "SUS-0158",
+      "target": "ACC-010",
+      "relationship": "financial-link",
+      "weight": 0.76,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0079",
+      "source": "SUS-0078",
+      "target": "ACC-003",
+      "relationship": "financial-link",
+      "weight": 0.6,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0080",
+      "source": "SUS-0153",
+      "target": "ACC-012",
+      "relationship": "financial-link",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0081",
+      "source": "SUS-0189",
+      "target": "ACC-006",
+      "relationship": "financial-link",
+      "weight": 0.91,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0082",
+      "source": "SUS-0041",
+      "target": "ACC-006",
+      "relationship": "financial-link",
+      "weight": 0.77,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0083",
+      "source": "SUS-0016",
+      "target": "ACC-004",
+      "relationship": "financial-link",
+      "weight": 0.6,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0084",
+      "source": "SUS-0194",
+      "target": "ACC-004",
+      "relationship": "financial-link",
+      "weight": 0.9,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0085",
+      "source": "SUS-0008",
+      "target": "ACC-003",
+      "relationship": "financial-link",
+      "weight": 0.9,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0086",
+      "source": "SUS-0113",
+      "target": "ACC-003",
+      "relationship": "financial-link",
+      "weight": 0.83,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0087",
+      "source": "SUS-0152",
+      "target": "ACC-005",
+      "relationship": "financial-link",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0088",
+      "source": "SUS-0051",
+      "target": "ACC-007",
+      "relationship": "financial-link",
+      "weight": 0.87,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0089",
+      "source": "SUS-0133",
+      "target": "ACC-007",
+      "relationship": "financial-link",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0090",
+      "source": "SUS-0076",
+      "target": "ACC-012",
+      "relationship": "financial-link",
+      "weight": 0.56,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0091",
+      "source": "SUS-0195",
+      "target": "ACC-007",
+      "relationship": "financial-link",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0092",
+      "source": "SUS-0059",
+      "target": "ACC-001",
+      "relationship": "financial-link",
+      "weight": 0.54,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0093",
+      "source": "SUS-0192",
+      "target": "ACC-010",
+      "relationship": "financial-link",
+      "weight": 0.81,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0094",
+      "source": "SUS-0074",
+      "target": "ACC-006",
+      "relationship": "financial-link",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0095",
+      "source": "ACC-009",
+      "target": "ACC-011",
+      "relationship": "financial-link",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0096",
+      "source": "ACC-009",
+      "target": "ACC-011",
+      "relationship": "financial-link",
+      "weight": 0.77,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0097",
+      "source": "ACC-002",
+      "target": "ACC-008",
+      "relationship": "financial-link",
+      "weight": 0.45,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0098",
+      "source": "ACC-001",
+      "target": "ACC-009",
+      "relationship": "financial-link",
+      "weight": 0.68,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0099",
+      "source": "ACC-010",
+      "target": "ACC-008",
+      "relationship": "financial-link",
+      "weight": 0.47,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0100",
+      "source": "ACC-003",
+      "target": "ACC-002",
+      "relationship": "financial-link",
+      "weight": 0.49,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0101",
+      "source": "ACC-003",
+      "target": "ACC-005",
+      "relationship": "financial-link",
+      "weight": 0.82,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0102",
+      "source": "ACC-002",
+      "target": "ACC-010",
+      "relationship": "financial-link",
+      "weight": 0.43,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0103",
+      "source": "SUS-0116",
+      "target": "PHN-008",
+      "relationship": "phone-contact",
+      "weight": 0.44,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0104",
+      "source": "SUS-0116",
+      "target": "PHN-002",
+      "relationship": "phone-contact",
+      "weight": 0.56,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0105",
+      "source": "SUS-0144",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.58,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0106",
+      "source": "SUS-0131",
+      "target": "PHN-001",
+      "relationship": "phone-contact",
+      "weight": 0.82,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0107",
+      "source": "SUS-0049",
+      "target": "PHN-012",
+      "relationship": "phone-contact",
+      "weight": 0.59,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0108",
+      "source": "SUS-0048",
+      "target": "PHN-010",
+      "relationship": "phone-contact",
+      "weight": 0.48,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0109",
+      "source": "SUS-0048",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.8,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0110",
+      "source": "SUS-0162",
+      "target": "PHN-015",
+      "relationship": "phone-contact",
+      "weight": 0.83,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0111",
+      "source": "SUS-0162",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.87,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0112",
+      "source": "SUS-0158",
+      "target": "PHN-004",
+      "relationship": "phone-contact",
+      "weight": 0.65,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0113",
+      "source": "SUS-0193",
+      "target": "PHN-013",
+      "relationship": "phone-contact",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0114",
+      "source": "SUS-0193",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.86,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0115",
+      "source": "SUS-0025",
+      "target": "PHN-013",
+      "relationship": "phone-contact",
+      "weight": 0.48,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0116",
+      "source": "SUS-0115",
+      "target": "PHN-003",
+      "relationship": "phone-contact",
+      "weight": 0.85,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0117",
+      "source": "SUS-0115",
+      "target": "PHN-015",
+      "relationship": "phone-contact",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0118",
+      "source": "SUS-0037",
+      "target": "PHN-003",
+      "relationship": "phone-contact",
+      "weight": 0.6,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0119",
+      "source": "SUS-0024",
+      "target": "PHN-002",
+      "relationship": "phone-contact",
+      "weight": 0.8,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0120",
+      "source": "SUS-0163",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.85,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0121",
+      "source": "SUS-0163",
+      "target": "PHN-001",
+      "relationship": "phone-contact",
+      "weight": 0.52,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0122",
+      "source": "SUS-0011",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0123",
+      "source": "SUS-0011",
+      "target": "PHN-004",
+      "relationship": "phone-contact",
+      "weight": 0.73,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0124",
+      "source": "SUS-0153",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.44,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0125",
+      "source": "SUS-0102",
+      "target": "PHN-008",
+      "relationship": "phone-contact",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0126",
+      "source": "SUS-0197",
+      "target": "PHN-013",
+      "relationship": "phone-contact",
+      "weight": 0.6,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0127",
+      "source": "SUS-0168",
+      "target": "PHN-002",
+      "relationship": "phone-contact",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0128",
+      "source": "SUS-0189",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.62,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0129",
+      "source": "SUS-0167",
+      "target": "PHN-013",
+      "relationship": "phone-contact",
+      "weight": 0.5,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0130",
+      "source": "SUS-0136",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0131",
+      "source": "SUS-0136",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.88,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0132",
+      "source": "SUS-0017",
+      "target": "PHN-002",
+      "relationship": "phone-contact",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0133",
+      "source": "SUS-0016",
+      "target": "PHN-002",
+      "relationship": "phone-contact",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0134",
+      "source": "SUS-0016",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0135",
+      "source": "SUS-0194",
+      "target": "PHN-003",
+      "relationship": "phone-contact",
+      "weight": 0.59,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0136",
+      "source": "SUS-0194",
+      "target": "PHN-003",
+      "relationship": "phone-contact",
+      "weight": 0.83,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0137",
+      "source": "SUS-0062",
+      "target": "PHN-010",
+      "relationship": "phone-contact",
+      "weight": 0.43,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0138",
+      "source": "SUS-0154",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.54,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0139",
+      "source": "SUS-0154",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0140",
+      "source": "SUS-0084",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.86,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0141",
+      "source": "SUS-0113",
+      "target": "PHN-012",
+      "relationship": "phone-contact",
+      "weight": 0.55,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0142",
+      "source": "SUS-0076",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.43,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0143",
+      "source": "SUS-0022",
+      "target": "PHN-012",
+      "relationship": "phone-contact",
+      "weight": 0.87,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0144",
+      "source": "SUS-0072",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.76,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0145",
+      "source": "SUS-0072",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.89,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0146",
+      "source": "SUS-0142",
+      "target": "PHN-015",
+      "relationship": "phone-contact",
+      "weight": 0.81,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0147",
+      "source": "SUS-0195",
+      "target": "PHN-003",
+      "relationship": "phone-contact",
+      "weight": 0.89,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0148",
+      "source": "SUS-0195",
+      "target": "PHN-014",
+      "relationship": "phone-contact",
+      "weight": 0.52,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0149",
+      "source": "SUS-0066",
+      "target": "PHN-001",
+      "relationship": "phone-contact",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0150",
+      "source": "SUS-0081",
+      "target": "PHN-004",
+      "relationship": "phone-contact",
+      "weight": 0.83,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0151",
+      "source": "PHN-003",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.49,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0152",
+      "source": "PHN-010",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.59,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0153",
+      "source": "PHN-011",
+      "target": "PHN-007",
+      "relationship": "phone-contact",
+      "weight": 0.46,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0154",
+      "source": "PHN-012",
+      "target": "PHN-009",
+      "relationship": "phone-contact",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0155",
+      "source": "PHN-003",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.63,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0156",
+      "source": "PHN-004",
+      "target": "PHN-008",
+      "relationship": "phone-contact",
+      "weight": 0.35,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0157",
+      "source": "PHN-015",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.65,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0158",
+      "source": "PHN-010",
+      "target": "PHN-014",
+      "relationship": "phone-contact",
+      "weight": 0.46,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0159",
+      "source": "PHN-005",
+      "target": "PHN-010",
+      "relationship": "phone-contact",
+      "weight": 0.61,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0160",
+      "source": "PHN-010",
+      "target": "PHN-012",
+      "relationship": "phone-contact",
+      "weight": 0.57,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0161",
+      "source": "PHN-011",
+      "target": "PHN-005",
+      "relationship": "phone-contact",
+      "weight": 0.64,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0162",
+      "source": "PHN-004",
+      "target": "PHN-015",
+      "relationship": "phone-contact",
+      "weight": 0.53,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0163",
+      "source": "PHN-011",
+      "target": "PHN-004",
+      "relationship": "phone-contact",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0164",
+      "source": "PHN-001",
+      "target": "PHN-011",
+      "relationship": "phone-contact",
+      "weight": 0.33,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0165",
+      "source": "PHN-005",
+      "target": "PHN-015",
+      "relationship": "phone-contact",
+      "weight": 0.49,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0166",
+      "source": "PHN-010",
+      "target": "PHN-001",
+      "relationship": "phone-contact",
+      "weight": 0.35,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0167",
+      "source": "SUS-0002",
+      "target": "VEH-001",
+      "relationship": "same-vehicle",
+      "weight": 0.54,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0168",
+      "source": "SUS-0078",
+      "target": "VEH-002",
+      "relationship": "same-vehicle",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0169",
+      "source": "SUS-0084",
+      "target": "VEH-002",
+      "relationship": "same-vehicle",
+      "weight": 0.66,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0170",
+      "source": "SUS-0102",
+      "target": "VEH-002",
+      "relationship": "same-vehicle",
+      "weight": 0.65,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0171",
+      "source": "SUS-0142",
+      "target": "VEH-003",
+      "relationship": "same-vehicle",
+      "weight": 0.89,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0172",
+      "source": "SUS-0142",
+      "target": "VEH-005",
+      "relationship": "same-vehicle",
+      "weight": 0.7,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0173",
+      "source": "SUS-0022",
+      "target": "VEH-005",
+      "relationship": "same-vehicle",
+      "weight": 0.84,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0174",
+      "source": "SUS-0025",
+      "target": "VEH-005",
+      "relationship": "same-vehicle",
+      "weight": 0.68,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0175",
+      "source": "SUS-0113",
+      "target": "VEH-006",
+      "relationship": "same-vehicle",
+      "weight": 0.88,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0176",
+      "source": "SUS-0194",
+      "target": "VEH-007",
+      "relationship": "same-vehicle",
+      "weight": 0.84,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0177",
+      "source": "SUS-0002",
+      "target": "VEH-007",
+      "relationship": "same-vehicle",
+      "weight": 0.91,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0178",
+      "source": "SUS-0154",
+      "target": "VEH-008",
+      "relationship": "same-vehicle",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0179",
+      "source": "SUS-0049",
+      "target": "VEH-008",
+      "relationship": "same-vehicle",
+      "weight": 0.65,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0180",
+      "source": "SUS-0062",
+      "target": "VEH-009",
+      "relationship": "same-vehicle",
+      "weight": 0.87,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0181",
+      "source": "SUS-0136",
+      "target": "VEH-009",
+      "relationship": "same-vehicle",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0182",
+      "source": "SUS-0025",
+      "target": "VEH-011",
+      "relationship": "same-vehicle",
+      "weight": 0.8,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0183",
+      "source": "SUS-0192",
+      "target": "VEH-011",
+      "relationship": "same-vehicle",
+      "weight": 0.54,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0184",
+      "source": "SUS-0002",
+      "target": "VEH-012",
+      "relationship": "same-vehicle",
+      "weight": 0.63,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0185",
+      "source": "SUS-0133",
+      "target": "VEH-012",
+      "relationship": "same-vehicle",
+      "weight": 0.56,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0186",
+      "source": "SUS-0163",
+      "target": "VEH-012",
+      "relationship": "same-vehicle",
+      "weight": 0.66,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0187",
+      "source": "SUS-0163",
+      "target": "VEH-014",
+      "relationship": "same-vehicle",
+      "weight": 0.82,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0188",
+      "source": "SUS-0192",
+      "target": "VEH-015",
+      "relationship": "same-vehicle",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0189",
+      "source": "SUS-0024",
+      "target": "VEH-015",
+      "relationship": "same-vehicle",
+      "weight": 0.95,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0190",
+      "source": "SUS-0041",
+      "target": "VEH-015",
+      "relationship": "same-vehicle",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0191",
+      "source": "SUS-0115",
+      "target": "SUS-0168",
+      "relationship": "family",
+      "weight": 0.98,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0192",
+      "source": "SUS-0076",
+      "target": "SUS-0059",
+      "relationship": "family",
+      "weight": 0.8,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0193",
+      "source": "SUS-0151",
+      "target": "SUS-0102",
+      "relationship": "family",
+      "weight": 0.92,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0194",
+      "source": "SUS-0144",
+      "target": "SUS-0102",
+      "relationship": "family",
+      "weight": 0.86,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0195",
+      "source": "SUS-0154",
+      "target": "SUS-0197",
+      "relationship": "family",
+      "weight": 0.91,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0196",
+      "source": "SUS-0128",
+      "target": "SUS-0062",
+      "relationship": "family",
+      "weight": 0.74,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0197",
+      "source": "SUS-0197",
+      "target": "SUS-0010",
+      "relationship": "family",
+      "weight": 0.66,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0198",
+      "source": "SUS-0154",
+      "target": "SUS-0062",
+      "relationship": "family",
+      "weight": 0.67,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0199",
+      "source": "SUS-0151",
+      "target": "SUS-0002",
+      "relationship": "family",
+      "weight": 0.78,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0200",
+      "source": "SUS-0195",
+      "target": "SUS-0138",
+      "relationship": "family",
+      "weight": 0.92,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0201",
+      "source": "SUS-0115",
+      "target": "SUS-0016",
+      "relationship": "family",
+      "weight": 0.62,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0202",
+      "source": "SUS-0162",
+      "target": "SUS-0062",
+      "relationship": "family",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0203",
+      "source": "SUS-0144",
+      "target": "SUS-0113",
+      "relationship": "family",
+      "weight": 0.93,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0204",
+      "source": "SUS-0167",
+      "target": "SUS-0131",
+      "relationship": "family",
+      "weight": 0.83,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0205",
+      "source": "SUS-0178",
+      "target": "SUS-0118",
+      "relationship": "family",
+      "weight": 0.81,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0206",
+      "source": "SUS-0011",
+      "target": "SUS-0151",
+      "relationship": "family",
+      "weight": 0.71,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0207",
+      "source": "SUS-0049",
+      "target": "SUS-0059",
+      "relationship": "family",
+      "weight": 0.72,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0208",
+      "source": "SUS-0144",
+      "target": "SUS-0084",
+      "relationship": "family",
+      "weight": 0.85,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0209",
+      "source": "SUS-0049",
+      "target": "SUS-0128",
+      "relationship": "family",
+      "weight": 0.92,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0210",
+      "source": "SUS-0167",
+      "target": "SUS-0078",
+      "relationship": "family",
+      "weight": 0.88,
+      "caseId": null
+    },
+    {
+      "id": "EDGE-0211",
+      "source": "SUS-0120",
+      "target": "VIC-015",
+      "relationship": "shared-location",
+      "weight": 0.44,
+      "caseId": "6155/2026"
+    },
+    {
+      "id": "EDGE-0212",
+      "source": "SUS-0131",
+      "target": "VIC-005",
+      "relationship": "shared-location",
+      "weight": 0.5,
+      "caseId": "2431/2026"
+    },
+    {
+      "id": "EDGE-0213",
+      "source": "SUS-0049",
+      "target": "VIC-020",
+      "relationship": "shared-location",
+      "weight": 0.46,
+      "caseId": "1190/2024"
+    },
+    {
+      "id": "EDGE-0214",
+      "source": "SUS-0163",
+      "target": "VIC-006",
+      "relationship": "shared-location",
+      "weight": 0.57,
+      "caseId": "5218/2025"
+    },
+    {
+      "id": "EDGE-0215",
+      "source": "SUS-0011",
+      "target": "VIC-013",
+      "relationship": "shared-location",
+      "weight": 0.51,
+      "caseId": "9995/2025"
+    },
+    {
+      "id": "EDGE-0216",
+      "source": "SUS-0153",
+      "target": "VIC-002",
+      "relationship": "shared-location",
+      "weight": 0.42,
+      "caseId": "5643/2025"
+    },
+    {
+      "id": "EDGE-0217",
+      "source": "SUS-0102",
+      "target": "VIC-005",
+      "relationship": "shared-location",
+      "weight": 0.66,
+      "caseId": "7767/2026"
+    },
+    {
+      "id": "EDGE-0218",
+      "source": "SUS-0168",
+      "target": "VIC-016",
+      "relationship": "shared-location",
+      "weight": 0.43,
+      "caseId": "1029/2025"
+    },
+    {
+      "id": "EDGE-0219",
+      "source": "SUS-0189",
+      "target": "VIC-012",
+      "relationship": "shared-location",
+      "weight": 0.54,
+      "caseId": "0778/2024"
+    },
+    {
+      "id": "EDGE-0220",
+      "source": "SUS-0133",
+      "target": "VIC-008",
+      "relationship": "shared-location",
+      "weight": 0.32,
+      "caseId": "8222/2024"
+    },
+    {
+      "id": "EDGE-0221",
+      "source": "SUS-0118",
+      "target": "VIC-002",
+      "relationship": "shared-location",
+      "weight": 0.66,
+      "caseId": "5043/2024"
+    },
+    {
+      "id": "EDGE-0222",
+      "source": "SUS-0195",
+      "target": "VIC-014",
+      "relationship": "shared-location",
+      "weight": 0.47,
+      "caseId": "9385/2024"
+    },
+    {
+      "id": "EDGE-0223",
+      "source": "SUS-0081",
+      "target": "VIC-017",
+      "relationship": "shared-location",
+      "weight": 0.55,
+      "caseId": "4467/2025"
+    },
+    {
+      "id": "EDGE-0224",
+      "source": "SUS-0192",
+      "target": "VIC-018",
+      "relationship": "shared-location",
+      "weight": 0.36,
+      "caseId": "8597/2025"
+    },
+    {
+      "id": "EDGE-0225",
+      "source": "SUS-0162",
+      "target": "CASE-0453-2025",
+      "relationship": "co-accused",
+      "weight": 0.84,
+      "caseId": "0453/2025"
+    },
+    {
+      "id": "EDGE-0226",
+      "source": "SUS-0102",
+      "target": "CASE-9617-2026",
+      "relationship": "co-accused",
+      "weight": 0.53,
+      "caseId": "9617/2026"
+    },
+    {
+      "id": "EDGE-0227",
+      "source": "SUS-0113",
+      "target": "CASE-4318-2026",
+      "relationship": "co-accused",
+      "weight": 0.87,
+      "caseId": "4318/2026"
+    },
+    {
+      "id": "EDGE-0228",
+      "source": "SUS-0011",
+      "target": "CASE-4318-2026",
+      "relationship": "co-accused",
+      "weight": 0.79,
+      "caseId": "4318/2026"
+    },
+    {
+      "id": "EDGE-0229",
+      "source": "SUS-0154",
+      "target": "CASE-5570-2026",
+      "relationship": "co-accused",
+      "weight": 0.75,
+      "caseId": "5570/2026"
+    },
+    {
+      "id": "EDGE-0230",
+      "source": "SUS-0189",
+      "target": "CASE-8692-2024",
+      "relationship": "co-accused",
+      "weight": 0.68,
+      "caseId": "8692/2024"
+    },
+    {
+      "id": "EDGE-0231",
+      "source": "SUS-0144",
+      "target": "CASE-8692-2024",
+      "relationship": "co-accused",
+      "weight": 0.89,
+      "caseId": "8692/2024"
+    },
+    {
+      "id": "EDGE-0232",
+      "source": "SUS-0132",
+      "target": "CASE-8692-2024",
+      "relationship": "co-accused",
+      "weight": 0.54,
+      "caseId": "8692/2024"
+    },
+    {
+      "id": "EDGE-0233",
+      "source": "SUS-0142",
+      "target": "CASE-0254-2026",
+      "relationship": "co-accused",
+      "weight": 0.52,
+      "caseId": "0254/2026"
+    },
+    {
+      "id": "EDGE-0234",
+      "source": "SUS-0072",
+      "target": "CASE-7207-2024",
+      "relationship": "co-accused",
+      "weight": 0.9,
+      "caseId": "7207/2024"
+    },
+    {
+      "id": "EDGE-0235",
+      "source": "SUS-0163",
+      "target": "CASE-7207-2024",
+      "relationship": "co-accused",
+      "weight": 0.9,
+      "caseId": "7207/2024"
+    },
+    {
+      "id": "EDGE-0236",
+      "source": "SUS-0118",
+      "target": "CASE-4497-2024",
+      "relationship": "co-accused",
+      "weight": 0.53,
+      "caseId": "4497/2024"
+    },
+    {
+      "id": "EDGE-0237",
+      "source": "SUS-0192",
+      "target": "CASE-4497-2024",
+      "relationship": "co-accused",
+      "weight": 0.63,
+      "caseId": "4497/2024"
+    },
+    {
+      "id": "EDGE-0238",
+      "source": "SUS-0105",
+      "target": "CASE-1580-2025",
+      "relationship": "co-accused",
+      "weight": 0.65,
+      "caseId": "1580/2025"
+    },
+    {
+      "id": "EDGE-0239",
+      "source": "SUS-0162",
+      "target": "CASE-1580-2025",
+      "relationship": "co-accused",
+      "weight": 0.79,
+      "caseId": "1580/2025"
+    },
+    {
+      "id": "EDGE-0240",
+      "source": "SUS-0136",
+      "target": "CASE-8364-2024",
+      "relationship": "co-accused",
+      "weight": 0.78,
+      "caseId": "8364/2024"
+    },
+    {
+      "id": "EDGE-0241",
+      "source": "SUS-0162",
+      "target": "CASE-8822-2024",
+      "relationship": "co-accused",
+      "weight": 0.86,
+      "caseId": "8822/2024"
+    },
+    {
+      "id": "EDGE-0242",
+      "source": "SUS-0119",
+      "target": "CASE-8822-2024",
+      "relationship": "co-accused",
+      "weight": 0.8,
+      "caseId": "8822/2024"
+    },
+    {
+      "id": "EDGE-0243",
+      "source": "SUS-0105",
+      "target": "CASE-8822-2024",
+      "relationship": "co-accused",
+      "weight": 0.7,
+      "caseId": "8822/2024"
+    },
+    {
+      "id": "EDGE-0244",
+      "source": "SUS-0136",
+      "target": "CASE-6090-2024",
+      "relationship": "co-accused",
+      "weight": 0.69,
+      "caseId": "6090/2024"
+    },
+    {
+      "id": "EDGE-0245",
+      "source": "SUS-0017",
+      "target": "CASE-8235-2025",
+      "relationship": "co-accused",
+      "weight": 0.59,
+      "caseId": "8235/2025"
+    },
+    {
+      "id": "EDGE-0246",
+      "source": "SUS-0062",
+      "target": "CASE-8149-2024",
+      "relationship": "co-accused",
+      "weight": 0.89,
+      "caseId": "8149/2024"
+    },
+    {
+      "id": "EDGE-0247",
+      "source": "SUS-0072",
+      "target": "CASE-8149-2024",
+      "relationship": "co-accused",
+      "weight": 0.81,
+      "caseId": "8149/2024"
+    },
+    {
+      "id": "EDGE-0248",
+      "source": "SUS-0076",
+      "target": "CASE-8149-2024",
+      "relationship": "co-accused",
+      "weight": 0.9,
+      "caseId": "8149/2024"
+    },
+    {
+      "id": "EDGE-0249",
+      "source": "SUS-0049",
+      "target": "CASE-8646-2024",
+      "relationship": "co-accused",
+      "weight": 0.58,
+      "caseId": "8646/2024"
+    },
+    {
+      "id": "EDGE-0250",
+      "source": "SUS-0122",
+      "target": "CASE-8646-2024",
+      "relationship": "co-accused",
+      "weight": 0.66,
+      "caseId": "8646/2024"
+    }
+  ]
+}

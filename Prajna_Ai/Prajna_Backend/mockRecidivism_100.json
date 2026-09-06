@@ -1,0 +1,1396 @@
+[
+  {
+    "suspectId": "SUS-0150",
+    "suspectName": "Manjunath Kulkarni",
+    "riskScore": 70,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "49% probability within 6 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "Two known associates (Nagaraj R., Shivakumar H.) recently active in same district",
+      "High unemployment rate (39%) in offender's known area — Chikkamagaluru district",
+      "Two known associates (Prakash D., Raju K.) recently active in same district",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-12T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0181",
+    "suspectName": "Prakash Naik",
+    "riskScore": 32,
+    "predictedCrimeType": "Chain Snatching",
+    "predictedTimeline": "77% probability within 8 weeks",
+    "predictedZone": "Vijayapura — Gol Gumbaz Belt",
+    "triggerFactors": [
+      "Previous conviction for same crime type (Cybercrime) in 2023",
+      "Frequenting known crime hotspot — Bengaluru South — Jayanagar",
+      "Recently observed associating with members of organized crime cluster",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0134",
+    "suspectName": "Halappa Patil",
+    "riskScore": 54,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "57% probability within 10 weeks",
+    "predictedZone": "Hassan — Town Hall Circle",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "High unemployment rate (25%) in offender's known area — Gadag district",
+      "Frequenting known crime hotspot — Shivamogga — Gopalagowda Circle"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0004",
+    "suspectName": "Karthik Rao",
+    "riskScore": 48,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "57% probability within 3 weeks",
+    "predictedZone": "Chitradurga — Fort Road Belt",
+    "triggerFactors": [
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Previous conviction for same crime type (Theft) in 2021"
+    ],
+    "lastUpdated": "2026-06-02T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0175",
+    "suspectName": "Mustafa H.",
+    "riskScore": 69,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "48% probability within 2 weeks",
+    "predictedZone": "Udupi — Bus Terminal Belt",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Previous conviction for same crime type (Robbery) in 2021",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0007",
+    "suspectName": "Geetha Bhat",
+    "riskScore": 85,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "80% probability within 3 weeks",
+    "predictedZone": "Bengaluru East — Whitefield",
+    "triggerFactors": [
+      "Released 172 days ago from Davanagere Sub-Jail",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 78 days ago from Parappana Agrahara Central Jail"
+    ],
+    "lastUpdated": "2026-06-04T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0008",
+    "suspectName": "Hema Naik",
+    "riskScore": 60,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "64% probability within 6 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "High unemployment rate (34%) in offender's known area — Haveri district",
+      "High unemployment rate (32%) in offender's known area — Haveri district",
+      "Frequenting known crime hotspot — Hubballi — Old Town",
+      "Two known associates (Nagaraj R., Raju K.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-07T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0180",
+    "suspectName": "Raju B.",
+    "riskScore": 71,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "72% probability within 6 weeks",
+    "predictedZone": "Shivamogga — Gopalagowda Circle",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Frequenting known crime hotspot — Bengaluru North — Hebbal"
+    ],
+    "lastUpdated": "2026-06-02T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0076",
+    "suspectName": "Suresh Reddy",
+    "riskScore": 27,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "62% probability within 12 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "High unemployment rate (36%) in offender's known area — Chikkaballapur district",
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Frequenting known crime hotspot — Kalaburagi — Sedam Road Belt",
+      "No fixed address; last seen in migrant labor camp — KR Puram Railway Yard"
+    ],
+    "lastUpdated": "2026-06-12T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0155",
+    "suspectName": "Vidya M.",
+    "riskScore": 23,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "82% probability within 8 weeks",
+    "predictedZone": "Udupi — Bus Terminal Belt",
+    "triggerFactors": [
+      "High unemployment rate (41%) in offender's known area — Chitradurga district",
+      "Recent phone contact with co-accused currently under investigation",
+      "High unemployment rate (25%) in offender's known area — Chitradurga district"
+    ],
+    "lastUpdated": "2026-06-08T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0037",
+    "suspectName": "Yusuf Kulkarni",
+    "riskScore": 33,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "78% probability within 4 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Previous conviction for same crime type (Chain Snatching) in 2022",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "High unemployment rate (28%) in offender's known area — Belagavi district"
+    ],
+    "lastUpdated": "2026-05-29T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0058",
+    "suspectName": "Karthik B.",
+    "riskScore": 74,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "68% probability within 2 weeks",
+    "predictedZone": "Hassan — Town Hall Circle",
+    "triggerFactors": [
+      "High unemployment rate (29%) in offender's known area — Chamarajanagar district",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Two known associates (Nagaraj R., Raju K.) recently active in same district",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-13T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0111",
+    "suspectName": "Jayamma Bhat",
+    "riskScore": 69,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "69% probability within 6 weeks",
+    "predictedZone": "Davanagere — Mandipet",
+    "triggerFactors": [
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 137 days ago from Mysuru Central Jail",
+      "Released 143 days ago from Belagavi District Jail",
+      "Two known associates (Prakash D., Deepa R.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0189",
+    "suspectName": "Anitha Patil",
+    "riskScore": 87,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "59% probability within 8 weeks",
+    "predictedZone": "Tumakuru — City Bus Stand Belt",
+    "triggerFactors": [
+      "Recently observed associating with members of organized crime cluster",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0086",
+    "suspectName": "Govindaraju S.",
+    "riskScore": 68,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "50% probability within 3 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "High unemployment rate (31%) in offender's known area — Vijayapura district",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-06-07T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0190",
+    "suspectName": "Pradeep Patil",
+    "riskScore": 46,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "46% probability within 2 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Two known associates (Prakash D., Deepa R.) recently active in same district"
+    ],
+    "lastUpdated": "2026-05-30T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0016",
+    "suspectName": "Ibrahim Achar",
+    "riskScore": 72,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "64% probability within 3 weeks",
+    "predictedZone": "Davanagere — Mandipet",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Kalaburagi — Sedam Road Belt",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Released 59 days ago from Hubballi Sub-Jail"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0041",
+    "suspectName": "Anil K.",
+    "riskScore": 25,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "80% probability within 4 weeks",
+    "predictedZone": "Belagavi — Camp Area",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Recent phone contact with co-accused currently under investigation",
+      "Released 73 days ago from Belagavi District Jail"
+    ],
+    "lastUpdated": "2026-06-11T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0156",
+    "suspectName": "Shobha Shetty",
+    "riskScore": 24,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "75% probability within 10 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Released 24 days ago from Belagavi District Jail",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-06T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0074",
+    "suspectName": "Siddappa K.",
+    "riskScore": 90,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "60% probability within 8 weeks",
+    "predictedZone": "Hubballi — Old Town",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Two known associates (Raju K., Deepa R.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-16T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0157",
+    "suspectName": "Indira N.",
+    "riskScore": 69,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "72% probability within 12 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "No fixed address; last seen in migrant labor camp — KR Puram Railway Yard"
+    ],
+    "lastUpdated": "2026-06-12T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0097",
+    "suspectName": "Mustafa N.",
+    "riskScore": 43,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "55% probability within 3 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Released 114 days ago from Belagavi District Jail",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Frequenting known crime hotspot — Chitradurga — Fort Road Belt"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0096",
+    "suspectName": "Chandru Bhat",
+    "riskScore": 74,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "79% probability within 8 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Released 88 days ago from Shivamogga District Jail",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0035",
+    "suspectName": "Pushpa Bhat",
+    "riskScore": 72,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "77% probability within 6 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Previous conviction for same crime type (Robbery) in 2024",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-23T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0057",
+    "suspectName": "Dinesh Naik",
+    "riskScore": 74,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "79% probability within 3 weeks",
+    "predictedZone": "Vijayapura — Gol Gumbaz Belt",
+    "triggerFactors": [
+      "Historical pattern of monsoon-season offending (June-September)",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 32 days ago from Shivamogga District Jail",
+      "High unemployment rate (41%) in offender's known area — Bengaluru Urban district"
+    ],
+    "lastUpdated": "2026-06-07T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0151",
+    "suspectName": "Sharada Achar",
+    "riskScore": 44,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "54% probability within 4 weeks",
+    "predictedZone": "Udupi — Bus Terminal Belt",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Frequenting known crime hotspot — Raichur — APMC Belt"
+    ],
+    "lastUpdated": "2026-06-12T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0094",
+    "suspectName": "Naveen Rao",
+    "riskScore": 88,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "71% probability within 8 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Two known associates (Raju K., Prakash D.) recently active in same district",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 171 days ago from Ballari District Jail"
+    ],
+    "lastUpdated": "2026-06-09T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0123",
+    "suspectName": "Deepa H.",
+    "riskScore": 73,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "64% probability within 6 weeks",
+    "predictedZone": "Shivamogga — Gopalagowda Circle",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Previous conviction for same crime type (Assault) in 2021",
+      "Recently observed associating with members of organized crime cluster",
+      "No fixed address; last seen in migrant labor camp — Electronic City"
+    ],
+    "lastUpdated": "2026-06-11T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0188",
+    "suspectName": "Lakshmi Hegde",
+    "riskScore": 77,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "63% probability within 3 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "High unemployment rate (35%) in offender's known area — Raichur district"
+    ],
+    "lastUpdated": "2026-06-15T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0040",
+    "suspectName": "Puttaswamy T.",
+    "riskScore": 48,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "78% probability within 8 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Recently observed associating with members of organized crime cluster",
+      "High unemployment rate (37%) in offender's known area — Bengaluru Rural district"
+    ],
+    "lastUpdated": "2026-06-08T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0077",
+    "suspectName": "Ayyappa S.",
+    "riskScore": 61,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "49% probability within 6 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "High unemployment rate (25%) in offender's known area — Belagavi district",
+      "High unemployment rate (26%) in offender's known area — Belagavi district",
+      "Frequenting known crime hotspot — Tumakuru — City Bus Stand Belt"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0113",
+    "suspectName": "Lingaraju Shetty",
+    "riskScore": 67,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "61% probability within 6 weeks",
+    "predictedZone": "Hassan — Town Hall Circle",
+    "triggerFactors": [
+      "Two known associates (Manjunath S., Shivakumar H.) recently active in same district",
+      "Released 116 days ago from Mysuru Central Jail",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-22T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0079",
+    "suspectName": "Vidya H.",
+    "riskScore": 52,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "50% probability within 12 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Two known associates (Raju K., Imran K.) recently active in same district",
+      "Two known associates (Prakash D., Deepa R.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-01T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0030",
+    "suspectName": "Devaraj R.",
+    "riskScore": 54,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "81% probability within 3 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-31T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0006",
+    "suspectName": "Jayamma S.",
+    "riskScore": 57,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "80% probability within 10 weeks",
+    "predictedZone": "Vijayapura — Gol Gumbaz Belt",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-06-15T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0173",
+    "suspectName": "Halappa S.",
+    "riskScore": 65,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "60% probability within 12 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Hubballi — Old Town",
+      "No fixed address; last seen in migrant labor camp — Bommanahalli"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0032",
+    "suspectName": "Vani H.",
+    "riskScore": 88,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "64% probability within 6 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "High unemployment rate (26%) in offender's known area — Koppal district",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-05T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0176",
+    "suspectName": "Deepa Kulkarni",
+    "riskScore": 40,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "73% probability within 3 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Released 102 days ago from Ballari District Jail",
+      "High unemployment rate (45%) in offender's known area — Chikkaballapur district",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-06-02T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0011",
+    "suspectName": "Shobha Patil",
+    "riskScore": 50,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "76% probability within 10 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Frequenting known crime hotspot — Raichur — APMC Belt"
+    ],
+    "lastUpdated": "2026-05-28T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0017",
+    "suspectName": "Lalitha T.",
+    "riskScore": 69,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "54% probability within 12 weeks",
+    "predictedZone": "Belagavi — Camp Area",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "No fixed address; last seen in migrant labor camp — KR Puram Railway Yard"
+    ],
+    "lastUpdated": "2026-05-30T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0069",
+    "suspectName": "Parvathi S.",
+    "riskScore": 59,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "82% probability within 10 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Two known associates (Deepa R., Deepa R.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0051",
+    "suspectName": "Vijay Desai",
+    "riskScore": 58,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "78% probability within 12 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "Recently observed associating with members of organized crime cluster",
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Previous conviction for same crime type (Drug Offences) in 2021",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-03T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0143",
+    "suspectName": "Chandru S.",
+    "riskScore": 43,
+    "predictedCrimeType": "Cheating/Fraud",
+    "predictedTimeline": "55% probability within 8 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Bengaluru South — Jayanagar",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-06-13T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0194",
+    "suspectName": "Parvathi R.",
+    "riskScore": 79,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "81% probability within 10 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "High unemployment rate (23%) in offender's known area — Shivamogga district",
+      "Released 42 days ago from Mysuru Central Jail"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0027",
+    "suspectName": "Pradeep Kulkarni",
+    "riskScore": 79,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "55% probability within 3 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Recent phone contact with co-accused currently under investigation",
+      "No fixed address; last seen in migrant labor camp — KR Puram Railway Yard",
+      "High unemployment rate (31%) in offender's known area — Udupi district"
+    ],
+    "lastUpdated": "2026-06-20T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0169",
+    "suspectName": "Indira Shetty",
+    "riskScore": 52,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "56% probability within 12 weeks",
+    "predictedZone": "Mysuru City — Devaraja Mohalla",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-06-05T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0135",
+    "suspectName": "Mahesh N.",
+    "riskScore": 90,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "56% probability within 2 weeks",
+    "predictedZone": "Tumakuru — City Bus Stand Belt",
+    "triggerFactors": [
+      "Released 41 days ago from Ballari District Jail",
+      "Frequenting known crime hotspot — Chitradurga — Fort Road Belt",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-29T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0104",
+    "suspectName": "Boregowda N.",
+    "riskScore": 75,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "48% probability within 3 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Previous conviction for same crime type (Cheating/Fraud) in 2023",
+      "Previous conviction for same crime type (Vehicle Theft) in 2022"
+    ],
+    "lastUpdated": "2026-06-15T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0132",
+    "suspectName": "Manjunath Hegde",
+    "riskScore": 76,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "72% probability within 2 weeks",
+    "predictedZone": "Mysuru City — Devaraja Mohalla",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Released 10 days ago from Davanagere Sub-Jail",
+      "Historical pattern of monsoon-season offending (June-September)",
+      "Previous conviction for same crime type (Burglary / Housebreaking) in 2025"
+    ],
+    "lastUpdated": "2026-05-29T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0144",
+    "suspectName": "Venkatesh N.",
+    "riskScore": 47,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "64% probability within 2 weeks",
+    "predictedZone": "Shivamogga — Gopalagowda Circle",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "No fixed address; last seen in migrant labor camp — Bommanahalli"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0178",
+    "suspectName": "Srinivas T.",
+    "riskScore": 45,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "51% probability within 2 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster",
+      "Released 49 days ago from Kalaburagi District Jail"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0174",
+    "suspectName": "Mustafa S.",
+    "riskScore": 70,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "72% probability within 10 weeks",
+    "predictedZone": "Mysuru City — Devaraja Mohalla",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Previous conviction for same crime type (Robbery) in 2021"
+    ],
+    "lastUpdated": "2026-05-25T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0112",
+    "suspectName": "Roopa Shetty",
+    "riskScore": 73,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "51% probability within 4 weeks",
+    "predictedZone": "Raichur — APMC Belt",
+    "triggerFactors": [
+      "Released 49 days ago from Mysuru Central Jail",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 143 days ago from Kalaburagi District Jail",
+      "High unemployment rate (37%) in offender's known area — Koppal district"
+    ],
+    "lastUpdated": "2026-05-22T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0186",
+    "suspectName": "Channabasappa N.",
+    "riskScore": 60,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "82% probability within 8 weeks",
+    "predictedZone": "Shivamogga — Gopalagowda Circle",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Released 137 days ago from Ballari District Jail",
+      "Previous conviction for same crime type (Chain Snatching) in 2023",
+      "High unemployment rate (45%) in offender's known area — Belagavi district"
+    ],
+    "lastUpdated": "2026-05-31T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0152",
+    "suspectName": "Hema Rao",
+    "riskScore": 45,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "77% probability within 12 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "High unemployment rate (34%) in offender's known area — Kodagu district",
+      "High unemployment rate (23%) in offender's known area — Kodagu district"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0025",
+    "suspectName": "Vani S.",
+    "riskScore": 22,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "83% probability within 8 weeks",
+    "predictedZone": "Hassan — Town Hall Circle",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-05-22T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0100",
+    "suspectName": "Nandini Rao",
+    "riskScore": 68,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "60% probability within 12 weeks",
+    "predictedZone": "Mangaluru — Bunder",
+    "triggerFactors": [
+      "Two known associates (Nagaraj R., Venkatesh M.) recently active in same district",
+      "Recently observed associating with members of organized crime cluster",
+      "Previous conviction for same crime type (Assault) in 2023"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0160",
+    "suspectName": "Veerabhadra D.",
+    "riskScore": 65,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "79% probability within 4 weeks",
+    "predictedZone": "Chitradurga — Fort Road Belt",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0028",
+    "suspectName": "Imran K.",
+    "riskScore": 74,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "65% probability within 12 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Recently observed associating with members of organized crime cluster",
+      "High unemployment rate (39%) in offender's known area — Chikkamagaluru district",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-05-30T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0084",
+    "suspectName": "Mamatha Reddy",
+    "riskScore": 38,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "50% probability within 12 weeks",
+    "predictedZone": "Belagavi — Camp Area",
+    "triggerFactors": [
+      "Two known associates (Suresh Gowda, Nagaraj R.) recently active in same district",
+      "High unemployment rate (34%) in offender's known area — Bengaluru Urban district"
+    ],
+    "lastUpdated": "2026-06-20T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0184",
+    "suspectName": "Venkatesh R.",
+    "riskScore": 90,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "76% probability within 3 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Two known associates (Lokesh T., Nagaraj R.) recently active in same district",
+      "Released 31 days ago from Davanagere Sub-Jail"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0089",
+    "suspectName": "Ashok Hegde",
+    "riskScore": 34,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "54% probability within 3 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Released 132 days ago from Belagavi District Jail",
+      "Frequenting known crime hotspot — Bengaluru South — Jayanagar",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0093",
+    "suspectName": "Razia R.",
+    "riskScore": 42,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "71% probability within 10 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Two known associates (Shivakumar H., Suresh Gowda) recently active in same district",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-06-12T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0033",
+    "suspectName": "Madiwalappa H.",
+    "riskScore": 28,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "60% probability within 10 weeks",
+    "predictedZone": "Mangaluru — Bunder",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Mysuru City — Devaraja Mohalla",
+      "Recently observed associating with members of organized crime cluster",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-08T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0001",
+    "suspectName": "Ashok M.",
+    "riskScore": 73,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "77% probability within 12 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Released 120 days ago from Parappana Agrahara Central Jail",
+      "No fixed address; last seen in migrant labor camp — Bommanahalli"
+    ],
+    "lastUpdated": "2026-06-21T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0120",
+    "suspectName": "Geetha Patil",
+    "riskScore": 52,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "50% probability within 6 weeks",
+    "predictedZone": "Davanagere — Mandipet",
+    "triggerFactors": [
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "High unemployment rate (44%) in offender's known area — Udupi district"
+    ],
+    "lastUpdated": "2026-06-04T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0137",
+    "suspectName": "Vidya Gowda",
+    "riskScore": 68,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "58% probability within 2 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0105",
+    "suspectName": "Hema Rao",
+    "riskScore": 41,
+    "predictedCrimeType": "Assault",
+    "predictedTimeline": "57% probability within 10 weeks",
+    "predictedZone": "Shivamogga — Gopalagowda Circle",
+    "triggerFactors": [
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster",
+      "High unemployment rate (33%) in offender's known area — Gadag district"
+    ],
+    "lastUpdated": "2026-05-24T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0158",
+    "suspectName": "Prakash Gowda",
+    "riskScore": 61,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "48% probability within 10 weeks",
+    "predictedZone": "Belagavi — Camp Area",
+    "triggerFactors": [
+      "Financial distress indicators — multiple loan defaults reported",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-02T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0062",
+    "suspectName": "Srinivas B.",
+    "riskScore": 84,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "61% probability within 3 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Recent phone contact with co-accused currently under investigation",
+      "Frequenting known crime hotspot — Electronic City Belt, Bengaluru",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0200",
+    "suspectName": "Asha Hegde",
+    "riskScore": 23,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "57% probability within 2 weeks",
+    "predictedZone": "Mangaluru — Bunder",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-06-04T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0072",
+    "suspectName": "Roopa Rao",
+    "riskScore": 47,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "57% probability within 3 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Previous conviction for same crime type (Cybercrime) in 2024"
+    ],
+    "lastUpdated": "2026-05-22T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0124",
+    "suspectName": "Venkatesh Kulkarni",
+    "riskScore": 63,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "46% probability within 12 weeks",
+    "predictedZone": "Ballari — Cowl Bazaar",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Hassan — Town Hall Circle",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-19T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0012",
+    "suspectName": "Sowmya Reddy",
+    "riskScore": 43,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "81% probability within 12 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Two known associates (Shivakumar H., Imran K.) recently active in same district"
+    ],
+    "lastUpdated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0083",
+    "suspectName": "Vijay Gowda",
+    "riskScore": 82,
+    "predictedCrimeType": "Cheating/Fraud",
+    "predictedTimeline": "76% probability within 10 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "High unemployment rate (39%) in offender's known area — Vijayapura district",
+      "Frequenting known crime hotspot — Mandya — Sugar Town Belt"
+    ],
+    "lastUpdated": "2026-06-13T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0038",
+    "suspectName": "Anil H.",
+    "riskScore": 74,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "67% probability within 3 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "High unemployment rate (24%) in offender's known area — Yadgir district",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Recently observed associating with members of organized crime cluster",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-13T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0195",
+    "suspectName": "Lalitha Hegde",
+    "riskScore": 25,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "66% probability within 6 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Two known associates (Lokesh T., Manjunath S.) recently active in same district",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Previous conviction for same crime type (Cheating/Fraud) in 2025",
+      "High unemployment rate (43%) in offender's known area — Shivamogga district"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0095",
+    "suspectName": "Mallikarjun D.",
+    "riskScore": 84,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "83% probability within 4 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Recent phone contact with co-accused currently under investigation"
+    ],
+    "lastUpdated": "2026-06-15T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0141",
+    "suspectName": "Nandini Reddy",
+    "riskScore": 87,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "84% probability within 4 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Financial distress indicators — multiple loan defaults reported"
+    ],
+    "lastUpdated": "2026-05-24T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0197",
+    "suspectName": "Ashok R.",
+    "riskScore": 39,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "83% probability within 10 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "High unemployment rate (37%) in offender's known area — Chamarajanagar district",
+      "Frequenting known crime hotspot — KR Market Belt, Bengaluru"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0046",
+    "suspectName": "Hema N.",
+    "riskScore": 49,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "60% probability within 3 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Bengaluru South — Jayanagar",
+      "Previous conviction for same crime type (Robbery) in 2021",
+      "Released 120 days ago from Davanagere Sub-Jail"
+    ],
+    "lastUpdated": "2026-06-16T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0125",
+    "suspectName": "Saraswathi T.",
+    "riskScore": 82,
+    "predictedCrimeType": "Burglary / Housebreaking",
+    "predictedTimeline": "83% probability within 2 weeks",
+    "predictedZone": "Bengaluru North — Hebbal",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Electronic City",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-07T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0026",
+    "suspectName": "Nagaraj N.",
+    "riskScore": 70,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "51% probability within 8 weeks",
+    "predictedZone": "Hubballi — Old Town",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Financial distress indicators — multiple loan defaults reported",
+      "High unemployment rate (24%) in offender's known area — Chikkamagaluru district"
+    ],
+    "lastUpdated": "2026-05-27T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0119",
+    "suspectName": "Boregowda M.",
+    "riskScore": 83,
+    "predictedCrimeType": "Assault",
+    "predictedTimeline": "60% probability within 10 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Released 74 days ago from Parappana Agrahara Central Jail",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-05-25T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0142",
+    "suspectName": "Rukmini Hegde",
+    "riskScore": 69,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "55% probability within 8 weeks",
+    "predictedZone": "Bengaluru South — Jayanagar",
+    "triggerFactors": [
+      "Frequenting known crime hotspot — Electronic City Belt, Bengaluru",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Recently observed associating with members of organized crime cluster"
+    ],
+    "lastUpdated": "2026-06-04T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0139",
+    "suspectName": "Dinesh Gowda",
+    "riskScore": 43,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "81% probability within 6 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Recent phone contact with co-accused currently under investigation",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-07T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0020",
+    "suspectName": "Pradeep Patil",
+    "riskScore": 48,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "48% probability within 4 weeks",
+    "predictedZone": "Chitradurga — Fort Road Belt",
+    "triggerFactors": [
+      "Released 72 days ago from Davanagere Sub-Jail",
+      "No fixed address; last seen in migrant labor camp — Peenya Industrial Area",
+      "Frequenting known crime hotspot — Hubballi — Old Town",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-05-30T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0082",
+    "suspectName": "Parvathi K.",
+    "riskScore": 54,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "74% probability within 3 weeks",
+    "predictedZone": "Vijayapura — Gol Gumbaz Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Previous conviction for same crime type (Chain Snatching) in 2022",
+      "Recently observed associating with members of organized crime cluster",
+      "Frequenting known crime hotspot — Raichur — APMC Belt"
+    ],
+    "lastUpdated": "2026-06-18T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0129",
+    "suspectName": "Yashoda H.",
+    "riskScore": 35,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "64% probability within 2 weeks",
+    "predictedZone": "Kalaburagi — Sedam Road Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Historical pattern of monsoon-season offending (June-September)",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles",
+      "Released 34 days ago from Hubballi Sub-Jail"
+    ],
+    "lastUpdated": "2026-05-28T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0022",
+    "suspectName": "Pushpa B.",
+    "riskScore": 77,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "74% probability within 10 weeks",
+    "predictedZone": "Udupi — Bus Terminal Belt",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-08T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0015",
+    "suspectName": "Saraswathi Achar",
+    "riskScore": 71,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "48% probability within 4 weeks",
+    "predictedZone": "Tumakuru — City Bus Stand Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Previous conviction for same crime type (Theft) in 2025",
+      "Historical pattern of monsoon-season offending (June-September)",
+      "Frequenting known crime hotspot — Belagavi — Camp Area"
+    ],
+    "lastUpdated": "2026-06-02T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0108",
+    "suspectName": "Lokesh Gowda",
+    "riskScore": 89,
+    "predictedCrimeType": "Cheating/Fraud",
+    "predictedTimeline": "82% probability within 12 weeks",
+    "predictedZone": "Bengaluru East — Whitefield",
+    "triggerFactors": [
+      "Two known associates (Shivakumar H., Venkatesh M.) recently active in same district",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-17T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0161",
+    "suspectName": "Fatima Patil",
+    "riskScore": 77,
+    "predictedCrimeType": "Theft",
+    "predictedTimeline": "47% probability within 4 weeks",
+    "predictedZone": "Mandya — Sugar Town Belt",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster",
+      "Previous conviction for same crime type (Burglary / Housebreaking) in 2023"
+    ],
+    "lastUpdated": "2026-05-29T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0060",
+    "suspectName": "Ravi S.",
+    "riskScore": 43,
+    "predictedCrimeType": "Vehicle Theft",
+    "predictedTimeline": "59% probability within 6 weeks",
+    "predictedZone": "Vijayapura — Gol Gumbaz Belt",
+    "triggerFactors": [
+      "Recently observed associating with members of organized crime cluster",
+      "Financial distress indicators — multiple loan defaults reported",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-05T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0009",
+    "suspectName": "Basavaraj R.",
+    "riskScore": 47,
+    "predictedCrimeType": "Drug Offences",
+    "predictedTimeline": "54% probability within 12 weeks",
+    "predictedZone": "Hassan — Town Hall Circle",
+    "triggerFactors": [
+      "High unemployment rate (24%) in offender's known area — Yadgir district",
+      "Previous conviction for same crime type (Assault) in 2021",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-05T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0147",
+    "suspectName": "Rekha K.",
+    "riskScore": 49,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "47% probability within 8 weeks",
+    "predictedZone": "KR Market Belt, Bengaluru",
+    "triggerFactors": [
+      "Two known associates (Raju K., Imran K.) recently active in same district",
+      "Two known associates (Manjunath S., Prakash D.) recently active in same district",
+      "Recent phone contact with co-accused currently under investigation"
+    ],
+    "lastUpdated": "2026-05-22T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0067",
+    "suspectName": "Bhagya N.",
+    "riskScore": 64,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "64% probability within 8 weeks",
+    "predictedZone": "Electronic City Belt, Bengaluru",
+    "triggerFactors": [
+      "Increased mobile activity in vicinity of previous crime scenes",
+      "Recently observed associating with members of organized crime cluster",
+      "Previous conviction for same crime type (Drug Offences) in 2022"
+    ],
+    "lastUpdated": "2026-05-26T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0034",
+    "suspectName": "Rukmini Achar",
+    "riskScore": 67,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "83% probability within 6 weeks",
+    "predictedZone": "Mysuru City — Devaraja Mohalla",
+    "triggerFactors": [
+      "No fixed address; last seen in migrant labor camp — Yelahanka Outskirts",
+      "Pattern of re-offending within 90 days of previous release in past 2 cycles"
+    ],
+    "lastUpdated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0172",
+    "suspectName": "Prakash S.",
+    "riskScore": 59,
+    "predictedCrimeType": "Robbery",
+    "predictedTimeline": "58% probability within 12 weeks",
+    "predictedZone": "Bengaluru East — Whitefield",
+    "triggerFactors": [
+      "Released 167 days ago from Ballari District Jail",
+      "Previous conviction for same crime type (Vehicle Theft) in 2024"
+    ],
+    "lastUpdated": "2026-06-06T00:00:00Z"
+  },
+  {
+    "suspectId": "SUS-0068",
+    "suspectName": "Sharada Shetty",
+    "riskScore": 46,
+    "predictedCrimeType": "Cybercrime",
+    "predictedTimeline": "51% probability within 12 weeks",
+    "predictedZone": "Tumakuru — City Bus Stand Belt",
+    "triggerFactors": [
+      "Released 77 days ago from Shivamogga District Jail",
+      "Recent phone contact with co-accused currently under investigation",
+      "Recently observed associating with members of organized crime cluster",
+      "Historical pattern of monsoon-season offending (June-September)"
+    ],
+    "lastUpdated": "2026-06-13T00:00:00Z"
+  }
+]

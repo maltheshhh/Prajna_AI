@@ -1,0 +1,6 @@
+{
+  "command": "node server.js",
+  "build_path": "./dist",
+  "stack": "node20",
+  "env_variables": {}
+}
