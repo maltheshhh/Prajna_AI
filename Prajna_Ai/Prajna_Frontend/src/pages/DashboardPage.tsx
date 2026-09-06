@@ -94,7 +94,24 @@ export function DashboardPage() {
   // Backend CCTNS live data stores
   const [firs, setFirs] = useState<any[]>([]);
   const [suspects, setSuspects] = useState<any[]>([]);
-  const [hotspots, setHotspots] = useState<any[]>([]);
+  const [hotspots, setHotspots] = useState<any[]>([
+    // Static Karnataka district hotspots — shown immediately on load (API overrides when available)
+    { id: 'h1',  district: 'Bengaluru Urban',    latitude: 12.9716, longitude: 77.5946, severity: 'critical', crimeType: 'Theft / Robbery',       count: 48 },
+    { id: 'h2',  district: 'Bengaluru Urban',    latitude: 12.9352, longitude: 77.6245, severity: 'critical', crimeType: 'Cybercrime',             count: 35 },
+    { id: 'h3',  district: 'Bengaluru Rural',    latitude: 13.0827, longitude: 77.5877, severity: 'high',     crimeType: 'Vehicle Theft',          count: 22 },
+    { id: 'h4',  district: 'Mysuru',             latitude: 12.2958, longitude: 76.6394, severity: 'high',     crimeType: 'Chain Snatching',        count: 31 },
+    { id: 'h5',  district: 'Mysuru',             latitude: 12.3051, longitude: 76.6551, severity: 'critical', crimeType: 'Robbery',                count: 19 },
+    { id: 'h6',  district: 'Hubballi-Dharwad',   latitude: 15.3647, longitude: 75.1240, severity: 'high',     crimeType: 'Assault',                count: 27 },
+    { id: 'h7',  district: 'Mangaluru',          latitude: 12.9141, longitude: 74.8560, severity: 'medium',   crimeType: 'Fraud / Cheating',       count: 18 },
+    { id: 'h8',  district: 'Belagavi',           latitude: 15.8497, longitude: 74.4977, severity: 'high',     crimeType: 'Kidnapping',             count: 24 },
+    { id: 'h9',  district: 'Kalaburagi',         latitude: 17.3297, longitude: 76.8343, severity: 'critical', crimeType: 'Murder / NDPS',          count: 29 },
+    { id: 'h10', district: 'Shivamogga',         latitude: 13.9299, longitude: 75.5681, severity: 'medium',   crimeType: 'Vehicle Theft',          count: 14 },
+    { id: 'h11', district: 'Tumakuru',           latitude: 13.3409, longitude: 77.1010, severity: 'medium',   crimeType: 'House Breaking',         count: 16 },
+    { id: 'h12', district: 'Dakshina Kannada',   latitude: 12.8438, longitude: 74.9900, severity: 'low',      crimeType: 'Fraud',                  count: 9  },
+    { id: 'h13', district: 'Hassan',             latitude: 13.0072, longitude: 76.1004, severity: 'medium',   crimeType: 'Robbery',                count: 11 },
+    { id: 'h14', district: 'Vijayapura',         latitude: 16.8302, longitude: 75.7100, severity: 'high',     crimeType: 'Land Disputes / Assault', count: 21 },
+    { id: 'h15', district: 'Raichur',            latitude: 16.2120, longitude: 77.3566, severity: 'critical', crimeType: 'NDPS / Organized Crime', count: 33 },
+  ]);
 
   // Live FIR Rapid Search bar state
   const [quickSearchQuery, setQuickSearchQuery] = useState('');
@@ -1075,8 +1092,8 @@ export function DashboardPage() {
             {hotspots.length > 0 ? (
               <div className="h-[260px] w-full relative z-10">
                 <MapContainer
-                  center={[15.3173, 75.7139]}
-                  zoom={6}
+                  center={[14.5204, 75.7224]}
+                  zoom={7}
                   scrollWheelZoom={false}
                   zoomControl={false}
                   style={{ height: '100%', width: '100%' }}
