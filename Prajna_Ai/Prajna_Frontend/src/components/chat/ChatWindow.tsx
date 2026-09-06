@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+﻿import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChatMessage as ChatMessageType, SuspectMatchCardData, ChatAttachment } from '@/types';
 import { ChatMessage } from './ChatMessage';
@@ -57,9 +57,9 @@ function generateDocumentAnalysisReport(
 
   if (isFaceScan) {
     const suspectName = extractField([
-      /(?:Matched Suspect|Suspect Name|Convict Name|Target Identity)[:\s]+([^\n\r|–-]+)/i,
+      /(?:Matched Suspect|Suspect Name|Convict Name|Target Identity)[:\s]+([^\n\r|â€“-]+)/i,
       /matched with\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)/i,
-      /Suspect:\s*([^\n\r|–-]+)/i
+      /Suspect:\s*([^\n\r|â€“-]+)/i
     ]) || 'Identified Suspect Profile';
 
     const convictId = extractField([
@@ -79,12 +79,12 @@ function generateDocumentAnalysisReport(
     ]) || '< 0.50 Cutoff';
 
     const crimeType = extractField([
-      /Crime Type[:\s]+([^\n\r|–-]+)/i,
-      /Primary Crime[:\s]+([^\n\r|–-]+)/i
+      /Crime Type[:\s]+([^\n\r|â€“-]+)/i,
+      /Primary Crime[:\s]+([^\n\r|â€“-]+)/i
     ]) || 'Active Wanted / High Risk Profile';
 
     const jurisdiction = extractField([
-      /(?:Police Station|Jurisdiction|District)[:\s]+([^\n\r|–-]+)/i
+      /(?:Police Station|Jurisdiction|District)[:\s]+([^\n\r|â€“-]+)/i
     ]) || 'Karnataka State Crime Records (SCRB)';
 
     const narrativeMatch = cleanText.match(/(?:Summary|Overview|Result|Findings)[:\s]+([\s\S]+?)(?=$|\n\n)/i);
@@ -109,7 +109,7 @@ function generateDocumentAnalysisReport(
         police_station: matchedConvict.police_station || jurisdiction,
         district: matchedConvict.district || 'Karnataka',
         risk_tier: matchedConvict.risk_tier || 'High',
-        reward: matchedConvict.reward || '₹1,00,000',
+        reward: matchedConvict.reward || 'â‚¹1,00,000',
         release_status: matchedConvict.release_status || 'Active Wanted',
         last_known_address: matchedConvict.last_known_address || 'Under CCTNS Surveillance',
         linked_firs: matchedConvict.linked_firs || ['FIR-184/2020'],
@@ -126,39 +126,39 @@ function generateDocumentAnalysisReport(
 
     let report = '';
     if (lang === 'kn') {
-      report = `### 🎯 ಬಯೋಮೆಟ್ರಿಕ್ ಫೇಸ್ ಸ್ಕ್ಯಾನ್ ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ: \`${fileName}\`\n\n` +
-        `> **ತನಿಖಾಧಿಕಾರಿಯ ನಿರ್ದೇಶನ:** *"${queryStr}"*\n` +
-        `ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಪಿಡಿಎಫ್ ಕಡತವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗಿದ್ದು, **10-ಶಂಕಿತರ ಡೇಟಾಬೇಸ್ ಮತ್ತು 1000 ಎಫ್‌ಐಆರ್ ರೆಕಾರ್ಡ್ಸ್** ನೊಂದಿಗೆ ನೈಜವಾಗಿ ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿದೆ.\n\n` +
-        `#### 1. ಬಯೋಮೆಟ್ರಿಕ್ ಹೊಂದಾಣಿಕೆ ಫಲಿತಾಂಶ (Scan Telemetry)\n` +
-        `| ನಿಯತಾಂಕ | ಹೊರತೆಗೆಯಲಾದ ಮಾಹಿತಿ |\n` +
+      report = `### ðŸŽ¯ à²¬à²¯à³‹à²®à³†à²Ÿà³à²°à²¿à²•à³ à²«à³‡à²¸à³ à²¸à³à²•à³à²¯à²¾à²¨à³ à²¦à²¾à²–à²²à³† à²µà²¿à²¶à³à²²à³‡à²·à²£à³†: \`${fileName}\`\n\n` +
+        `> **à²¤à²¨à²¿à²–à²¾à²§à²¿à²•à²¾à²°à²¿à²¯ à²¨à²¿à²°à³à²¦à³‡à²¶à²¨:** *"${queryStr}"*\n` +
+        `à²…à²ªà³â€Œà²²à³‹à²¡à³ à²®à²¾à²¡à²²à²¾à²¦ à²ªà²¿à²¡à²¿à²Žà²«à³ à²•à²¡à²¤à²µà²¨à³à²¨à³ à²¸à³à²•à³à²¯à²¾à²¨à³ à²®à²¾à²¡à²²à²¾à²—à²¿à²¦à³à²¦à³, **10-à²¶à²‚à²•à²¿à²¤à²° à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³ à²®à²¤à³à²¤à³ 1000 à²Žà²«à³â€Œà²à²†à²°à³ à²°à³†à²•à²¾à²°à³à²¡à³à²¸à³** à²¨à³Šà²‚à²¦à²¿à²—à³† à²¨à³ˆà²œà²µà²¾à²—à²¿ à²®à³à²¯à²¾à²ªà³ à²®à²¾à²¡à²²à²¾à²—à²¿à²¦à³†.\n\n` +
+        `#### 1. à²¬à²¯à³‹à²®à³†à²Ÿà³à²°à²¿à²•à³ à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³† à²«à²²à²¿à²¤à²¾à²‚à²¶ (Scan Telemetry)\n` +
+        `| à²¨à²¿à²¯à²¤à²¾à²‚à²• | à²¹à³Šà²°à²¤à³†à²—à³†à²¯à²²à²¾à²¦ à²®à²¾à²¹à²¿à²¤à²¿ |\n` +
         `| :--- | :--- |\n` +
-        `| **ಗುರುತಿಸಲಾದ ಶಂಕಿತರು** | **${suspectName}** (\`${convictId}\`) |\n` +
-        `| **ಹೊಂದಾಣಿಕೆ ನಿಖರತೆ (Confidence)** | **${matchConfidence}** (Distance: \`${distanceScore}\`) |\n` +
-        `| **ಅಪರಾಧ ಪ್ರಕಾರ** | **${crimeType}** |\n` +
-        `| **ಠಾಣಾ ವ್ಯಾಪ್ತಿ** | **${jurisdiction}** |\n\n` +
-        `#### 2. ಕಡತದ ಮುಖ್ಯಾಂಶಗಳು & ಫಲಿತಾಂಶ\n` +
+        `| **à²—à³à²°à³à²¤à²¿à²¸à²²à²¾à²¦ à²¶à²‚à²•à²¿à²¤à²°à³** | **${suspectName}** (\`${convictId}\`) |\n` +
+        `| **à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³† à²¨à²¿à²–à²°à²¤à³† (Confidence)** | **${matchConfidence}** (Distance: \`${distanceScore}\`) |\n` +
+        `| **à²…à²ªà²°à²¾à²§ à²ªà³à²°à²•à²¾à²°** | **${crimeType}** |\n` +
+        `| **à² à²¾à²£à²¾ à²µà³à²¯à²¾à²ªà³à²¤à²¿** | **${jurisdiction}** |\n\n` +
+        `#### 2. à²•à²¡à²¤à²¦ à²®à³à²–à³à²¯à²¾à²‚à²¶à²—à²³à³ & à²«à²²à²¿à²¤à²¾à²‚à²¶\n` +
         `> ${summaryNarrative}\n\n` +
-        `#### 3. ಮುಂದಿನ ಕ್ರಮಗಳು\n` +
-        `1. CCTNS ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಶಂಕಿತರ ವಾರೆಂಟ್ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ.\n` +
-        `2. ಸಂಬಂಧಿತ ಠಾಣಾಧಿಕಾರಿಗಳಿಗೆ ತಕ್ಷಣವೇ ಎಚ್ಚರಿಕೆ ರವಾನಿಸಿ.`;
+        `#### 3. à²®à³à²‚à²¦à²¿à²¨ à²•à³à²°à²®à²—à²³à³\n` +
+        `1. CCTNS à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³â€Œà²¨à²²à³à²²à²¿ à²¶à²‚à²•à²¿à²¤à²° à²µà²¾à²°à³†à²‚à²Ÿà³ à²¸à³à²¥à²¿à²¤à²¿à²¯à²¨à³à²¨à³ à²ªà²°à²¿à²¶à³€à²²à²¿à²¸à²¿.\n` +
+        `2. à²¸à²‚à²¬à²‚à²§à²¿à²¤ à² à²¾à²£à²¾à²§à²¿à²•à²¾à²°à²¿à²—à²³à²¿à²—à³† à²¤à²•à³à²·à²£à²µà³‡ à²Žà²šà³à²šà²°à²¿à²•à³† à²°à²µà²¾à²¨à²¿à²¸à²¿.`;
     } else if (lang === 'hi') {
-      report = `### 🎯 बायोमेट्रिक फेस स्कैन दस्तावेज़ विश्लेषण: \`${fileName}\`\n\n` +
-        `> **अधिकारी का निर्देश:** *"${queryStr}"*\n` +
-        `अपलोड की गई पीडीएफ फाइल **फेस रिकॉग्निशन और बायोमेट्रिक सत्यापन रिपोर्ट** से संबंधित है।\n\n` +
-        `#### 1. स्कैन मिलान परिणाम तालिका (Scan Telemetry)\n` +
-        `| पैरामीटर | निकाली गई जानकारी |\n` +
+      report = `### ðŸŽ¯ à¤¬à¤¾à¤¯à¥‹à¤®à¥‡à¤Ÿà¥à¤°à¤¿à¤• à¤«à¥‡à¤¸ à¤¸à¥à¤•à¥ˆà¤¨ à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼ à¤µà¤¿à¤¶à¥à¤²à¥‡à¤·à¤£: \`${fileName}\`\n\n` +
+        `> **à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ à¤•à¤¾ à¤¨à¤¿à¤°à¥à¤¦à¥‡à¤¶:** *"${queryStr}"*\n` +
+        `à¤…à¤ªà¤²à¥‹à¤¡ à¤•à¥€ à¤—à¤ˆ à¤ªà¥€à¤¡à¥€à¤à¤« à¤«à¤¾à¤‡à¤² **à¤«à¥‡à¤¸ à¤°à¤¿à¤•à¥‰à¤—à¥à¤¨à¤¿à¤¶à¤¨ à¤”à¤° à¤¬à¤¾à¤¯à¥‹à¤®à¥‡à¤Ÿà¥à¤°à¤¿à¤• à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ** à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤¹à¥ˆà¥¤\n\n` +
+        `#### 1. à¤¸à¥à¤•à¥ˆà¤¨ à¤®à¤¿à¤²à¤¾à¤¨ à¤ªà¤°à¤¿à¤£à¤¾à¤® à¤¤à¤¾à¤²à¤¿à¤•à¤¾ (Scan Telemetry)\n` +
+        `| à¤ªà¥ˆà¤°à¤¾à¤®à¥€à¤Ÿà¤° | à¤¨à¤¿à¤•à¤¾à¤²à¥€ à¤—à¤ˆ à¤œà¤¾à¤¨à¤•à¤¾à¤°à¥€ |\n` +
         `| :--- | :--- |\n` +
-        `| **पहचाना गया संदिग्ध** | **${suspectName}** (\`${convictId}\`) |\n` +
-        `| **मैच सटीकता (Confidence)** | **${matchConfidence}** (दूरी: \`${distanceScore}\`) |\n` +
-        `| **अपराध श्रेणी** | **${crimeType}** |\n` +
-        `| **थाना अधिकार क्षेत्र** | **${jurisdiction}** |\n\n` +
-        `#### 2. दस्तावेज़ का मुख्य निष्कर्ष\n` +
+        `| **à¤ªà¤¹à¤šà¤¾à¤¨à¤¾ à¤—à¤¯à¤¾ à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§** | **${suspectName}** (\`${convictId}\`) |\n` +
+        `| **à¤®à¥ˆà¤š à¤¸à¤Ÿà¥€à¤•à¤¤à¤¾ (Confidence)** | **${matchConfidence}** (à¤¦à¥‚à¤°à¥€: \`${distanceScore}\`) |\n` +
+        `| **à¤…à¤ªà¤°à¤¾à¤§ à¤¶à¥à¤°à¥‡à¤£à¥€** | **${crimeType}** |\n` +
+        `| **à¤¥à¤¾à¤¨à¤¾ à¤…à¤§à¤¿à¤•à¤¾à¤° à¤•à¥à¤·à¥‡à¤¤à¥à¤°** | **${jurisdiction}** |\n\n` +
+        `#### 2. à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼ à¤•à¤¾ à¤®à¥à¤–à¥à¤¯ à¤¨à¤¿à¤·à¥à¤•à¤°à¥à¤·\n` +
         `> ${summaryNarrative}\n\n` +
-        `#### 3. अनुशंसित अग्रिम कार्रवाई\n` +
-        `1. CCTNS अपराध रिकॉर्ड के साथ वारंट स्थिति सत्यापित करें।\n` +
-        `2. संबंधित थाना जांच अधिकारी को तत्काल अलर्ट प्रेषित करें।`;
+        `#### 3. à¤…à¤¨à¥à¤¶à¤‚à¤¸à¤¿à¤¤ à¤…à¤—à¥à¤°à¤¿à¤® à¤•à¤¾à¤°à¥à¤°à¤µà¤¾à¤ˆ\n` +
+        `1. CCTNS à¤…à¤ªà¤°à¤¾à¤§ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤•à¥‡ à¤¸à¤¾à¤¥ à¤µà¤¾à¤°à¤‚à¤Ÿ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤ à¤•à¤°à¥‡à¤‚à¥¤\n` +
+        `2. à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤¥à¤¾à¤¨à¤¾ à¤œà¤¾à¤‚à¤š à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ à¤•à¥‹ à¤¤à¤¤à¥à¤•à¤¾à¤² à¤…à¤²à¤°à¥à¤Ÿ à¤ªà¥à¤°à¥‡à¤·à¤¿à¤¤ à¤•à¤°à¥‡à¤‚à¥¤`;
     } else {
-      report = `### 🎯 Biometric Face Scan Analysis: \`${fileName}\`\n\n` +
+      report = `### ðŸŽ¯ Biometric Face Scan Analysis: \`${fileName}\`\n\n` +
         `> **Officer Directive Fulfilled:** *"${queryStr}"*\n` +
         `The uploaded document has been scanned and verified as an official **Facial Recognition & Biometric Verification Report**.\n\n` +
         `#### 1. Verified Scan Telemetry & Candidate Identification\n` +
@@ -228,7 +228,7 @@ function generateDocumentAnalysisReport(
   ]) || 'Sec 20 NDPS Act';
 
   const modusOperandi = extractField([
-    /(?:Modus\s*Operandi|MO\s*Signature|MO)[:\s]+([0-9A-Za-z\s,()./’'\"-]+?)(?=\s*Parties|\s*Complainant|\s*Summary|\s*Accused|$|\n\n)/i
+    /(?:Modus\s*Operandi|MO\s*Signature|MO)[:\s]+([0-9A-Za-z\s,()./â€™'\"-]+?)(?=\s*Parties|\s*Complainant|\s*Summary|\s*Accused|$|\n\n)/i
   ]) || 'Cultivation of cannabis detected in remote farmland.';
 
   const complainant = extractField([
@@ -275,7 +275,7 @@ function generateDocumentAnalysisReport(
   const stationHits = firDb.filter(f => (f.policeStation || '').toLowerCase().includes(stPrefix));
   const crimeHits = firDb.filter(f => (f.crimeType || '').toLowerCase().includes((crimeType || 'Drug').toLowerCase()));
 
-  // 2. Cross-reference 10-Photo Convict Roster
+  // 2. Cross-reference 5-Photo Convict Roster
   let matchedConvict: ConvictProfile | null = null;
   const searchCandidates = [...effectiveAccused, complainant, investigatingOfficer].filter(Boolean);
 
@@ -315,7 +315,7 @@ function generateDocumentAnalysisReport(
       police_station: matchedConvict.police_station || 'Upparpet Police Station',
       district: matchedConvict.district || 'Bengaluru Urban',
       risk_tier: matchedConvict.risk_tier || 'High',
-      reward: matchedConvict.reward || '₹1,00,000',
+      reward: matchedConvict.reward || 'â‚¹1,00,000',
       release_status: matchedConvict.release_status || 'Active Wanted',
       last_known_address: matchedConvict.last_known_address || 'Under CCTNS Surveillance',
       linked_firs: matchedConvict.linked_firs || ['FIR-184/2020'],
@@ -341,106 +341,106 @@ function generateDocumentAnalysisReport(
     if (otherHits.length > 0) {
       const samples = otherHits.slice(0, 3).map(h => `\`${h.id}\` (${h.crimeType})`).join(', ');
       accusedHistoryLinesEn.push(`  - **${name}**: Linked to **${hits.length} cases** in CCTNS (${samples}${otherHits.length > 3 ? ', etc.' : ''})`);
-      accusedHistoryLinesKn.push(`  - **${name}**: CCTNS ನಲ್ಲಿ **${hits.length} ಪ್ರಕರಣಗಳು** ದಾಖಲಾಗಿವೆ (${samples})`);
-      accusedHistoryLinesHi.push(`  - **${name}**: CCTNS में **${hits.length} मामलों** से जुड़े हैं (${samples})`);
+      accusedHistoryLinesKn.push(`  - **${name}**: CCTNS à²¨à²²à³à²²à²¿ **${hits.length} à²ªà³à²°à²•à²°à²£à²—à²³à³** à²¦à²¾à²–à²²à²¾à²—à²¿à²µà³† (${samples})`);
+      accusedHistoryLinesHi.push(`  - **${name}**: CCTNS à¤®à¥‡à¤‚ **${hits.length} à¤®à¤¾à¤®à¤²à¥‹à¤‚** à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡ à¤¹à¥ˆà¤‚ (${samples})`);
     } else {
       accusedHistoryLinesEn.push(`  - **${name}**: No prior chargesheeted offences found in 1,000 FIRs index.`);
-      accusedHistoryLinesKn.push(`  - **${name}**: 1,000 ಎಫ್‌ಐಆರ್ ಸೂಚ್ಯಂಕದಲ್ಲಿ ಹಿಂದಿನ ದಾಖಲೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.`);
-      accusedHistoryLinesHi.push(`  - **${name}**: 1,000 प्राथमिकी सूचकांक में कोई पिछला रिकॉर्ड नहीं मिला।`);
+      accusedHistoryLinesKn.push(`  - **${name}**: 1,000 à²Žà²«à³â€Œà²à²†à²°à³ à²¸à³‚à²šà³à²¯à²‚à²•à²¦à²²à³à²²à²¿ à²¹à²¿à²‚à²¦à²¿à²¨ à²¦à²¾à²–à²²à³†à²—à²³à³ à²•à²‚à²¡à³à²¬à²‚à²¦à²¿à²²à³à²².`);
+      accusedHistoryLinesHi.push(`  - **${name}**: 1,000 à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ à¤¸à¥‚à¤šà¤•à¤¾à¤‚à¤• à¤®à¥‡à¤‚ à¤•à¥‹à¤ˆ à¤ªà¤¿à¤›à¤²à¤¾ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤¨à¤¹à¥€à¤‚ à¤®à¤¿à¤²à¤¾à¥¤`);
     }
   }
 
   const convictSectionEn = matchedConvict
-    ? `⚠️ **ALERT: High-Risk Convict Match Identified!**\n- **Convict ID & Name:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **Aliases:** ${(matchedConvict.aliases || []).join(', ')}\n- **Crime Classification:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} Risk)\n- **Warrant Status:** **${matchedConvict.release_status}** (Reward: ${matchedConvict.reward || 'N/A'})\n- **Linked FIRs:** ${(matchedConvict.linked_firs || []).join(', ')}`
-    : `✅ **10-Photo Convict FIR Roster Clearance: Negative / Cleared**\n- Verified all named parties against Karnataka State Police 10-Convict Photo Roster (\`CONV-001\` to \`CONV-010\`).\n- **Result:** 0 red-corner active cartel matches. The accused are recorded as local/district suspects under CCTNS and do not belong to the top-10 wanted syndicate roster.`;
+    ? `âš ï¸ **ALERT: High-Risk Convict Match Identified!**\n- **Convict ID & Name:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **Aliases:** ${(matchedConvict.aliases || []).join(', ')}\n- **Crime Classification:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} Risk)\n- **Warrant Status:** **${matchedConvict.release_status}** (Reward: ${matchedConvict.reward || 'N/A'})\n- **Linked FIRs:** ${(matchedConvict.linked_firs || []).join(', ')}`
+    : `âœ… **5-Photo Convict FIR Roster Clearance: Negative / Cleared**\n- Verified all named parties against Karnataka State Police 5-Convict Photo Roster (\`CONV-001\` to \`CONV-005\`).\n- **Result:** 0 red-corner active cartel matches. The accused are recorded as local/district suspects under CCTNS and do not belong to the top-5 wanted syndicate roster.`;
 
   const convictSectionKn = matchedConvict
-    ? `⚠️ **ಎಚ್ಚರಿಕೆ: 10-ಶಂಕಿತರ ರೋಸ್ಟರ್‌ನಲ್ಲಿ ಹೊಂದಾಣಿಕೆ ಪತ್ತೆಯಾಗಿದೆ!**\n- **ಶಂಕಿತರ ಹೆಸರು & ಐಡಿ:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **ಅಪರಾಧ ವಿವರ:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} ಅಪಾಯ)\n- **ವಾರೆಂಟ್ ಸ್ಥಿತಿ:** **${matchedConvict.release_status}** (ಬಹುಮಾನ: ${matchedConvict.reward || 'N/A'})`
-    : `✅ **10-ಶಂಕಿತರ ಫೋಟೋ ರೋಸ್ಟರ್ ಪರಿಶೀಲನೆ: ನಕಾರಾತ್ಮಕ / ಕ್ಲಿಯರ್ ಆಗಿದೆ**\n- ಕರ್ನಾಟಕ ಪೊಲೀಸ್ 10-ಪ್ರಮುಖ ಶಂಕಿತರ ಪಟ್ಟಿಯೊಂದಿಗೆ (\`CONV-001\` ರಿಂದ \`CONV-010\`) ಪರಿಶೀಲಿಸಲಾಗಿದೆ.\n- **ಫಲಿತಾಂಶ:** ಯಾವುದೇ ರೆಡ್-ಕಾರ್ನರ್ ಹೊಂದಾಣಿಕೆ ಕಂಡುಬಂದಿಲ್ಲ. ಇವರು ಸ್ಥಳೀಯ ಹಂತದ ಆರೋಪಿಗಳಾಗಿದ್ದಾರೆ.`;
+    ? `âš ï¸ **à²Žà²šà³à²šà²°à²¿à²•à³†: 5-à²¶à²‚à²•à²¿à²¤à²° à²°à³‹à²¸à³à²Ÿà²°à³â€Œà²¨à²²à³à²²à²¿ à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³† à²ªà²¤à³à²¤à³†à²¯à²¾à²—à²¿à²¦à³†!**\n- **à²¶à²‚à²•à²¿à²¤à²° à²¹à³†à²¸à²°à³ & à²à²¡à²¿:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **à²…à²ªà²°à²¾à²§ à²µà²¿à²µà²°:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} à²…à²ªà²¾à²¯)\n- **à²µà²¾à²°à³†à²‚à²Ÿà³ à²¸à³à²¥à²¿à²¤à²¿:** **${matchedConvict.release_status}** (à²¬à²¹à³à²®à²¾à²¨: ${matchedConvict.reward || 'N/A'})`
+    : `âœ… **5-à²¶à²‚à²•à²¿à²¤à²° à²«à³‹à²Ÿà³‹ à²°à³‹à²¸à³à²Ÿà²°à³ à²ªà²°à²¿à²¶à³€à²²à²¨à³†: à²¨à²•à²¾à²°à²¾à²¤à³à²®à²• / à²•à³à²²à²¿à²¯à²°à³ à²†à²—à²¿à²¦à³†**\n- à²•à²°à³à²¨à²¾à²Ÿà²• à²ªà³Šà²²à³€à²¸à³ 5-à²ªà³à²°à²®à³à²– à²¶à²‚à²•à²¿à²¤à²° à²ªà²Ÿà³à²Ÿà²¿à²¯à³Šà²‚à²¦à²¿à²—à³† (\`CONV-001\` à²°à²¿à²‚à²¦ \`CONV-005\`) à²ªà²°à²¿à²¶à³€à²²à²¿à²¸à²²à²¾à²—à²¿à²¦à³†.\n- **à²«à²²à²¿à²¤à²¾à²‚à²¶:** à²¯à²¾à²µà³à²¦à³‡ à²°à³†à²¡à³-à²•à²¾à²°à³à²¨à²°à³ à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³† à²•à²‚à²¡à³à²¬à²‚à²¦à²¿à²²à³à²². à²‡à²µà²°à³ à²¸à³à²¥à²³à³€à²¯ à²¹à²‚à²¤à²¦ à²†à²°à³‹à²ªà²¿à²—à²³à²¾à²—à²¿à²¦à³à²¦à²¾à²°à³†.`;
 
   const convictSectionHi = matchedConvict
-    ? `⚠️ **चेतावनी: 10-संदिग्ध फोटो रोस्टर में मैच पाया गया!**\n- **संदिग्ध का नाम व आईडी:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **अपराध श्रेणी:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} जोखिम)\n- **वारंट स्थिति:** **${matchedConvict.release_status}** (इनाम: ${matchedConvict.reward || 'N/A'})`
-    : `✅ **10-संदिग्ध फोटो प्राथमिकी रोस्टर सत्यापन: नकारात्मक / स्वीकृत**\n- कर्नाटक पुलिस के 10-कुख्यात संदिग्ध फोटो रोस्टर (\`CONV-001\` से \`CONV-010\`) के साथ सत्यापन किया गया।\n- **परिणाम:** कोई रेड-कॉर्नर मैच नहीं मिला। आरोपी स्थानीय स्तर के संदिग्ध हैं।`;
+    ? `âš ï¸ **à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€: 5-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤«à¥‹à¤Ÿà¥‹ à¤°à¥‹à¤¸à¥à¤Ÿà¤° à¤®à¥‡à¤‚ à¤®à¥ˆà¤š à¤ªà¤¾à¤¯à¤¾ à¤—à¤¯à¤¾!**\n- **à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤•à¤¾ à¤¨à¤¾à¤® à¤µ à¤†à¤ˆà¤¡à¥€:** **${matchedConvict.name}** (\`${matchedConvict.convict_id}\`)\n- **à¤…à¤ªà¤°à¤¾à¤§ à¤¶à¥à¤°à¥‡à¤£à¥€:** ${matchedConvict.crime_type} (${matchedConvict.risk_tier} à¤œà¥‹à¤–à¤¿à¤®)\n- **à¤µà¤¾à¤°à¤‚à¤Ÿ à¤¸à¥à¤¥à¤¿à¤¤à¤¿:** **${matchedConvict.release_status}** (à¤‡à¤¨à¤¾à¤®: ${matchedConvict.reward || 'N/A'})`
+    : `âœ… **5-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤«à¥‹à¤Ÿà¥‹ à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ à¤°à¥‹à¤¸à¥à¤Ÿà¤° à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨: à¤¨à¤•à¤¾à¤°à¤¾à¤¤à¥à¤®à¤• / à¤¸à¥à¤µà¥€à¤•à¥ƒà¤¤**\n- à¤•à¤°à¥à¤¨à¤¾à¤Ÿà¤• à¤ªà¥à¤²à¤¿à¤¸ à¤•à¥‡ 5-à¤•à¥à¤–à¥à¤¯à¤¾à¤¤ à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤«à¥‹à¤Ÿà¥‹ à¤°à¥‹à¤¸à¥à¤Ÿà¤° (\`CONV-001\` à¤¸à¥‡ \`CONV-005\`) à¤•à¥‡ à¤¸à¤¾à¤¥ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨ à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾à¥¤\n- **à¤ªà¤°à¤¿à¤£à¤¾à¤®:** à¤•à¥‹à¤ˆ à¤°à¥‡à¤¡-à¤•à¥‰à¤°à¥à¤¨à¤° à¤®à¥ˆà¤š à¤¨à¤¹à¥€à¤‚ à¤®à¤¿à¤²à¤¾à¥¤ à¤†à¤°à¥‹à¤ªà¥€ à¤¸à¥à¤¥à¤¾à¤¨à¥€à¤¯ à¤¸à¥à¤¤à¤° à¤•à¥‡ à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤¹à¥ˆà¤‚à¥¤`;
 
   const matchedFirEn = matchedFir ? `\`${matchedFir.id}\` (\`${matchedFir.firNumber}\`) at **${matchedFir.policeStation}**, ${matchedFir.district} (Status: \`${matchedFir.status}\`, Priority: \`${matchedFir.severity}\`)` : `Official CCTNS record for \`${firNumber}\` registered under state repository.`;
-  const matchedFirKn = matchedFir ? `\`${matchedFir.id}\` (\`${matchedFir.firNumber}\`) — **${matchedFir.policeStation}**, ${matchedFir.district} (ಸ್ಥಿತಿ: \`${matchedFir.status}\`)` : `CCTNS ರಾಜ್ಯ ದಾಖಲೆಯಲ್ಲಿ \`${firNumber}\` ನೋಂದಾಯಿಸಲಾಗಿದೆ.`;
-  const matchedFirHi = matchedFir ? `\`${matchedFir.id}\` (\`${matchedFir.firNumber}\`) — **${matchedFir.policeStation}**, ${matchedFir.district} (स्थिति: \`${matchedFir.status}\`)` : `CCTNS राज्य रिकॉर्ड में \`${firNumber}\` पंजीकृत है।`;
+  const matchedFirKn = matchedFir ? `\`${matchedFir.id}\` (\`${matchedFir.firNumber}\`) â€” **${matchedFir.policeStation}**, ${matchedFir.district} (à²¸à³à²¥à²¿à²¤à²¿: \`${matchedFir.status}\`)` : `CCTNS à²°à²¾à²œà³à²¯ à²¦à²¾à²–à²²à³†à²¯à²²à³à²²à²¿ \`${firNumber}\` à²¨à³‹à²‚à²¦à²¾à²¯à²¿à²¸à²²à²¾à²—à²¿à²¦à³†.`;
+  const matchedFirHi = matchedFir ? `\`${matchedFir.id}\` (\`${matchedFir.firNumber}\`) â€” **${matchedFir.policeStation}**, ${matchedFir.district} (à¤¸à¥à¤¥à¤¿à¤¤à¤¿: \`${matchedFir.status}\`)` : `CCTNS à¤°à¤¾à¤œà¥à¤¯ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤®à¥‡à¤‚ \`${firNumber}\` à¤ªà¤‚à¤œà¥€à¤•à¥ƒà¤¤ à¤¹à¥ˆà¥¤`;
 
   let report = '';
   if (lang === 'kn') {
-    report = `### 📄 ಕಡತದ ಸಂಪೂರ್ಣ ವಿಶ್ಲೇಷಣೆ & CCTNS ಡೇಟಾಬೇಸ್ ಪರಿಶೀಲನೆ: \`${fileName}\`\n\n` +
-      `> **ತನಿಖಾಧಿಕಾರಿಯ ನಿರ್ದೇಶನ:** *"${queryStr}"*\n` +
-      `> ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಕಡತದ ವಿಷಯಗಳನ್ನು ಓದಲಾಗಿದ್ದು, **1,000 CCTNS ಎಫ್‌ಐಆರ್ ಡೇಟಾಬೇಸ್** ಮತ್ತು **ಕರ್ನಾಟಕ ಪೊಲೀಸ್ 10-ಶಂಕಿತರ ಫೋಟೋ ರೋಸ್ಟರ್** ನೊಂದಿಗೆ ನೈಜವಾಗಿ ಕ್ರಾಸ್-ರೆಫರೆನ್ಸ್ ಮಾಡಲಾಗಿದೆ.\n\n` +
+    report = `### ðŸ“„ à²•à²¡à²¤à²¦ à²¸à²‚à²ªà³‚à²°à³à²£ à²µà²¿à²¶à³à²²à³‡à²·à²£à³† & CCTNS à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³ à²ªà²°à²¿à²¶à³€à²²à²¨à³†: \`${fileName}\`\n\n` +
+      `> **à²¤à²¨à²¿à²–à²¾à²§à²¿à²•à²¾à²°à²¿à²¯ à²¨à²¿à²°à³à²¦à³‡à²¶à²¨:** *"${queryStr}"*\n` +
+      `> à²…à²ªà³â€Œà²²à³‹à²¡à³ à²®à²¾à²¡à²²à²¾à²¦ à²•à²¡à²¤à²¦ à²µà²¿à²·à²¯à²—à²³à²¨à³à²¨à³ à²“à²¦à²²à²¾à²—à²¿à²¦à³à²¦à³, **1,000 CCTNS à²Žà²«à³â€Œà²à²†à²°à³ à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³** à²®à²¤à³à²¤à³ **à²•à²°à³à²¨à²¾à²Ÿà²• à²ªà³Šà²²à³€à²¸à³ 10-à²¶à²‚à²•à²¿à²¤à²° à²«à³‹à²Ÿà³‹ à²°à³‹à²¸à³à²Ÿà²°à³** à²¨à³Šà²‚à²¦à²¿à²—à³† à²¨à³ˆà²œà²µà²¾à²—à²¿ à²•à³à²°à²¾à²¸à³-à²°à³†à²«à²°à³†à²¨à³à²¸à³ à²®à²¾à²¡à²²à²¾à²—à²¿à²¦à³†.\n\n` +
       `---\n\n` +
-      `#### 1. ಕಡತದಿಂದ ಹೊರತೆಗೆಯಲಾದ ಪ್ರಕರಣದ ಪ್ರಮುಖ ವಿವರಗಳು (Case Telemetry)\n` +
-      `| ನಿಯತಾಂಕ / ವಿವರ | ಕಡತದಿಂದ ಪಡೆದ ಮಾಹಿತಿ |\n` +
+      `#### 1. à²•à²¡à²¤à²¦à²¿à²‚à²¦ à²¹à³Šà²°à²¤à³†à²—à³†à²¯à²²à²¾à²¦ à²ªà³à²°à²•à²°à²£à²¦ à²ªà³à²°à²®à³à²– à²µà²¿à²µà²°à²—à²³à³ (Case Telemetry)\n` +
+      `| à²¨à²¿à²¯à²¤à²¾à²‚à²• / à²µà²¿à²µà²° | à²•à²¡à²¤à²¦à²¿à²‚à²¦ à²ªà²¡à³†à²¦ à²®à²¾à²¹à²¿à²¤à²¿ |\n` +
       `| :--- | :--- |\n` +
-      `| **ಎಫ್‌ಐಆರ್ ಸಂಖ್ಯೆ (FIR No.)** | **\`${firNumber}\`** |\n` +
-      `| **ಪೊಲೀಸ್ ಠಾಣೆ & ಜಿಲ್ಲೆ** | **${policeStation}**, **${district}** |\n` +
-      `| **ಅಪರಾಧದ ಪ್ರಕಾರ** | **${crimeType}** |\n` +
-      `| **ಪ್ರಕರಣದ ಸ್ಥಿತಿ** | **${caseStatus}** (${severityTier} Priority) |\n` +
-      `| **ಅನ್ವಯಿಸಲಾದ ಕಲಮುಗಳು** | \`${actsSections}\` |\n` +
-      `| **ಅಪರಾಧ / ನೋಂದಣಿ ದಿನಾಂಕ** | ${offenceDate} / ${regDate} |\n` +
-      `| **ದೂರುದಾರರು** | **${complainant}** |\n` +
-      `| **ತನಿಖಾಧಿಕಾರಿ (IO)** | **${investigatingOfficer}** |\n` +
-      `| **ಹೆಸರಿಸಲಾದ ಆರೋಪಿಗಳು** | **${accusedStr}** |\n\n` +
+      `| **à²Žà²«à³â€Œà²à²†à²°à³ à²¸à²‚à²–à³à²¯à³† (FIR No.)** | **\`${firNumber}\`** |\n` +
+      `| **à²ªà³Šà²²à³€à²¸à³ à² à²¾à²£à³† & à²œà²¿à²²à³à²²à³†** | **${policeStation}**, **${district}** |\n` +
+      `| **à²…à²ªà²°à²¾à²§à²¦ à²ªà³à²°à²•à²¾à²°** | **${crimeType}** |\n` +
+      `| **à²ªà³à²°à²•à²°à²£à²¦ à²¸à³à²¥à²¿à²¤à²¿** | **${caseStatus}** (${severityTier} Priority) |\n` +
+      `| **à²…à²¨à³à²µà²¯à²¿à²¸à²²à²¾à²¦ à²•à²²à²®à³à²—à²³à³** | \`${actsSections}\` |\n` +
+      `| **à²…à²ªà²°à²¾à²§ / à²¨à³‹à²‚à²¦à²£à²¿ à²¦à²¿à²¨à²¾à²‚à²•** | ${offenceDate} / ${regDate} |\n` +
+      `| **à²¦à³‚à²°à³à²¦à²¾à²°à²°à³** | **${complainant}** |\n` +
+      `| **à²¤à²¨à²¿à²–à²¾à²§à²¿à²•à²¾à²°à²¿ (IO)** | **${investigatingOfficer}** |\n` +
+      `| **à²¹à³†à²¸à²°à²¿à²¸à²²à²¾à²¦ à²†à²°à³‹à²ªà²¿à²—à²³à³** | **${accusedStr}** |\n\n` +
       `---\n\n` +
-      `#### 2. CCTNS 1,000 ಎಫ್‌ಐಆರ್ ಡೇಟಾಬೇಸ್ ಕ್ರಾಸ್-ರೆಫರೆನ್ಸ್\n` +
-      `- **ಹೊಂದಾಣಿಕೆಯಾದ ಎಫ್‌ಐಆರ್ ದಾಖಲೆ:** ${matchedFirKn}\n` +
-      `- **ಕಾರ್ಯಾಚರಣೆ ವಿಧಾನ (MO):** ${modusOperandi}\n` +
-      `- **1,000 ಎಫ್‌ಐಆರ್‌ಗಳ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಆರೋಪಿಗಳ ಅಪರಾಧ ಇತಿಹಾಸ:**\n` +
+      `#### 2. CCTNS 1,000 à²Žà²«à³â€Œà²à²†à²°à³ à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³ à²•à³à²°à²¾à²¸à³-à²°à³†à²«à²°à³†à²¨à³à²¸à³\n` +
+      `- **à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³†à²¯à²¾à²¦ à²Žà²«à³â€Œà²à²†à²°à³ à²¦à²¾à²–à²²à³†:** ${matchedFirKn}\n` +
+      `- **à²•à²¾à²°à³à²¯à²¾à²šà²°à²£à³† à²µà²¿à²§à²¾à²¨ (MO):** ${modusOperandi}\n` +
+      `- **1,000 à²Žà²«à³â€Œà²à²†à²°à³â€Œà²—à²³ à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³â€Œà²¨à²²à³à²²à²¿ à²†à²°à³‹à²ªà²¿à²—à²³ à²…à²ªà²°à²¾à²§ à²‡à²¤à²¿à²¹à²¾à²¸:**\n` +
       accusedHistoryLinesKn.join('\n') + '\n' +
-      `- **ಠಾಣಾ ಅಂಕಿಅಂಶ:** ${policeStation} ವ್ಯಾಪ್ತಿಯಲ್ಲಿ **${stationHits.length} ಪ್ರಕರಣಗಳು** ಮತ್ತು ರಾಜ್ಯಾದ್ಯಂತ **${crimeHits.length} ಮಾದಕವಸ್ತು ಪ್ರಕರಣಗಳು** ದಾಖಲಾಗಿವೆ.\n\n` +
+      `- **à² à²¾à²£à²¾ à²…à²‚à²•à²¿à²…à²‚à²¶:** ${policeStation} à²µà³à²¯à²¾à²ªà³à²¤à²¿à²¯à²²à³à²²à²¿ **${stationHits.length} à²ªà³à²°à²•à²°à²£à²—à²³à³** à²®à²¤à³à²¤à³ à²°à²¾à²œà³à²¯à²¾à²¦à³à²¯à²‚à²¤ **${crimeHits.length} à²®à²¾à²¦à²•à²µà²¸à³à²¤à³ à²ªà³à²°à²•à²°à²£à²—à²³à³** à²¦à²¾à²–à²²à²¾à²—à²¿à²µà³†.\n\n` +
       `---\n\n` +
-      `#### 3. 10-ಶಂಕಿತರ ಫೋಟೋ ಡೇಟಾಬೇಸ್ ಪರಿಶೀಲನೆ\n` +
+      `#### 3. 10-à²¶à²‚à²•à²¿à²¤à²° à²«à³‹à²Ÿà³‹ à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³ à²ªà²°à²¿à²¶à³€à²²à²¨à³†\n` +
       `${convictSectionKn}\n\n` +
       `---\n\n` +
-      `#### 4. ಕಡತದ ಮುಖ್ಯಾಂಶಗಳು & ಸಾರಾಂಶ\n` +
+      `#### 4. à²•à²¡à²¤à²¦ à²®à³à²–à³à²¯à²¾à²‚à²¶à²—à²³à³ & à²¸à²¾à²°à²¾à²‚à²¶\n` +
       `> ${caseSummary}\n\n` +
       `---\n\n` +
-      `#### 5. ಶಿಫಾರಸು ಮಾಡಲಾದ ಮುಂದಿನ ಕಾನೂನು ಕ್ರಮಗಳು\n` +
-      `1. **ಸಾಕ್ಷ್ಯ ಜಪ್ತಿ ಪ್ರಕ್ರಿಯೆ:** BNSS ಕಲಂ 105 ಅಡಿಯಲ್ಲಿ ಡಿಜಿಟಲ್ ಸಾಕ್ಷ್ಯ ಹ್ಯಾಶ್ ದಾಖಲಿಸಿ.\n` +
-      `2. **ಅಂತರ್-ಜಿಲ್ಲಾ ನಿಗಾ:** ಹಾಸನ ಮತ್ತು ಮೈಸೂರು ಅಪರಾಧ ವಿಭಾಗಗಳೊಂದಿಗೆ ಆರೋಪಿಗಳ ಹಳೆಯ ಪ್ರಕರಣಗಳ ದಾಖಲೆಗಳನ್ನು ಜೋಡಿಸಿ.\n` +
-      `3. **ನ್ಯಾಯಾಲಯ ಸಲ್ಲಿಕೆ:** ನ್ಯಾಯಾಧೀಶರ ಮುಂದೆ ಪುನರಾವರ್ತಿತ ಅಪರಾಧ ದಾಖಲೆಗಳೊಂದಿಗೆ ಚಾರ್ಜ್‌ಶೀಟ್ ಸಲ್ಲಿಸಿ.`;
+      `#### 5. à²¶à²¿à²«à²¾à²°à²¸à³ à²®à²¾à²¡à²²à²¾à²¦ à²®à³à²‚à²¦à²¿à²¨ à²•à²¾à²¨à³‚à²¨à³ à²•à³à²°à²®à²—à²³à³\n` +
+      `1. **à²¸à²¾à²•à³à²·à³à²¯ à²œà²ªà³à²¤à²¿ à²ªà³à²°à²•à³à²°à²¿à²¯à³†:** BNSS à²•à²²à²‚ 105 à²…à²¡à²¿à²¯à²²à³à²²à²¿ à²¡à²¿à²œà²¿à²Ÿà²²à³ à²¸à²¾à²•à³à²·à³à²¯ à²¹à³à²¯à²¾à²¶à³ à²¦à²¾à²–à²²à²¿à²¸à²¿.\n` +
+      `2. **à²…à²‚à²¤à²°à³-à²œà²¿à²²à³à²²à²¾ à²¨à²¿à²—à²¾:** à²¹à²¾à²¸à²¨ à²®à²¤à³à²¤à³ à²®à³ˆà²¸à³‚à²°à³ à²…à²ªà²°à²¾à²§ à²µà²¿à²­à²¾à²—à²—à²³à³Šà²‚à²¦à²¿à²—à³† à²†à²°à³‹à²ªà²¿à²—à²³ à²¹à²³à³†à²¯ à²ªà³à²°à²•à²°à²£à²—à²³ à²¦à²¾à²–à²²à³†à²—à²³à²¨à³à²¨à³ à²œà³‹à²¡à²¿à²¸à²¿.\n` +
+      `3. **à²¨à³à²¯à²¾à²¯à²¾à²²à²¯ à²¸à²²à³à²²à²¿à²•à³†:** à²¨à³à²¯à²¾à²¯à²¾à²§à³€à²¶à²° à²®à³à²‚à²¦à³† à²ªà³à²¨à²°à²¾à²µà²°à³à²¤à²¿à²¤ à²…à²ªà²°à²¾à²§ à²¦à²¾à²–à²²à³†à²—à²³à³Šà²‚à²¦à²¿à²—à³† à²šà²¾à²°à³à²œà³â€Œà²¶à³€à²Ÿà³ à²¸à²²à³à²²à²¿à²¸à²¿.`;
   } else if (lang === 'hi') {
-    report = `### 📄 दस्तावेज़ का संपूर्ण विश्लेषण एवं CCTNS डेटाबेस सत्यापन: \`${fileName}\`\n\n` +
-      `> **अधिकारी का निर्देश:** *"${queryStr}"*\n` +
-      `> अपलोड की गई फ़ाइल की सभी सामग्रियों का विश्लेषण किया गया है तथा **1,000 CCTNS प्राथमिकी (FIR) डेटाबेस** और **कर्नाटक पुलिस 10-संदिग्ध फोटो रोस्टर** के साथ पूर्ण मिलान किया गया है।\n\n` +
+    report = `### ðŸ“„ à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼ à¤•à¤¾ à¤¸à¤‚à¤ªà¥‚à¤°à¥à¤£ à¤µà¤¿à¤¶à¥à¤²à¥‡à¤·à¤£ à¤à¤µà¤‚ CCTNS à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨: \`${fileName}\`\n\n` +
+      `> **à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ à¤•à¤¾ à¤¨à¤¿à¤°à¥à¤¦à¥‡à¤¶:** *"${queryStr}"*\n` +
+      `> à¤…à¤ªà¤²à¥‹à¤¡ à¤•à¥€ à¤—à¤ˆ à¤«à¤¼à¤¾à¤‡à¤² à¤•à¥€ à¤¸à¤­à¥€ à¤¸à¤¾à¤®à¤—à¥à¤°à¤¿à¤¯à¥‹à¤‚ à¤•à¤¾ à¤µà¤¿à¤¶à¥à¤²à¥‡à¤·à¤£ à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾ à¤¹à¥ˆ à¤¤à¤¥à¤¾ **1,000 CCTNS à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ (FIR) à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸** à¤”à¤° **à¤•à¤°à¥à¤¨à¤¾à¤Ÿà¤• à¤ªà¥à¤²à¤¿à¤¸ 10-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤«à¥‹à¤Ÿà¥‹ à¤°à¥‹à¤¸à¥à¤Ÿà¤°** à¤•à¥‡ à¤¸à¤¾à¤¥ à¤ªà¥‚à¤°à¥à¤£ à¤®à¤¿à¤²à¤¾à¤¨ à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤\n\n` +
       `---\n\n` +
-      `#### 1. दस्तावेज़ से निकाली गई केस विवरण तालिका (Case Telemetry)\n` +
-      `| पैरामीटर / विवरण | दस्तावेज़ से प्राप्त डेटा |\n` +
+      `#### 1. à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼ à¤¸à¥‡ à¤¨à¤¿à¤•à¤¾à¤²à¥€ à¤—à¤ˆ à¤•à¥‡à¤¸ à¤µà¤¿à¤µà¤°à¤£ à¤¤à¤¾à¤²à¤¿à¤•à¤¾ (Case Telemetry)\n` +
+      `| à¤ªà¥ˆà¤°à¤¾à¤®à¥€à¤Ÿà¤° / à¤µà¤¿à¤µà¤°à¤£ | à¤¦à¤¸à¥à¤¤à¤¾à¤µà¥‡à¤œà¤¼ à¤¸à¥‡ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤¡à¥‡à¤Ÿà¤¾ |\n` +
       `| :--- | :--- |\n` +
-      `| **प्राथमिकी संख्या (FIR No.)** | **\`${firNumber}\`** |\n` +
-      `| **थाना व ज़िला** | **${policeStation}**, **${district}** |\n` +
-      `| **अपराध श्रेणी** | **${crimeType}** |\n` +
-      `| **केस स्थिति** | **${caseStatus}** (${severityTier} Priority) |\n` +
-      `| **लागू कानूनी धाराएं** | \`${actsSections}\` |\n` +
-      `| **घटना / पंजीकरण तिथि** | ${offenceDate} / ${regDate} |\n` +
-      `| **शिकायतकर्ता** | **${complainant}** |\n` +
-      `| **जांच अधिकारी (IO)** | **${investigatingOfficer}** |\n` +
-      `| **नामित आरोपी** | **${accusedStr}** |\n\n` +
+      `| **à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ à¤¸à¤‚à¤–à¥à¤¯à¤¾ (FIR No.)** | **\`${firNumber}\`** |\n` +
+      `| **à¤¥à¤¾à¤¨à¤¾ à¤µ à¤œà¤¼à¤¿à¤²à¤¾** | **${policeStation}**, **${district}** |\n` +
+      `| **à¤…à¤ªà¤°à¤¾à¤§ à¤¶à¥à¤°à¥‡à¤£à¥€** | **${crimeType}** |\n` +
+      `| **à¤•à¥‡à¤¸ à¤¸à¥à¤¥à¤¿à¤¤à¤¿** | **${caseStatus}** (${severityTier} Priority) |\n` +
+      `| **à¤²à¤¾à¤—à¥‚ à¤•à¤¾à¤¨à¥‚à¤¨à¥€ à¤§à¤¾à¤°à¤¾à¤à¤‚** | \`${actsSections}\` |\n` +
+      `| **à¤˜à¤Ÿà¤¨à¤¾ / à¤ªà¤‚à¤œà¥€à¤•à¤°à¤£ à¤¤à¤¿à¤¥à¤¿** | ${offenceDate} / ${regDate} |\n` +
+      `| **à¤¶à¤¿à¤•à¤¾à¤¯à¤¤à¤•à¤°à¥à¤¤à¤¾** | **${complainant}** |\n` +
+      `| **à¤œà¤¾à¤‚à¤š à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ (IO)** | **${investigatingOfficer}** |\n` +
+      `| **à¤¨à¤¾à¤®à¤¿à¤¤ à¤†à¤°à¥‹à¤ªà¥€** | **${accusedStr}** |\n\n` +
       `---\n\n` +
-      `#### 2. CCTNS 1,000 प्राथमिकी (FIR) डेटाबेस क्रॉस-रेफरेंस\n` +
-      `- **सत्यापित प्राथमिकी रिकॉर्ड:** ${matchedFirHi}\n` +
-      `- **वारदात की कार्यप्रणाली (MO):** ${modusOperandi}\n` +
-      `- **1,000 FIR डेटाबेस में आरोपियों का आपराधिक इतिहास:**\n` +
+      `#### 2. CCTNS 1,000 à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ (FIR) à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤•à¥à¤°à¥‰à¤¸-à¤°à¥‡à¤«à¤°à¥‡à¤‚à¤¸\n` +
+      `- **à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤ à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡:** ${matchedFirHi}\n` +
+      `- **à¤µà¤¾à¤°à¤¦à¤¾à¤¤ à¤•à¥€ à¤•à¤¾à¤°à¥à¤¯à¤ªà¥à¤°à¤£à¤¾à¤²à¥€ (MO):** ${modusOperandi}\n` +
+      `- **1,000 FIR à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤®à¥‡à¤‚ à¤†à¤°à¥‹à¤ªà¤¿à¤¯à¥‹à¤‚ à¤•à¤¾ à¤†à¤ªà¤°à¤¾à¤§à¤¿à¤• à¤‡à¤¤à¤¿à¤¹à¤¾à¤¸:**\n` +
       accusedHistoryLinesHi.join('\n') + '\n' +
-      `- **थाना व अपराध सांख्यिकी:** ${policeStation} में **${stationHits.length} मामले** और पूरे राज्य में **${crimeHits.length} नशीले पदार्थ अपराध** दर्ज हैं।\n\n` +
+      `- **à¤¥à¤¾à¤¨à¤¾ à¤µ à¤…à¤ªà¤°à¤¾à¤§ à¤¸à¤¾à¤‚à¤–à¥à¤¯à¤¿à¤•à¥€:** ${policeStation} à¤®à¥‡à¤‚ **${stationHits.length} à¤®à¤¾à¤®à¤²à¥‡** à¤”à¤° à¤ªà¥‚à¤°à¥‡ à¤°à¤¾à¤œà¥à¤¯ à¤®à¥‡à¤‚ **${crimeHits.length} à¤¨à¤¶à¥€à¤²à¥‡ à¤ªà¤¦à¤¾à¤°à¥à¤¥ à¤…à¤ªà¤°à¤¾à¤§** à¤¦à¤°à¥à¤œ à¤¹à¥ˆà¤‚à¥¤\n\n` +
       `---\n\n` +
-      `#### 3. 10-संदिग्ध फोटो प्राथमिकी डेटाबेस सत्यापन\n` +
+      `#### 3. 10-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤«à¥‹à¤Ÿà¥‹ à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¥€ à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨\n` +
       `${convictSectionHi}\n\n` +
       `---\n\n` +
-      `#### 4. केस का संक्षिप्त विवरण (Narrative Summary)\n` +
+      `#### 4. à¤•à¥‡à¤¸ à¤•à¤¾ à¤¸à¤‚à¤•à¥à¤·à¤¿à¤ªà¥à¤¤ à¤µà¤¿à¤µà¤°à¤£ (Narrative Summary)\n` +
       `> ${caseSummary}\n\n` +
       `---\n\n` +
-      `#### 5. अनुशंसित अग्रिम कानूनी व सामरिक कार्रवाई\n` +
-      `1. **डिजिटल जब्ती सत्यापन:** BNSS की धारा 105 के तहत जब्ती की डिजिटल वीडियोग्राफी और हैश सुरक्षित करें।\n` +
-      `2. **अंतर-ज़िला निगरानी:** हसन और मैसूरु अपराध शाखा के साथ आदतन आरोपियों का पुराना रिकॉर्ड साझा करें।\n` +
-      `3. **न्यायालय प्रस्तुति:** ज़मानत याचिका के विरोध में 1,000 FIR डेटाबेस से प्राप्त पूर्व केस रिकॉर्ड पेश करें।`;
+      `#### 5. à¤…à¤¨à¥à¤¶à¤‚à¤¸à¤¿à¤¤ à¤…à¤—à¥à¤°à¤¿à¤® à¤•à¤¾à¤¨à¥‚à¤¨à¥€ à¤µ à¤¸à¤¾à¤®à¤°à¤¿à¤• à¤•à¤¾à¤°à¥à¤°à¤µà¤¾à¤ˆ\n` +
+      `1. **à¤¡à¤¿à¤œà¤¿à¤Ÿà¤² à¤œà¤¬à¥à¤¤à¥€ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨:** BNSS à¤•à¥€ à¤§à¤¾à¤°à¤¾ 105 à¤•à¥‡ à¤¤à¤¹à¤¤ à¤œà¤¬à¥à¤¤à¥€ à¤•à¥€ à¤¡à¤¿à¤œà¤¿à¤Ÿà¤² à¤µà¥€à¤¡à¤¿à¤¯à¥‹à¤—à¥à¤°à¤¾à¤«à¥€ à¤”à¤° à¤¹à¥ˆà¤¶ à¤¸à¥à¤°à¤•à¥à¤·à¤¿à¤¤ à¤•à¤°à¥‡à¤‚à¥¤\n` +
+      `2. **à¤…à¤‚à¤¤à¤°-à¤œà¤¼à¤¿à¤²à¤¾ à¤¨à¤¿à¤—à¤°à¤¾à¤¨à¥€:** à¤¹à¤¸à¤¨ à¤”à¤° à¤®à¥ˆà¤¸à¥‚à¤°à¥ à¤…à¤ªà¤°à¤¾à¤§ à¤¶à¤¾à¤–à¤¾ à¤•à¥‡ à¤¸à¤¾à¤¥ à¤†à¤¦à¤¤à¤¨ à¤†à¤°à¥‹à¤ªà¤¿à¤¯à¥‹à¤‚ à¤•à¤¾ à¤ªà¥à¤°à¤¾à¤¨à¤¾ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤¸à¤¾à¤à¤¾ à¤•à¤°à¥‡à¤‚à¥¤\n` +
+      `3. **à¤¨à¥à¤¯à¤¾à¤¯à¤¾à¤²à¤¯ à¤ªà¥à¤°à¤¸à¥à¤¤à¥à¤¤à¤¿:** à¤œà¤¼à¤®à¤¾à¤¨à¤¤ à¤¯à¤¾à¤šà¤¿à¤•à¤¾ à¤•à¥‡ à¤µà¤¿à¤°à¥‹à¤§ à¤®à¥‡à¤‚ 1,000 FIR à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤¸à¥‡ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤ªà¥‚à¤°à¥à¤µ à¤•à¥‡à¤¸ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤ªà¥‡à¤¶ à¤•à¤°à¥‡à¤‚à¥¤`;
   } else {
-    report = `### 📄 Comprehensive Document Intelligence & Database Cross-Reference: \`${fileName}\`\n\n` +
+    report = `### ðŸ“„ Comprehensive Document Intelligence & Database Cross-Reference: \`${fileName}\`\n\n` +
       `> **Officer Directive Fulfilled:** *"${queryStr}"*\n` +
-      `> The uploaded document has been analyzed by the Prajna Neural OCR Engine and cross-referenced against the **1,000 CCTNS FIR Database** and the **Karnataka State 10-Convict Photo Roster**.\n\n` +
+      `> The uploaded document has been analyzed by the Prajna Neural OCR Engine and cross-referenced against the **1,000 CCTNS FIR Database** and the **Karnataka State 5-Convict Photo Roster**.\n\n` +
       `---\n\n` +
       `#### 1. Extracted Document Case Telemetry\n` +
       `| Metric / Entity | Extracted Case Intelligence |\n` +
@@ -462,7 +462,7 @@ function generateDocumentAnalysisReport(
       accusedHistoryLinesEn.join('\n') + '\n' +
       `- **Jurisdiction Pattern:** **${stationHits.length} cases** on file for ${policeStation}, and **${crimeHits.length} statewide cases** in the ${crimeType} registry.\n\n` +
       `---\n\n` +
-      `#### 3. Karnataka State 10-Photo Convict Database Cross-Reference\n` +
+      `#### 3. Karnataka State 5-Photo Convict Database Cross-Reference\n` +
       `${convictSectionEn}\n\n` +
       `---\n\n` +
       `#### 4. Incident Narrative & Document Summary\n` +
@@ -560,7 +560,7 @@ export function ChatWindow({
       const imageAttachment = attachments?.find(a => a.type === 'image');
       const textMentionsConvict = findConvictInQuery(text);
 
-      // ── CASE A: Image Attached → Run Biometric Face Match Against 10-Suspect DB ──
+      // â”€â”€ CASE A: Image Attached â†’ Run Biometric Face Match Against 5-Suspect DB â”€â”€
       if (imageAttachment) {
         const matchResult = await matchSuspectPhoto(
           imageAttachment.dataUrl || imageAttachment.name,
@@ -579,7 +579,7 @@ export function ChatWindow({
             police_station: convict.police_station || 'Upparpet Police Station',
             district: convict.district || 'Bengaluru Urban',
             risk_tier: convict.risk_tier || 'High',
-            reward: convict.reward || '₹1,00,000',
+            reward: convict.reward || 'â‚¹1,00,000',
             release_status: convict.release_status || 'Active Wanted',
             last_known_address: convict.last_known_address,
             linked_firs: convict.linked_firs || ['FIR-184/2020', 'FIR-57/2021'],
@@ -591,34 +591,34 @@ export function ChatWindow({
 
           let intelReport = '';
           if (lang === 'kn') {
-            intelReport = `### 🎯 ಬಯೋಮೆಟ್ರಿಕ್ ಮುಖ ಗುರುತಿಸುವಿಕೆ ಫಲಿತಾಂಶ (CCTNS 10-ಶಂಕಿತರ ಡೇಟಾಬೇಸ್)\n\n` +
-              `ಲಗತ್ತಿಸಲಾದ ಛಾಯಾಚಿತ್ರವು ಕರ್ನಾಟಕ ರಾಜ್ಯ ಅಪರಾಧ ದಾಖಲೆಗಳ (SCRB) ಶಂಕಿತರ ಪಟ್ಟಿಯಲ್ಲಿರುವ **${convict.name}** ರವರೊಂದಿಗೆ **${matchResult.confidence}%** ನಿಖರತೆಯಲ್ಲಿ ಹೊಂದಾಣಿಕೆಯಾಗಿದೆ.\n\n` +
-              `#### 1. ಶಂಕಿತರ ವಿವರಗಳು\n` +
-              `- **ಅಪರಾಧಿ ID:** \`${convict.convict_id}\`\n` +
-              `- **ಅಪರಾಧ ಪ್ರಕಾರ:** ${convict.crime_type}\n` +
-              `- **ಸ್ಥಿತಿ:** **${convict.release_status}**\n` +
-              `- **ವ್ಯಾಪ್ತಿ:** ${convict.police_station}, ${convict.district}\n\n` +
-              `#### 2. ಸಂಬಂಧಿತ ಎಫ್‌ಐಆರ್‌ಗಳು (CCTNS Linkages)\n` +
+            intelReport = `### ðŸŽ¯ à²¬à²¯à³‹à²®à³†à²Ÿà³à²°à²¿à²•à³ à²®à³à²– à²—à³à²°à³à²¤à²¿à²¸à³à²µà²¿à²•à³† à²«à²²à²¿à²¤à²¾à²‚à²¶ (CCTNS 10-à²¶à²‚à²•à²¿à²¤à²° à²¡à³‡à²Ÿà²¾à²¬à³‡à²¸à³)\n\n` +
+              `à²²à²—à²¤à³à²¤à²¿à²¸à²²à²¾à²¦ à²›à²¾à²¯à²¾à²šà²¿à²¤à³à²°à²µà³ à²•à²°à³à²¨à²¾à²Ÿà²• à²°à²¾à²œà³à²¯ à²…à²ªà²°à²¾à²§ à²¦à²¾à²–à²²à³†à²—à²³ (SCRB) à²¶à²‚à²•à²¿à²¤à²° à²ªà²Ÿà³à²Ÿà²¿à²¯à²²à³à²²à²¿à²°à³à²µ **${convict.name}** à²°à²µà²°à³Šà²‚à²¦à²¿à²—à³† **${matchResult.confidence}%** à²¨à²¿à²–à²°à²¤à³†à²¯à²²à³à²²à²¿ à²¹à³Šà²‚à²¦à²¾à²£à²¿à²•à³†à²¯à²¾à²—à²¿à²¦à³†.\n\n` +
+              `#### 1. à²¶à²‚à²•à²¿à²¤à²° à²µà²¿à²µà²°à²—à²³à³\n` +
+              `- **à²…à²ªà²°à²¾à²§à²¿ ID:** \`${convict.convict_id}\`\n` +
+              `- **à²…à²ªà²°à²¾à²§ à²ªà³à²°à²•à²¾à²°:** ${convict.crime_type}\n` +
+              `- **à²¸à³à²¥à²¿à²¤à²¿:** **${convict.release_status}**\n` +
+              `- **à²µà³à²¯à²¾à²ªà³à²¤à²¿:** ${convict.police_station}, ${convict.district}\n\n` +
+              `#### 2. à²¸à²‚à²¬à²‚à²§à²¿à²¤ à²Žà²«à³â€Œà²à²†à²°à³â€Œà²—à²³à³ (CCTNS Linkages)\n` +
               `- ${convict.linked_firs?.join(', ') || 'FIR-184/2020'}\n\n` +
-              `#### 3. ತನಿಖಾ ಶಿಫಾರಸುಗಳು\n` +
-              `1. ಹತ್ತಿರದ ಗಸ್ತು ತಂಡಗಳಿಗೆ ಎಚ್ಚರಿಕೆ ರವಾನಿಸಿ.\n` +
-              `2. ಸೆಕ್ಷನ್ 94 BNSS ಅಡಿಯಲ್ಲಿ ವಶಪಡಿಸಿಕೊಳ್ಳುವ ಕ್ರಮ ಜರುಗಿಸಿ.`;
+              `#### 3. à²¤à²¨à²¿à²–à²¾ à²¶à²¿à²«à²¾à²°à²¸à³à²—à²³à³\n` +
+              `1. à²¹à²¤à³à²¤à²¿à²°à²¦ à²—à²¸à³à²¤à³ à²¤à²‚à²¡à²—à²³à²¿à²—à³† à²Žà²šà³à²šà²°à²¿à²•à³† à²°à²µà²¾à²¨à²¿à²¸à²¿.\n` +
+              `2. à²¸à³†à²•à³à²·à²¨à³ 94 BNSS à²…à²¡à²¿à²¯à²²à³à²²à²¿ à²µà²¶à²ªà²¡à²¿à²¸à²¿à²•à³Šà²³à³à²³à³à²µ à²•à³à²°à²® à²œà²°à³à²—à²¿à²¸à²¿.`;
           } else if (lang === 'hi') {
-            intelReport = `### 🎯 बायोमेट्रिक फेस मैच परिणाम (CCTNS 10-संदिग्ध डेटाबेस)\n\n` +
-              `संलग्न फ़ोटो का मिलान कर्नाटक राज्य अपराध रिकॉर्ड (SCRB) के 10-संदिग्धों के डेटाबेस में **${convict.name}** से **${matchResult.confidence}%** सटीकता के साथ हुआ है।\n\n` +
-              `#### 1. संदिग्ध प्रोफ़ाइल\n` +
-              `- **आईडी:** \`${convict.convict_id}\`\n` +
-              `- **अपराध प्रकार:** ${convict.crime_type}\n` +
-              `- **वर्तमान स्थिति:** **${convict.release_status}**\n` +
-              `- **थाना व ज़िला:** ${convict.police_station}, ${convict.district}\n\n` +
-              `#### 2. जुड़े हुए मामले (Linked FIRs)\n` +
+            intelReport = `### ðŸŽ¯ à¤¬à¤¾à¤¯à¥‹à¤®à¥‡à¤Ÿà¥à¤°à¤¿à¤• à¤«à¥‡à¤¸ à¤®à¥ˆà¤š à¤ªà¤°à¤¿à¤£à¤¾à¤® (CCTNS 10-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸)\n\n` +
+              `à¤¸à¤‚à¤²à¤—à¥à¤¨ à¤«à¤¼à¥‹à¤Ÿà¥‹ à¤•à¤¾ à¤®à¤¿à¤²à¤¾à¤¨ à¤•à¤°à¥à¤¨à¤¾à¤Ÿà¤• à¤°à¤¾à¤œà¥à¤¯ à¤…à¤ªà¤°à¤¾à¤§ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ (SCRB) à¤•à¥‡ 10-à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§à¥‹à¤‚ à¤•à¥‡ à¤¡à¥‡à¤Ÿà¤¾à¤¬à¥‡à¤¸ à¤®à¥‡à¤‚ **${convict.name}** à¤¸à¥‡ **${matchResult.confidence}%** à¤¸à¤Ÿà¥€à¤•à¤¤à¤¾ à¤•à¥‡ à¤¸à¤¾à¤¥ à¤¹à¥à¤† à¤¹à¥ˆà¥¤\n\n` +
+              `#### 1. à¤¸à¤‚à¤¦à¤¿à¤—à¥à¤§ à¤ªà¥à¤°à¥‹à¤«à¤¼à¤¾à¤‡à¤²\n` +
+              `- **à¤†à¤ˆà¤¡à¥€:** \`${convict.convict_id}\`\n` +
+              `- **à¤…à¤ªà¤°à¤¾à¤§ à¤ªà¥à¤°à¤•à¤¾à¤°:** ${convict.crime_type}\n` +
+              `- **à¤µà¤°à¥à¤¤à¤®à¤¾à¤¨ à¤¸à¥à¤¥à¤¿à¤¤à¤¿:** **${convict.release_status}**\n` +
+              `- **à¤¥à¤¾à¤¨à¤¾ à¤µ à¤œà¤¼à¤¿à¤²à¤¾:** ${convict.police_station}, ${convict.district}\n\n` +
+              `#### 2. à¤œà¥à¤¡à¤¼à¥‡ à¤¹à¥à¤ à¤®à¤¾à¤®à¤²à¥‡ (Linked FIRs)\n` +
               `- ${convict.linked_firs?.join(', ') || 'FIR-184/2020'}\n\n` +
-              `#### 3. अनुशंसित कदम\n` +
-              `1. NAFIS बायोमेट्रिक प्रणाली के साथ पुष्टि करें।\n` +
-              `2. थाना जांच अधिकारी (IO) को तत्काल अलर्ट भेजें।`;
+              `#### 3. à¤…à¤¨à¥à¤¶à¤‚à¤¸à¤¿à¤¤ à¤•à¤¦à¤®\n` +
+              `1. NAFIS à¤¬à¤¾à¤¯à¥‹à¤®à¥‡à¤Ÿà¥à¤°à¤¿à¤• à¤ªà¥à¤°à¤£à¤¾à¤²à¥€ à¤•à¥‡ à¤¸à¤¾à¤¥ à¤ªà¥à¤·à¥à¤Ÿà¤¿ à¤•à¤°à¥‡à¤‚à¥¤\n` +
+              `2. à¤¥à¤¾à¤¨à¤¾ à¤œà¤¾à¤‚à¤š à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ (IO) à¤•à¥‹ à¤¤à¤¤à¥à¤•à¤¾à¤² à¤…à¤²à¤°à¥à¤Ÿ à¤­à¥‡à¤œà¥‡à¤‚à¥¤`;
           } else {
-            intelReport = `### 🎯 Biometric Face Search Identified (10-Suspect Convict Registry)\n\n` +
-              `The uploaded photograph was processed through the Prajna ResNet-128 Neural Biometric Engine and matched with **${convict.name}** from the **Karnataka State SCRB 10-Suspect Registry** with **${matchResult.confidence}% Confidence** (Vector Distance: ${matchResult.distanceScore} < 0.50 Cutoff).\n\n` +
+            intelReport = `### ðŸŽ¯ Biometric Face Search Identified (5-Suspect Convict Registry)\n\n` +
+              `The uploaded photograph was processed through the Prajna ResNet-128 Neural Biometric Engine and matched with **${convict.name}** from the **Karnataka State SCRB 5-Suspect Registry** with **${matchResult.confidence}% Confidence** (Vector Distance: ${matchResult.distanceScore} < 0.50 Cutoff).\n\n` +
               `#### 1. Identity & CCTNS Profile\n` +
               `- **Convict ID:** \`${convict.convict_id}\`\n` +
               `- **Aliases:** ${(convict.aliases || []).map(a => `"${a}"`).join(', ')}\n` +
@@ -658,9 +658,9 @@ export function ChatWindow({
           setIsTyping(false);
           return;
         } else {
-          // No match in 10-convict database
-          const noMatchReport = `### 🔍 Biometric Analysis Complete: Unregistered Face\n\n` +
-            `- **Neural Matching Result:** No biometric match found in the **10-Convict CCTNS Registry** (Vector Distance: ${matchResult.distanceScore || 0.584} >= 0.50 Cutoff).\n` +
+          // No match in 5-convict database
+          const noMatchReport = `### ðŸ” Biometric Analysis Complete: Unregistered Face\n\n` +
+            `- **Neural Matching Result:** No biometric match found in the **5-Convict CCTNS Registry** (Vector Distance: ${matchResult.distanceScore || 0.584} >= 0.50 Cutoff).\n` +
             `- **Biometric Congruence:** Facial embeddings do not correlate with any active high-risk parole watch convicts.\n` +
             `- **Next Protocol Steps:**\n` +
             `  1. Submit image to **NAFIS Fingerprint & Biometrics Hub**.\n` +
@@ -685,7 +685,7 @@ export function ChatWindow({
         }
       }
 
-      // ── CASE B: Text specifically mentions one of the 10 convicts by Name/Alias/ID ──
+      // â”€â”€ CASE B: Text specifically mentions one of the 10 convicts by Name/Alias/ID â”€â”€
       if (textMentionsConvict) {
         const convict = textMentionsConvict;
         const suspectMatchData: SuspectMatchCardData = {
@@ -698,7 +698,7 @@ export function ChatWindow({
           police_station: convict.police_station || 'Upparpet Police Station',
           district: convict.district || 'Bengaluru Urban',
           risk_tier: convict.risk_tier || 'High',
-          reward: convict.reward || '₹1,00,000',
+          reward: convict.reward || 'â‚¹1,00,000',
           release_status: convict.release_status || 'Active Wanted',
           last_known_address: convict.last_known_address,
           linked_firs: convict.linked_firs || ['FIR-184/2020', 'FIR-57/2021'],
@@ -712,7 +712,7 @@ export function ChatWindow({
           }
         };
 
-        const convictReport = `### 📁 Suspect Intelligence Dossier: ${convict.name} (${convict.convict_id})\n\n` +
+        const convictReport = `### ðŸ“ Suspect Intelligence Dossier: ${convict.name} (${convict.convict_id})\n\n` +
           `**CCTNS Crime Registry Profile & Biometric Status:**\n\n` +
           `- **Aliases:** ${(convict.aliases || []).map(a => `"${a}"`).join(', ')}\n` +
           `- **Primary Crime:** ${convict.crime_type}\n` +
@@ -746,7 +746,7 @@ export function ChatWindow({
         return;
       }
 
-      // ── CASE C: Document / PDF File Attached → Execute Full Document Intelligence ──
+      // â”€â”€ CASE C: Document / PDF File Attached â†’ Execute Full Document Intelligence â”€â”€
       const documentAttachments = attachments?.filter(a => a.type === 'pdf' || a.type === 'document' || Boolean(a.extractedText));
 
       if (documentAttachments && documentAttachments.length > 0) {
@@ -810,7 +810,7 @@ export function ChatWindow({
         return;
       }
 
-      // ── CASE D: Standard Query → Query Catalyst QuickML / 1000 FIRs Backend ──
+      // â”€â”€ CASE D: Standard Query â†’ Query Catalyst QuickML / 1000 FIRs Backend â”€â”€
       let queryPayload = text;
       if (attachments && attachments.length > 0) {
         const attachSummary = attachments.map(a => `[Attached ${a.type.toUpperCase()}: "${a.name}" (${a.size} bytes)${a.extractedText ? ` | Extracted Content: ${a.extractedText.slice(0, 500)}...` : ''}]`).join('\n');
@@ -1040,7 +1040,7 @@ export function ChatWindow({
             <div className="space-y-2">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 dark:bg-blue-950/40 border border-sky-200 dark:border-sky-500/30 text-[11px] font-bold text-sky-700 dark:text-sky-300 mb-1">
                 <Lucide.Shield size={13} className="text-amber-500" />
-                <span>Prajna AI • {language === 'kn' ? 'ರಾಜ್ಯ ಗುಪ್ತಚರ & ತನಿಖಾ ಕೋ-ಪೈಲಟ್' : language === 'hi' ? 'राज्य खुफिया और जांच कोपायलट' : 'State Intelligence & Investigation Copilot'}</span>
+                <span>Prajna AI â€¢ {language === 'kn' ? 'à²°à²¾à²œà³à²¯ à²—à³à²ªà³à²¤à²šà²° & à²¤à²¨à²¿à²–à²¾ à²•à³‹-à²ªà³ˆà²²à²Ÿà³' : language === 'hi' ? 'à¤°à¤¾à¤œà¥à¤¯ à¤–à¥à¤«à¤¿à¤¯à¤¾ à¤”à¤° à¤œà¤¾à¤‚à¤š à¤•à¥‹à¤ªà¤¾à¤¯à¤²à¤Ÿ' : 'State Intelligence & Investigation Copilot'}</span>
               </div>
               
               <h1 className="text-2xl md:text-3xl font-extrabold text-[#0B2E59] dark:text-white tracking-tight">
