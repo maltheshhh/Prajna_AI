@@ -139,11 +139,11 @@ export function JudicialLifecycle5Pillars({
     
     const fallbackDossier: IcjsDossier = isPrimaryConvict ? {
       convict_id: 'CONV-001',
-      name: convictName || 'Raju Kumar alias Cobra Raju',
-      aliases: ['Cobra Raju', 'Auto Raju', 'Shorty Raju'],
+      name: convictName || 'Riya Sharma alias Riya',
+      aliases: ['Riya'],
       cctns_number: 'KA-BLR-CCTNS-2022-8819',
-      risk_tier: 'High',
-      photo_url: '/assets/convicts/Convict_1.jpg',
+      risk_tier: 'Medium',
+      photo_url: '/assets/convicts/CONV-001.jpg',
       pillars: {
         police_cctns: {
           registered_firs: [
@@ -223,7 +223,7 @@ export function JudicialLifecycle5Pillars({
         },
         e_courts: {
           court_name: 'City Civil and Sessions Court, Bengaluru',
-          case_number: 'SC-481/2021 (State of Karnataka vs Raju Kumar)',
+          case_number: 'SC-481/2021 (State of Karnataka vs Riya Sharma)',
           presiding_judge: "Hon'ble Special Judge, Court Hall 14",
           next_hearing_date: '2026-09-14 (Prosecution Evidence Stage)',
           bail_status: {

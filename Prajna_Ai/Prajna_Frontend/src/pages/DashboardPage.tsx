@@ -186,11 +186,24 @@ export function DashboardPage() {
     const localData = localStorage.getItem('ksp_general_crime_reports');
     if (localData) {
       try {
-        setGeneralReports(JSON.parse(localData));
+        const parsed = JSON.parse(localData);
+        // Version check: if cached data still has old Convict_N.jpg paths or
+        // old 10-convict names (Allu Arjun, Shiva Rajkumar, Prabhas, etc.),
+        // clear stale cache and fall through to fresh initialIncidents below.
+        const isStale = JSON.stringify(parsed).match(/Convict_\d+\.jpg|Allu Arjun|Shiva Rajkumar|Prabhas Raju|Cobra Raju|Gully Karthik|Blade Praveen|CONV-009|CONV-006|CONV-007|CONV-008|CONV-010/);
+        if (isStale) {
+          console.log('[Prajna Dashboard] Stale 10-convict cache detected — clearing to load new 5-convict dataset.');
+          localStorage.removeItem('ksp_general_crime_reports');
+        } else {
+          setGeneralReports(parsed);
+          return;
+        }
       } catch (e) {
         console.error(e);
+        localStorage.removeItem('ksp_general_crime_reports');
       }
-    } else {
+    }
+    {
       // Clean high-priority operational incidents
       const initialIncidents = [
         {
@@ -210,10 +223,10 @@ export function DashboardPage() {
           },
           matchedSuspect: {
             id: "CONV-001",
-            name: "Allu Arjun (Cobra Raju)",
+            name: "Riya Sharma (Riya)",
             confidence: 94.6,
-            photo_url: "/assets/convicts/Convict_1.jpg",
-            reason: "Neural Vector Match against KSP 10-Convict Biometric Database (CONV-001)."
+            photo_url: "/assets/convicts/CONV-001.jpg",
+            reason: "Neural Vector Match against KSP 5-Convict Biometric Database (CONV-001)."
           }
         },
         {
@@ -231,10 +244,10 @@ export function DashboardPage() {
             redirectUrl: "/financial"
           },
           matchedSuspect: {
-            id: "CONV-009",
-            name: "Shiva Rajkumar (Gully Karthik)",
+            id: "CONV-004",
+            name: "Ananya Iyer (Anu)",
             confidence: 88.5,
-            photo_url: "/assets/convicts/Convict_9.jpg",
+            photo_url: "/assets/convicts/CONV-004.jpg",
             reason: "Modus Operandi & phone spoofing ring signature matches active cybercrime syndicate."
           }
         },
@@ -253,10 +266,10 @@ export function DashboardPage() {
             redirectUrl: "/face-search"
           },
           matchedSuspect: {
-            id: "CONV-004",
-            name: "Prabhas Raju (Blade Praveen)",
+            id: "CONV-005",
+            name: "Priya Rao (Priya)",
             confidence: 96.2,
-            photo_url: "/assets/convicts/Convict_4.jpg",
+            photo_url: "/assets/convicts/CONV-005.jpg",
             reason: "Facial identity match verified via dlib ResNet-128 (Distance 0.14 < 0.50)."
           }
         }

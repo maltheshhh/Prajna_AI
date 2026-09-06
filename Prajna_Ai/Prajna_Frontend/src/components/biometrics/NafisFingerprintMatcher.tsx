@@ -71,47 +71,47 @@ export interface MinutiaePoint {
 const FALLBACK_NAFIS_CONVICTS: NafisConvict[] = [
   {
     convict_id: 'CONV-001',
-    name: 'Raju Kumar alias Cobra Raju',
+    name: 'Riya Sharma alias Riya',
     nafis_id: 'NAFIS-KA-2022-88190',
     fingerprint_pattern: 'Left Slanted Loop (Whorl Core)',
     minutiae_count: 84,
     core_delta_distance_mm: 4.8,
-    distinctive_markings: ['Cobra Snake Tattoo on right forearm', 'Scar on right collarbone (2 inches)'],
-    voice_frequency_hz: '118 Hz (Deep Baritone)',
-    photo_url: '/assets/convicts/Convict_1.jpg'
+    distinctive_markings: ['Small mole on right cheek', 'Scar on left wrist (1.5 inches)'],
+    voice_frequency_hz: '210 Hz (Alto)',
+    photo_url: '/assets/convicts/CONV-001.jpg'
   },
   {
     convict_id: 'CONV-002',
-    name: 'Sunil Gowda alias Koli Seena',
+    name: 'Aarav Mehta alias Avi',
     nafis_id: 'NAFIS-KA-2021-34190',
     fingerprint_pattern: 'Plain Whorl (Double Delta)',
     minutiae_count: 92,
     core_delta_distance_mm: 5.2,
     distinctive_markings: ['Trishul tattoo on left wrist', 'Burn mark on right shoulder'],
     voice_frequency_hz: '142 Hz (Raspy Tenor)',
-    photo_url: '/assets/convicts/Convict_2.jpg'
+    photo_url: '/assets/convicts/CONV-002.jpg'
   },
   {
-    convict_id: 'CONV-005',
-    name: 'Syed Nayeem alias Dabba Nayeem',
+    convict_id: 'CONV-003',
+    name: 'Kabir Nair alias Kabi',
     nafis_id: 'NAFIS-KA-2023-77210',
     fingerprint_pattern: 'Tented Arch (High Ridge Count)',
     minutiae_count: 78,
     core_delta_distance_mm: 3.9,
     distinctive_markings: ['Falcon bird tattoo on neck', 'Stitch scar on left eyebrow'],
     voice_frequency_hz: '130 Hz (Standard Baritone)',
-    photo_url: '/assets/convicts/Convict_5.jpg'
+    photo_url: '/assets/convicts/CONV-003.jpg'
   },
   {
-    convict_id: 'CONV-008',
-    name: 'Venkatesh alias Cycle Venki',
+    convict_id: 'CONV-004',
+    name: 'Ananya Iyer alias Anu',
     nafis_id: 'NAFIS-KA-2020-55410',
     fingerprint_pattern: 'Accidental Whorl (Tri-radius)',
     minutiae_count: 88,
     core_delta_distance_mm: 5.6,
-    distinctive_markings: ['Anchor tattoo on right bicep', 'Old shrapnel scar on left knee'],
-    voice_frequency_hz: '125 Hz (Low Bass)',
-    photo_url: '/assets/convicts/Convict_8.jpg'
+    distinctive_markings: ['Small birthmark on right temple', 'Old scar on left knee'],
+    voice_frequency_hz: '195 Hz (Soprano)',
+    photo_url: '/assets/convicts/CONV-004.jpg'
   }
 ];
 

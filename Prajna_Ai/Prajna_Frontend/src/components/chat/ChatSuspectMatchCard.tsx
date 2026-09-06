@@ -46,7 +46,7 @@ export function ChatSuspectMatchCard({ match }: ChatSuspectMatchCardProps) {
               CCTNS Biometric Convict Match Identified
             </h4>
             <p className="text-[10px] text-blue-200 font-mono">
-              Database: Karnataka SCRB 10-Convict Biometric Registry
+              Database: Karnataka SCRB 5-Convict Biometric Registry
             </p>
           </div>
         </div>
