@@ -8,7 +8,7 @@ async function connectDB() {
     if (db) {
       return db;
     }
-
+// database url 
     const uri = "mongodb+srv://Prajna_admin:PrajnaMongo123@prajna-ai.mheqgry.mongodb.net/?appName=Prajna-Ai";
 
     client = new MongoClient(uri);
