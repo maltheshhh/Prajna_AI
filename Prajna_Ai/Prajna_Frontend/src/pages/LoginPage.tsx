@@ -486,7 +486,7 @@ export function LoginPage() {
 
           {/* Version Footer */}
           <div className="text-[10px] text-white/50 tracking-wider font-mono mt-3">
-            System version CIRAS v2.1.0 | Karnataka State Police • SCRB
+            System version CIRAS v1.0 | Karnataka State Police • SCRB
           </div>
         </div>
 
