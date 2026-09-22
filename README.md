@@ -1,6 +1,6 @@
 # Prajna-AI (ಪ್ರಜ್ಞಾ-AI)
 
-**AI Copilot & Biometrics platform for the Karnataka State Police**
+**Conversational Ai Copilot & Biometrics platform for the Karnataka State Police**
 
 Prajna-AI turns raw FIR records and case data into instant, conversational crime intelligence for officers — searchable in English, Kannada, or Hindi — backed by a retrieval-grounded LLM pipeline that never invents facts.
 
@@ -57,7 +57,7 @@ The system detects intent, extracts entities (district, crime type, status, FIR 
                          Analytics + Context Builder
                                       │
                                       ▼
-                    QuickML (GLM) — grounded LLM response
+                    QuickML (GLM-4.7-Flash) — grounded LLM response
                                       │
                                       ▼
                               Frontend chat UI
