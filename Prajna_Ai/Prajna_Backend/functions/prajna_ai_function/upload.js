@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 const fs = require("fs");
 
-const uri = "mongodb+srv://Prajna_admin:PrajnaMongo123@prajna-ai.mheqgry.mongodb.net/?appName=Prajna-Ai";
+const uri =  process.env.MONGODB_URI;
 
 const client = new MongoClient(uri);
 
