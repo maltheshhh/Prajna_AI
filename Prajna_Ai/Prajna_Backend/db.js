@@ -9,7 +9,7 @@ async function connectDB() {
       return db;
     }
 // database url 
-    const uri = "mongodb+srv://Prajna_admin:PrajnaMongo123@prajna-ai.mheqgry.mongodb.net/?appName=Prajna-Ai";
+    const uri =  process.env.MONGODB_URI;
 
     client = new MongoClient(uri);
 
